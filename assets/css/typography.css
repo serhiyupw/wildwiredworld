@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Greed-Medium';
+  src: 
+    url('~assets/fonts/Greed-Medium.woff2') format('woff2'),
+    url('~assets/fonts/Greed-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  
+  html {
+    font-size: 85%;
+  }
+  
+  body {
+    font-family: 'Greed-Medium', sans-serif;
+    font-weight: 200;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+  } 
+  
