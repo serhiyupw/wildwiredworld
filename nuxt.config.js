@@ -2,6 +2,24 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
+
+  router: {
+    routes: [
+      {
+        path: "/",
+        component: "pages/index.vue",
+      },
+      {
+        path: "/password",
+        component: "pages/password.vue",
+      },
+      {
+        path: "/protected-page",
+        component: "pages/protected-page.vue",
+      },
+    ],
+  },
+  
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'landscapes',
@@ -23,8 +41,6 @@ export default {
     //   },
     // ]
   },
-
-
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
