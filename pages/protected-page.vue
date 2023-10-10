@@ -7,18 +7,13 @@
   </template>
   
   <script>
-  import { mapState } from 'vuex';
+import { checkAuthentication } from '~/auth.js';
 
-  export default {
-  computed: {
-    ...mapState('auth', ['isAuthenticated']), // Import the isAuthenticated state
-  },
-  beforeRouteEnter(to, from, next) {
-    // Now, you can use this.isAuthenticated to check authentication status
-    if (!this.isAuthenticated) {
-      next('/login'); // Redirect to login page if not authenticated
-    } else {
-      next();
+export default {
+  async asyncData({ redirect }) {
+    // Check if the user is authenticated
+    if (!checkAuthentication()) {
+      redirect('/login'); // Redirect to login page if not authenticated
     }
   },
 };

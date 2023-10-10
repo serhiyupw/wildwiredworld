@@ -17,6 +17,10 @@ export default {
         path: "/protected-page",
         component: "pages/protected-page.vue",
       },
+      {
+        path: "/world1",
+        component: "pages/world1.vue",
+      },
     ],
   },
   
