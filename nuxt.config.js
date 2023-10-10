@@ -21,6 +21,7 @@ export default {
         path: "/world1",
         component: "pages/world1.vue",
       },
+      
     ],
   },
   
