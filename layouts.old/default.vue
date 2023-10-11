@@ -1,5 +1,10 @@
-<!-- <template>
-  <main class="min-h-full">
+<template>
+   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+  <!-- <main class="min-h-full">
     <LayoutHeader
       :class="
         $nuxt.$route.name == 'index' ||
@@ -27,32 +32,33 @@
       "
     ></LayoutHeaderMin>
     <Nuxt />
-  </main>
+  </main> -->
 </template>
 <script>
-import { mapActions, mapMutations } from 'vuex'
+// import { mapActions, mapMutations } from 'vuex'
 
-export default {
-  methods: {
-    ...mapActions(['setTitle']),
-    ...mapMutations(['SET_FOOTER', 'CLOSE_MENU']),
-  },
-  mounted() {
+// export default {
+//   methods: {
+//     ...mapActions(['setTitle']),
+//     ...mapMutations(['SET_FOOTER', 'CLOSE_MENU']),
+//   },
+//   mounted() {
 
 
-    // Start the requestAnimationFrame loop
-    requestAnimationFrame(raf);
-  },
-  components: {
-    TransitionComponent,
-    AboutPage,
-  },
-  watch: {
-    $route: function (value) {
-      this.setTitle(false)
-      this.SET_FOOTER(false)
-      this.CLOSE_MENU()
-    },
-  },
-}
-</script> -->
+//     // Start the requestAnimationFrame loop
+//     requestAnimationFrame(raf);
+//   },
+//   components: {
+//     TransitionComponent,
+//     AboutPage,
+//   },
+//   watch: {
+//     $route: function (value) {
+//       this.setTitle(false)
+//       this.SET_FOOTER(false)
+//       this.CLOSE_MENU()
+//     },
+//   },
+// }
+</script>
+
