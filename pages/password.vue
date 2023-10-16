@@ -1,13 +1,18 @@
 <template>
-  <div class=''>
+  <div class='border-[#ff00a0] border-4 h-screen w-screen overflow-hidden '>
     <!-- <div class="interactive-gradient "></div> -->
-    <!-- <div class="square-grid opacity-20"></div> -->
+    <!-- <div class="square-grid z-[10] pointer-events-none opacity-20"></div> -->
 
-    <div class="password-page ">
-    <h1>Enter Password</h1>
+    <div class='flex flex-col h-screen justify-center'>
+
+    <div class="password-page h-fit relative z-[10000000] ">
+      <button @click="goBack" class=" relative z-[10000000] back-button">Back</button>
+
+      <h1 class='leading-[1.1] tracking-tight'>Enter Password</h1>
     <input v-model="password" type="password" placeholder="Password" />
-    <button @click="checkPassword">Submit</button>
-  </div>
+    <button  class="enter-button" @click="checkPassword">Submit</button>
+    </div>
+    </div>
   </div>
  
 </template>
@@ -37,13 +42,32 @@
         alert("Incorrect password. Please try again.");
         }
       },
- 
+      goBack() {
+      // Use Vue Router's go method to navigate back
+      this.$router.go(-1);
+    },
     },
   };
   </script>
   
 
   <style scoped>
+.back-button {
+  width: 100%;
+  padding: 10px;
+  /* background-color: #fff69d; */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.back-button:hover {
+  /* background-color: #fff69d; */
+}
 
 .interactive-gradient {
   position: absolute;
@@ -54,7 +78,7 @@
   transition: background 1s;
 }
 
-/* .square-grid {
+.square-grid {
   position: absolute;
   top: 0;
   left: 0;
@@ -75,7 +99,7 @@
       transparent 14px
     );
   background-size: 15px 15px;
-} */
+}
 
 
 /* Add your CSS styles here */
@@ -84,14 +108,16 @@
   margin: 100px auto;
   padding: 20px;
   max-width: 300px;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
+  background-color: #ff5156;
+  /* border: 1px solid #ccc; */
+  /* border-color: rgba(255, 0, 160, var(--tw-border-opacity)); */
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   z-index:1000000;
 }
 
 h1 {
+  color: white;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -105,19 +131,20 @@ input {
   font-size: 16px;
 }
 
-button {
+.enter-button {
   width: 100%;
   padding: 10px;
-  background-color: grey;
+  background-color:#fff69d;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
+  color: white;
 }
 
-button:hover {
-  background-color: green;
+.enter-button:hover {
+  background-color: #fff69d;
 }
 </style>
 
