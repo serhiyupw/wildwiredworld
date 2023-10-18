@@ -1,5 +1,10 @@
 <template>
 <div>
+  <div class='flex absolute z-[100000] w-screen justify-end p-5'>
+          <a class="overlay-button" href="..">
+              <div class="aboutbtn z-[2000]">Back</div>
+          </a>
+        </div>
   <iframe
       src="/webgl/world/index.html"
       width="800"
@@ -26,6 +31,29 @@ export default {
 </script>
 
 <style scoped>
+.aboutbtn{
+  width: auto;
+  /* height: 60px; */
+  /* color: #fa7dad; */
+  color: white;
+  /* background-color: #edf3ff; */
+    /* background-color: #40cef6; */
+  padding: 0px 15px 0px 15px;
+  border: 2px solid white;
+  border-radius: 45px;
+  line-height: 50px;
+  margin: 0px 5px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  /* z-index: 1; */
+  /* overflow: hidden; */
+}
+
+.aboutbtn:hover{
+  transition: background-color 0.3s ease;
+  background-color: #ffffff7f;
+}
+
       #unity-container{
         height: 100vh;
         width: 100vw;

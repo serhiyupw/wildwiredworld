@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Greed-Medium';
+  font-family: 'Poppins-Medium';
   src: 
-    url('~assets/fonts/Greed-Medium.woff2') format('woff2'),
-    url('~assets/fonts/Greed-Medium.woff') format('woff');
+    /* url('~assets/fonts/Poppins-Medium.woff2') format('woff2'), */
+    url('~assets/fonts/Poppins-Medium.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,8 +14,8 @@
   }
   
   body {
-    font-family: 'Greed-Medium', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins-Medium', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: 200;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
