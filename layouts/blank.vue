@@ -1,5 +1,5 @@
 <template></template>
-<!-- <script>
+<script>
 import { mapActions, mapMutations } from 'vuex'
 export default {
   methods: {
@@ -14,4 +14,4 @@ export default {
     },
   },
 }
-</script> -->
+</script>

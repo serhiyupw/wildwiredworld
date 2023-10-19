@@ -23,7 +23,7 @@ html {
   /* background-color: rgba(118, 114, 110, 0.51); */
   /* background-color: #8f6cf6 ; */
   /* background-color: #fcaeae;  */
-  background-color: #fc9bc9; 
+  /* background-color: #fc9bc9;  */
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Poppins-Medium', sans-serif;
   /* background-color: white ; */
@@ -34,7 +34,11 @@ html {
   /* cursor: crosshair; */
 }
 
-
+body{
+  height: 100vh;
+  border-color: rgb(255 255 255);
+  border-width: 4px;
+}
 
 /* @media (min-width: 768px)
  {
