@@ -65,6 +65,10 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // '@nuxtjs/sanity/module',
+    // '@nuxtjs/sanity',
+    '@nuxt/image',
+    '@nuxtjs/sanity/module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -74,5 +78,16 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  image: {
+    sanity: {
+      projectId: 'rw9chil5',
+      dataset: 'production',
+    },
+  },
+  sanity: {
+    withCredentials: true,
+    useCdn: false,
+  },
 }

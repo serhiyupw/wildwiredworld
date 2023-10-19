@@ -2,7 +2,7 @@
     <!-- mt-5 border-[#ff00a0] border-4   <div class='flex'>
                         
                             <a class="overlay-button" href="./">
-                                <div class="aboutbtn z-[2000]">Back</div>
+                                <div class="postbtn z-[2000]">Back</div>
                             </a>
                     </div>-->
   
@@ -26,63 +26,54 @@
     
     <div class="p-10 pt-32 pb-52 absolute ">
                   <div class="container mx-auto text-center w-3/4 p-10 ">
-      <h2 class="text-3xl font-semibold mb-4">About</h2>
+      <h2 class="text-3xl font-semibold mb-4">Backstory</h2>
     <div>
-        <p>
-            Inspired by William Morris’s proto-ecotopian fiction News from Nowhere, HERVISIONS digital art studio presents an exciting speculative public artwork and mobile-friendly game in response to the Radical Landscapes exhibition at the William Morris Gallery, exploring the natural environment and landscapes of Langthorne Park, Leytonstone. Produced in collaboration with Leytonstone Toy Library, ​​the Youth Club at Worth Unlimited and local communities.
-
-This project aims to explore digital rewilding – connecting the hyperlocal ecology of Langthorne Park to the wider global Climate Emergency and exploring how boundaries between humans, nature and technology are dissolving. The work draws on themes of identity, social mobility, collective storytelling, and our relationship to place.
-
-In a series of workshops, local residents and young people worked with digital artists to imagine the future of Langthorne Park, set in a parallel universe. The results of the workshops are re-interpreted into an interactive site-specific mobile-friendly game.
-
-
-<br/><br/>
-Visit this page on the William Morris Gallery website for further information.
-
-Please help us secure funding from Arts Council England by completing an evaluation survey here. The data collected through this survey will be used to better understand our audiences. The data collected is non-identifiable - it cannot be traced back to individuals. 
-        </p>
+      
     </div>
     </div>
 
 
 
+    <!-- <div v-for="post in posts" :key="post._id">
+              <h2>{{ post.title }}</h2>
+              <img :src="post.mainImage" width="100%" height="100%" :alt="post.title" />
+              <Richtext :blocks="post.body" v-if="post.body">d</Richtext>
+    </div> -->
+
+    <div class='w-2/3' >
+    
+
+              <Richtext class=''>In a series of artist-led workshops in collaboration with Leytonstone Toy Library and the Youth Club at Worth Unlimited held over the summer of 2023, HERVISIONS together with three digital artists (Kristina Pulejkova, Melissa Schwarz, Chun Sun), invited local residents to imagine the future of Langthorne Park set in a parallel universe and collaboratively create a narrative, landscapes and characters for a site-specific game. 
+
+During the workshops, participants collaged words and images of local wildlife into stories and visual narratives with the help of image-generating AI systems such as Midjourney and ChatGPT while deliberating on their unperfectness and speculating on how the park could look in hundreds of years. Drawing inspiration from local plants and their medicinal properties and imagining the land of the park as a living ‘body’ inspired by Taoism (an ancient Chinese tradition of philosophy), the groups began to wonder what superpowers its ‘organs’ could harness.
+
+The results of the workshops have since been re-interpreted by the artists into an interactive site-specific game.
+
+            </Richtext>
+
+            <h2 class=" p-10 pl-0 font-semibold mb-4">Game environment-building workshop with Melissa Schwarz</h2>
+
+    </div>
+
+    <div class='w-2/3' >
+    
+
+    <Richtext class=''>
+        See some examples of the photographs participants took and the resulting AI-enhanced images:
+    </Richtext>
 
 
+    <Richtext class=''>
+        As part of creating the characters that would inhabit Long Thorn Valley, participants randomly picked an organ or organism from a box to collage. They used dried flowers and leaves, local vegetation from the park and digitally printed flora and fauna to create their futuristic organs and organisms. Following this, they were invited to name their creation and assign a superpower to them. The result of which can be seen below on the left, and AI-enhanced images on the right:  
+    </Richtext>
+
+  <!-- <h2 class=" p-10 pl-0 font-semibold mb-4">Game environment-building workshop with Melissa Schwarz</h2> -->
+
+</div>
 
 
 
     <div class="container mx-auto text-center w-3/4 p-10 ">
-      <h2 class="text-3xl pt-10 font-semibold mb-4">The Game</h2>
-    <div>
-      <div class="p-10">
-        <p>
-            This is a mobile-friendly site-specific game with five environments.
-
-You are invited to visit Long Thorn Valley, a place that exists in a parallel universe at the exact location of Langthorne Park. It is the year 2435, on a planet that we will call Other Earth, where plants, creatures and parasites thrive in symbiotic relationships. The most precious possessions of these beings are their memories. Memories are the core of their being. They are the life force that keeps them alive. 
-<br/><br/>
-But a terrible disaster caused them to lose their memories, throwing all inhabitants of the Valley into hibernation. 
-<br/><br/>
-You are the Guardian called Siph - a colony of tiny organisms working as a single being who used to live in the deep ocean. A passionate collector of memories, YOU have the power to help the Valley’s creatures. 
- </p>
-
- <p>Collect and retrieve their memories and restore life to Other Earth!</p>
-</div>
-
- <div class=" mobile-text  bg-[#ffffff5b] p-0 font-semibold  text-left border border-solid rounded-lg">
-        <!-- <p class=" p-5 pb-0 ">This is a mobile-friendly site-specific game with five environments.</p> -->
-        <!-- <br/> -->
-        <ol class="list-decimal p-10">
-            <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
-            <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
-            <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
-        </ol>
-    </div>
-
-        <!-- <ol class="list-decimal pl-5">
-            <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
-            <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
-            <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
-        </ol> -->
 
         <div class="image-container z-[2]">
                   
@@ -96,7 +87,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
 
               </div>
               <p>&copy; 2023 Wild Wired! All rights reserved.</p>
-    </div>
+
     </div>
   </div>
 
@@ -132,9 +123,26 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
   </template>
   
   <script>
+  // Import the Sanity client
+// import sanityClient from '@sanity/client';
+import { groq } from '@nuxtjs/sanity'
+
+
+
   export default {
     name: "IndexPage",
   
+
+
+  async asyncData({ params, $sanity }) {
+    const postQuery = groq`*[_type == "post"]{
+        title, slug,_id, mainImage,body,
+    }`;
+    const posts = await $sanity.fetch(postQuery);
+    return { posts };
+  },
+
+
     mounted() {
       this.background = this.$refs.background;
       this.gradient = this.$el.querySelector(".interactive-gradient");
@@ -163,11 +171,15 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
         mapPath: "/toplayer.png",
         showOverlay: false,
         linkClicked: false,
+        posts: [], // Initialize the posts array
         titleTop: 0, // Initial top position
         titleWidth: "100%", // Initial width
         // rotation: '',
       };
     },
+
+
+  
     methods: {
       toggleOverlay() {
         this.showOverlay = !this.showOverlay;
@@ -253,7 +265,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
      transition: top 0.5s, width 0.5s;
   }
   
-  .aboutbtn{
+  .postbtn{
     width: auto;
     /* height: 60px; */
     /* color: #fa7dad; */
