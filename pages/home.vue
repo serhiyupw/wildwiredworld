@@ -2,7 +2,7 @@
   <!-- mt-5 border-[#ff00a0] border-4-->
 
   <div>
-    <main class="h-screen pt-44 w-screen text-[#ffffff] bg-[#f46a7d] overflow-hidden fixed ">
+    <main class="h-screen pt-52 w-screen text-[#ffffff] bg-[#f46a7d] overflow-hidden fixed ">
       <div
         class="h-screen w-screen text-[#ffffff] overflow-scroll  "
         ref="background"

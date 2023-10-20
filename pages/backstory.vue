@@ -352,7 +352,7 @@ The results of the workshops have since been re-interpreted by the artists into 
   <script>
   // Import the Sanity client
 // import sanityClient from '@sanity/client';
-import { groq } from '@nuxtjs/sanity'
+// import { groq } from '@nuxtjs/sanity'
 
 
 
@@ -361,13 +361,13 @@ import { groq } from '@nuxtjs/sanity'
   
 
 
-  async asyncData({ params, $sanity }) {
-    const postQuery = groq`*[_type == "post"]{
-        title, slug,_id, mainImage,body,
-    }`;
-    const posts = await $sanity.fetch(postQuery);
-    return { posts };
-  },
+  // async asyncData({ params, $sanity }) {
+  //   const postQuery = groq`*[_type == "post"]{
+  //       title, slug,_id, mainImage,body,
+  //   }`;
+  //   const posts = await $sanity.fetch(postQuery);
+  //   return { posts };
+  // },
 
 
     mounted() {
