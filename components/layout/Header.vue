@@ -37,7 +37,7 @@
 
 <!-- flex-wrap -->
 
-        <div class="title-sec overflow-hidden relative text-xl left-0 w-full text-center z-[100000000000000000] text-[#ffffff]">
+        <div class="title-sec bg-[#f46aa8] overflow-hidden relative text-xl left-0 w-full text-center z-[100000000000000000] text-[#ffffff]">
     <div class="flex items-center flex-wrap md:flex-col justify-between ">
       <div class="w-full md:w-3/4 flex items-center">
         <a class="w-1/6 p-0" href="./">
@@ -176,7 +176,7 @@ hr {
 .title-sec{
   padding: 1rem;
     position: relative;
-    position: absolute;
+    /* position: absolute; */
     top: 1px;
     height: fit-content;
     left: 0;

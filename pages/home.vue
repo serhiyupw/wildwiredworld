@@ -2,7 +2,7 @@
   <!-- mt-5 border-[#ff00a0] border-4-->
 
   <div>
-    <main class="h-screen pt-52 w-screen text-[#ffffff] bg-[#f46a7d] overflow-hidden fixed ">
+    <main class="h-screen  w-screen text-[#ffffff] bg-[#f46a7d] overflow-hidden  ">
       <div
         class="h-screen w-screen text-[#ffffff] overflow-scroll  "
         ref="background"
@@ -19,10 +19,12 @@
                 height="50%"
                 alt="Your Image Alt Text"
               /> -->
-
+   
               <!-- page instructions text-[#aa213f] text-[#40cef6] -->
-              <div class="z-[2] relative  p-0 md:p-10 flex flex-col h-screen text-sm  text-center justify-center items-center mt-auto mb-auto">
-    <div class="mobile-text w-screen md:w-3/5 p-0">
+              <!-- <div class="z-[2] relative  p-0 md:p-10 flex flex-col h-screen text-sm  text-center justify-center items-center mt-auto mb-auto">
+    <div class="mobile-text w-screen md:w-3/5 p-0"> -->
+      <div class='p-5  md:flex md:flex-col overflow-scroll h-screen w-screen  text-center justify-center items-center '>
+        <div class='md:w-[60vw]'>
         <span class=" text-outline md:text-6xl text-2xl font-bold md:text-stroke">You are invited to visit</span>
         <h1 class="md:text-6xl text-2xl font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
         <p class="leading-2   pt-10">
@@ -33,7 +35,7 @@
     </div>
     <!-- <br> -->
     <hr speechify-initial-font-family="Montserrat, sans-serif" speechify-initial-font-size="16px">
-    <div class=" mobile-text w-3/5 p-0   text-left">
+    <div class=" md:w-[60vw]  text-center justify-center items-center ">
         <p class=" p-5 pb-0 ">This is a mobile-friendly site-specific game with five environments.</p>
         <br/>
         <ol class="list-decimal p-0 md:p-10">
@@ -429,6 +431,7 @@ padding: 1rem;
 .square-grid {
   position: absolute;
   top: 0;
+ pointer-events: none;
   left: 0;
   width: 100%;
   height: 100%;
