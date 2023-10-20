@@ -1,8 +1,8 @@
 <template>
 <div>
-  <div class='flex absolute z-[100000] w-screen justify-end p-5'>
+  <div class='flex absolute z-[100000000000000000] w-screen justify-end p-5'>
           <a class="overlay-button" href="..">
-              <div class="aboutbtn z-[2000]">Back</div>
+              <div class="aboutbtnz-[100000000000000000]">Back</div>
           </a>
         </div>
   <iframe

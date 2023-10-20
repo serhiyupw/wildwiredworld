@@ -1,12 +1,11 @@
 <template>
-       <div
+       <!-- <div
           class="title-sec relative  text-xl  left-0 w-full text-center flex flex-col justify-center z-[1000000]"
           :style="{ top: `${titleTop}px`, width: titleWidth }"
         >
-          <!-- text-[#fff496] italic Wild Wired! -->
-        <div class='flex items-start justify-between'>
+        <div class='flex  items-start justify-between'>
           <div class=" font-medium text-6xl w-3/4 justify-start text-left leading-[1.1] tracking-tight  text-[#ffffff]">
-            <div class=" flex mobile-flex text-3xl ">
+            <div class=" flex flex-col mobile-flex text-3xl ">
               <a class=" w-1/5 p-0" href="./">
                 <img
                       src="group.png"
@@ -15,7 +14,9 @@
                       alt="logo"
                     /> 
               </a>
-            
+            <div class=' text-xl pl-10 w-1/4 font-light text-center'>
+              <p>Rewilding Encounters of Langthorne Park</p>
+            </div>
                           
             </div>
           </div>
@@ -31,9 +32,34 @@
               <div class="aboutbtn z-[2000]">Backstory</div>
           </a>
         </div>
-        </div>
+        </div> -->
           
+
+<!-- flex-wrap -->
+
+        <div class="title-sec overflow-hidden relative text-xl left-0 w-full text-center z-[100000000000000000] text-[#ffffff]">
+    <div class="flex items-center flex-wrap md:flex-col justify-between ">
+      <div class="w-full md:w-3/4 flex items-center">
+        <a class="w-1/6 p-0" href="./">
+          <img src="group.png" width="100%" height="auto" alt="logo" />
+        </a>
+        <div class="text-xl w-2/4 font-light text-center md:text-left md:pl-10">
+          <p>Rewilding Encounters of Langthorne Park</p>
         </div>
+      </div>
+      <div class="w-full md:w-2/4 mt-4 md:mt-0 flex justify-between">
+        <a class="overlay-button aboutbtn" href="../about">About</a>
+        <a class="overlay-button aboutbtn" href="../team">Collaborators</a>
+        <a class="overlay-button aboutbtn" href="../backstory">Backstory</a>
+      </div>
+    </div>
+  </div>
+
+
+
+        </div>
+
+        
   </template>
    
   <script>
@@ -54,6 +80,39 @@
 
 
 <style scoped>
+
+@media (max-width: 760px) {
+  .title-sec {
+    padding: 1rem;
+  }
+
+  .mobile-flex {
+    display: block;
+  }
+
+  .title-sec > .flex > div {
+    width: 100%;
+  }
+
+  .title-sec > .flex > div:nth-child(2) {
+    margin-top: 1rem;
+  }
+  
+  .title-sec > .flex > div:first-child > a {
+    width: 40%; /* Adjust as needed */
+  }
+
+  .title-sec > .flex > div:first-child > img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .overlay-button {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem; /* Adjust as needed */
+    margin: 0.25rem;
+  }
+}
 
 .text-stroke{
     -webkit-text-stroke: 2px #aa213f; /* Adjust the color and size as needed */
