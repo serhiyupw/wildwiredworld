@@ -5,7 +5,7 @@
     <!-- <AboutPage /> -->
     <LayoutHeader
       :class="
-        $nuxt.$route.name == 'index' ||
+        $nuxt.$route.name != 'index' ||
         $nuxt.$route.name == 'index-bak' ||
         $nuxt.$route.name == 'about' ||
         $nuxt.$route.name == 'contact' ||
@@ -18,7 +18,7 @@
     ></LayoutHeader>  
     <LayoutHeaderMin
       :class="
-        $nuxt.$route.name == 'index' ||
+        $nuxt.$route.name != 'index' ||
         $nuxt.$route.name == 'index-bak' ||
         $nuxt.$route.name == 'about' ||
         $nuxt.$route.name == 'contact' ||

@@ -35,7 +35,7 @@
       checkPassword() {
         // You can perform your password validation here
         // For simplicity, let's assume 'password123' is the correct password
-        if (this.password === 'passwordworld2') {
+        if (this.password === 'fire') {
           // Password is correct; set authentication to true
           setAuthentication(true);
           
