@@ -60,11 +60,20 @@
                       alt="Your Image Alt Text"
                     />
           </div> -->
-          <span class=" pt-5 text-outline md:text-6xl text-2xl font-bold md:text-stroke">You are invited to visit</span>
-        <h1 class="md:text-6xl text-2xl pb-10 font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
+          <span class=" pt-10 text-outline md:text-4xl text-2xl font-bold md:text-stroke">You are invited to visit</span>
+        <h1 class="md:text-4xl text-2xl  font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
+        <p class="leading-2  pt-5 ">
+            a place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
+            <strong class="font-bold">Long Thorn Valley</strong> are suffering from memory loss caused by a terrible disaster known as 
+            <strong class="font-bold">the Big Change</strong>.
+        </p>
+        <ol class="list-decimal text-xs md:w-2/4 p-0 pb-10 pt-5">
+            <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
+            <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
+            <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
+        </ol>
 
-
-        <svg  class="cloud-animation svgin h-fit md:w-[50vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
+        <svg  class="cloud-animation svgin h-fit md:w-[40vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
           
           <defs>
             <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
@@ -353,6 +362,7 @@ width: 80vw;
     height: auto;
     padding-top: 10vh;
         z-index: 1;
+            position: relative;
 }
 
 
@@ -371,10 +381,11 @@ width: 80vw;
 /* padding-top: 3.5rem !important;
 padding-bottom: 3.5rem !important;
 z-index: 0 !important; */
-width: 86vw;
+width: 90vw;
     height: auto;
     padding-top: 10vh;
         z-index: 1;
+            position: relative;
 }
 
    .svgin{
