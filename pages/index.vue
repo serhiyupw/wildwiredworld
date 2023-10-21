@@ -384,6 +384,7 @@ z-index: 0 !important; */
 width: 90vw;
     height: auto;
     padding-top: 10vh;
+        padding-bottom: 10vh;
         z-index: 1;
             position: relative;
 }
