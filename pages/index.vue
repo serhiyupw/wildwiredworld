@@ -60,9 +60,9 @@
                       alt="Your Image Alt Text"
                     />
           </div> -->
-          <span class=" pt-10 text-outline md:text-4xl text-2xl font-bold md:text-stroke">You are invited to visit</span>
-        <h1 class="md:text-4xl text-2xl  font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
-        <p class="leading-2  pt-5 ">
+          <span class=" pt-10 text-outline md:text-4xl text-xl font-bold md:text-stroke">You are invited to visit</span>
+        <h1 class="md:text-4xl text-xl  font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
+        <p class="leading-2 text-sm  pt-5 ">
             a place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
             <strong class="font-bold">Long Thorn Valley</strong> are suffering from memory loss caused by a terrible disaster known as 
             <strong class="font-bold">the Big Change</strong>.
