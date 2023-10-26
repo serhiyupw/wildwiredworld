@@ -1,10 +1,11 @@
 <template>
-<div class="background-video">
-  <div class='flex absolute z-[100000000000000000] w-screen justify-end p-5'>
+<div >
+        <div class='flex absolute z-[100000000000000000] w-screen justify-end p-5'>
           <a class="overlay-button" href="..">
               <div class="aboutbtn z-[100000000000000000]">Back</div>
           </a>
         </div>
+
   <!-- <iframe
       src="/webgl/world2/index.html"
       width="800"
@@ -12,12 +13,15 @@
       frameborder="0"
     ></iframe>   -->
 
-    <iframe class="video"
-      src="https://v6p9d9t4.ssl.hwcdn.net/html/8922946/Final_19.10_ChetGrove/index.html"
+    <!-- <div class="fullscreen-container"> -->
+      <iframe  class="background-video"
+      src="/webgl/world2/index.html"
       width="800"
       height="600"
       frameborder="0"
-    ></iframe> 
+      ></iframe> 
+    <!-- </div> -->
+   
 
     <!-- <iframe height="167" frameborder="0" src="https://itch.io/embed/2318523" width="552"><a href="https://xen0on.itch.io/wilrwied">WilrWired by Xen0on</a></iframe>  -->
     <!-- <div id="map"></div> -->
@@ -42,11 +46,36 @@ export default {
 
 <style scoped>
 
+.fullscreen-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Optional: Set the background color to black or any other color you prefer */
+  z-index: 9999; /* Adjust the z-index as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreen-container iframe {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fullscreen-container button {
+  margin-top: 10px; /* Optional: Add some spacing between the iframe and the button */
+}
+
 .video {
   object-fit: cover; /* Cover the entire container */
   width: 100%;
   height: 100%;
-  filter: brightness(50%);
+  /* filter: brightness(50%); */
 }
 
 .background-video {
@@ -55,9 +84,11 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; /* Place it below other content */
-  overflow: hidden; /* Ensure the video remains within the viewport */
+  z-index: -1; 
+  overflow: hidden; 
 }
+
+
 .aboutbtn{
   width: auto;
   /* height: 60px; */
@@ -91,7 +122,7 @@ export default {
     object-fit: cover;
     display: flex;
     width: 92vw;
-    scale: 1.55;
+    /* scale: 1.55; */
     position: fixed;
     padding: 0;
     margin: 0;
