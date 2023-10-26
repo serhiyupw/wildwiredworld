@@ -44,7 +44,7 @@
             <br/>  <br/>
             You are the Guardian called <strong class="font-bold">Siph</strong> - a colony of tiny organisms working as a single being who used to live in the deep ocean. A passionate collector of memories,
             <strong class="font-bold">YOU have the power to help</strong> the Valley’s creatures. 
-            
+            <br/>  <br/>
             <strong class="font-bold">Collect and retrieve their memories and restore life to Other Earth!</strong>
             </p>
           </div>
