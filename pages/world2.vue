@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="background-video">
   <div class='flex absolute z-[100000000000000000] w-screen justify-end p-5'>
           <a class="overlay-button" href="..">
               <div class="aboutbtn z-[100000000000000000]">Back</div>
@@ -12,7 +12,7 @@
       frameborder="0"
     ></iframe>   -->
 
-    <iframe
+    <iframe class="video"
       src="https://v6p9d9t4.ssl.hwcdn.net/html/8922946/Final_19.10_ChetGrove/index.html"
       width="800"
       height="600"
@@ -41,6 +41,23 @@ export default {
 </script>
 
 <style scoped>
+
+.video {
+  object-fit: cover; /* Cover the entire container */
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place it below other content */
+  overflow: hidden; /* Ensure the video remains within the viewport */
+}
 .aboutbtn{
   width: auto;
   /* height: 60px; */
