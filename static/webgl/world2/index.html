@@ -9,19 +9,19 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas ref="myCanvas" id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
-      <div id="unity-warning"> </div>
-      <div id="unity-footer">
+      <!-- <div id="unity-warning"> </div> -->
+      <!-- <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">WildWired_Final</div>
-      </div>
+      </div> -->
     </div>
     <script>
 
@@ -118,5 +118,19 @@
       document.body.appendChild(script);
 
     </script>
+    <style scoped>
+      /* canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      } */
+      #unity-canvas {
+    background: #231F20;
+    width: 100vw !important;
+    height: 100vh !important;
+        }     
+    </style>
   </body>
 </html>

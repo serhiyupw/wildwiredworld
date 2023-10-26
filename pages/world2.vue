@@ -13,14 +13,14 @@
       frameborder="0"
     ></iframe>   -->
 
-    <!-- <div class="fullscreen-container"> -->
+    <div class="fullscreen-container">
       <iframe  class="background-video"
       src="/webgl/world2/index.html"
       width="800"
       height="600"
       frameborder="0"
       ></iframe> 
-    <!-- </div> -->
+    </div>
    
 
     <!-- <iframe height="167" frameborder="0" src="https://itch.io/embed/2318523" width="552"><a href="https://xen0on.itch.io/wilrwied">WilrWired by Xen0on</a></iframe>  -->
@@ -118,16 +118,16 @@ export default {
       }
 
       iframe{
-        height: 71vh;
+        /* height: 71vh;
     object-fit: cover;
     display: flex;
     width: 92vw;
-    /* scale: 1.55; */
+    scale: 1.55;
     position: fixed;
     padding: 0;
     margin: 0;
     top: 15vh;
-    left: 5vw;
+    left: 5vw; */
       }
 
 </style>
