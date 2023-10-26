@@ -35,10 +35,17 @@
             <!-- <a href="#">Option 1</a>
             <a href="#">Option 2</a>
             <a href="#">Option 3</a> -->
-            <p class="  w-screen md:w-2/5 lg:w-2/5 pt-2 p-4 ">
-            A place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
-            <strong class="font-bold">Long Thorn Valley</strong> are suffering from memory loss caused by a terrible disaster known as 
-            <strong class="font-bold">the Big Change</strong>.
+            <p class=" text-sm w-screen md:w-2/5 lg:w-2/5 pt-2 p-4 ">
+
+            You have teleported into <strong class="font-bold">Long Thorn Valley</strong> a place that exists in a <strong class="font-bold">parallel universe</strong> 
+            at the exact location of Langthorne Park. It is the <strong class="font-bold">year 2435</strong> , on a planet that we will call Other Earth, where plants, creatures and parasites thrive in symbiotic relationships. The most precious possessions of these beings are their memories. Memories are the core of their being. They are the life force that keeps them alive. 
+            <br/>  <br/>
+            But a terrible disaster caused them to lose their memories, throwing all inhabitants of the Valley into hibernation. 
+            <br/>  <br/>
+            You are the Guardian called <strong class="font-bold">Siph</strong> - a colony of tiny organisms working as a single being who used to live in the deep ocean. A passionate collector of memories,
+            <strong class="font-bold">YOU have the power to help</strong> the Valley’s creatures. 
+            
+            <strong class="font-bold">Collect and retrieve their memories and restore life to Other Earth!</strong>
             </p>
           </div>
           </div>
