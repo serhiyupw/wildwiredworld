@@ -19,8 +19,11 @@
         <!-- <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 56.25%; padding-top: 120px;"><a href="https://www.dropbox.com/scl/fi/za7tbr3r8bvxca0icz919/VERSION-1_1_low-res.mp4?rlkey=9ms303webvcrdbk4te77vvr89" data-iframely-url="//iframely.net/tPlQiBm"></a></div></div><script async src="//iframely.net/embed.js"></script> -->
 
         <div class="centered-text p-5">
-          <div class="dropdown">
-            <span  class=' text-2xl w-2/4  '>Due to technical issues the site will launch on the 10th of November 2023</span>
+          <div class="dropdown w-screen md:w-3/5 lg:w-4/5">
+            <span  class=' text-2xl   '>"Wild Wired! Rewilding Encounters of Langthorne Park" by <a class="underline" href="https://www.instagram.com/hervisions_/">HERVISIONS</a> has experienced a power surge causing technical issues with the mobile-friendly site-specific game.
+              <br/> <br/>
+              Come back here to help the plants, creatures and parasites of Long Thorn Valley to recover their memories on the 10th November 2023. 
+            </span>
             <!-- <div class="dropdown-content">
               <a href="#">Option 1</a>
               <a href="#">Option 2</a>
@@ -35,17 +38,22 @@
             <!-- <a href="#">Option 1</a>
             <a href="#">Option 2</a>
             <a href="#">Option 3</a> -->
-            <p class=" text-sm w-screen md:w-2/5 lg:w-2/5 pt-2 p-4 ">
+            <p class=" text-left text-sm w-screen md:w-4/5 lg:w-4/5 pt-2 p-4 ">
 
-            You have teleported into <strong class="font-bold">Long Thorn Valley</strong> a place that exists in a <strong class="font-bold">parallel universe</strong> 
-            at the exact location of Langthorne Park. It is the <strong class="font-bold">year 2435</strong> , on a planet that we will call Other Earth, where plants, creatures and parasites thrive in symbiotic relationships. The most precious possessions of these beings are their memories. Memories are the core of their being. They are the life force that keeps them alive. 
-            <br/>  <br/>
-            But a terrible disaster caused them to lose their memories, throwing all inhabitants of the Valley into hibernation. 
-            <br/>  <br/>
-            You are the Guardian called <strong class="font-bold">Siph</strong> - a colony of tiny organisms working as a single being who used to live in the deep ocean. A passionate collector of memories,
-            <strong class="font-bold">YOU have the power to help</strong> the Valley’s creatures. 
-            <br/>  <br/>
-            <strong class="font-bold">Collect and retrieve their memories and restore life to Other Earth!</strong>
+              Wild Wired! Rewilding Encounters of Langthorne Park by <a class="underline" href="https://www.instagram.com/hervisions_/">HERVISIONS</a> 
+              Kristina Pulejkova, Melissa Schwarz, Chun Sun, Bianca Shonee Arroyo-Kreimes, and Eternal Engine
+
+              Is a mobile-friendly site-specific game with five environments.
+              <br/>  <br/>
+              It is set in a place that exists in a parallel universe at the exact location of Langthorne Park, known as Long Thorn Valley. The flora and fauna of Long Thorn Valley are suffering from memory loss caused by a terrible disaster known as the Big Change.
+              <br/>  <br/>
+              Long Thorn Valley, a place that exists in the exact location of Langthorne Park on a planet that we will call Other Earth, where organs, organisms, and parasites thrive in symbiotic relationships! The flora and fauna of the Long Thorn Valley are suffering from memory loss caused by air, land and water pollution. Are you ready to jump between worlds and help fantastical creatures recover their memories
+              <br/>  <br/>
+              Wild Wired! Rewilding Encounters of Langthorne Park by HERVISIONS. A new commission in collaboration with William Morris Gallery, Leytonstone Toy Library, and Langthorne Park Youth Club with funding from Waltham Forest Council and Arts Council. 
+              <br/>  <br/>
+              <i class=" text-xs ">Wild Wired! Rewilding Encounters of Langthorne Park is co-curated and produced by Zaiba Jabbar and Tanya Boyarkina with Christine Lai</i>
+              <br/>  <br/>
+              To find out more about the project click <a class="underline" href="https://wmgallery.org.uk/event/wild-wired-rewilding-encounters-of-langthorne-park/">here</a>.
             </p>
           </div>
           </div>
