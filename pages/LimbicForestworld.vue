@@ -59,7 +59,7 @@ export default {
         width: 100vw;
       }
 
-      iframe{
+      /* iframe{
         height: 71vh;
     object-fit: cover;
     display: flex;
@@ -70,6 +70,6 @@ export default {
     margin: 0;
     top: 15vh;
     left: 5vw;
-      }
+      } */
 
 </style>

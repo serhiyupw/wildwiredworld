@@ -118,6 +118,11 @@ export default {
       }
 
       iframe{
+        height: 100vh;
+        width: 100vw;
+      }
+
+      iframe{
         /* height: 71vh;
     object-fit: cover;
     display: flex;

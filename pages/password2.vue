@@ -35,8 +35,9 @@
       checkPassword() {
         // You can perform your password validation here
         // For simplicity, let's assume 'password123' is the correct password
-        if (this.password === 'Fire') {
-          // Password is correct; set authentication to true
+    
+          if (this.password.toLowerCase() === 'fire') {
+          // Password is correct (case-insensitive); set authentication to true
           setAuthentication(true);
           
           // Redirect to a protected page

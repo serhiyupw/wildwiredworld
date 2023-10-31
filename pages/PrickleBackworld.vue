@@ -12,7 +12,7 @@
       frameborder="0"
     ></iframe>  <!-- <div id="map"></div> -->
 </div>
-</template>
+</template>  
 
 <script>
 export default {
@@ -60,6 +60,11 @@ export default {
       }
 
       iframe{
+        height: 100vh;
+        width: 100vw;
+      }
+
+      /* iframe{
         height: 71vh;
     object-fit: cover;
     display: flex;
@@ -70,6 +75,6 @@ export default {
     margin: 0;
     top: 15vh;
     left: 5vw;
-      }
+      } */
 
 </style>

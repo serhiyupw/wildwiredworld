@@ -11,58 +11,8 @@
         <div class="square-grid opacity-20"></div>
         
      
-        <!-- <img
-          overflow-hidden
-                class="cloud-animation p-0"
-                src="siphonophore2.png"
-                width="50%"
-                height="50%"
-                alt="Your Image Alt Text"
-              /> -->
-   
-              <!-- page instructions text-[#aa213f] text-[#40cef6] -->
-              <!-- <div class="z-[2] relative  p-0 md:p-10 flex flex-col h-screen text-sm  text-center justify-center items-center mt-auto mb-auto">
-    <div class="mobile-text w-screen md:w-3/5 p-0"> pt-10 -->
-      <div class='p-5  md:flex md:flex-col overflow-scroll h-screen w-screen  text-center justify-center items-center '>
-       
-        <!-- <div class='md:w-[60vw]'> -->
-        <!-- <span class=" text-outline md:text-6xl text-2xl font-bold md:text-stroke">You are invited to visit</span>
-        <h1 class="md:text-6xl text-2xl font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1> -->
-        <!-- <p class="leading-2   ">
-            a place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
-            <strong class="font-bold">Long Thorn Valley</strong> are suffering from memory loss caused by a terrible disaster known as 
-            <strong class="font-bold">the Big Change</strong>.
-        </p> -->
-        <!-- <div class=" md:w-[60vw]  text-center justify-center items-center ">
-        <p class=" p-5 pb-0 ">This is a mobile-friendly site-specific game with five environments.</p>
-        <ol class="list-decimal p-0 md:p-10">
-            <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
-            <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
-            <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
-        </ol>
-        </div> -->
-        <!-- </div> -->
-    <!-- <br> -->
-    <!-- <hr speechify-initial-font-family="Montserrat, sans-serif" speechify-initial-font-size="16px"> -->
-  
 
-
-
-
-
-    <div id="map" class="svg-container w-screen lg:p-20 md:p-20 sm:p-0 flex flex-col justify-center items-center">
-          <!-- <div class='  w-screen flex justify-center'>
-            <img
-                      class="cloud-animation w-1/4 p-0"
-                      src="title.png"
-                      width="50%"
-                      height="50%"
-                      alt="Your Image Alt Text"
-                    />
-          </div> -->
-          <span class=" pt-10 text-outline md:text-4xl text-xl font-bold md:text-stroke">You are invited to visit</span>
-        <h1 class="md:text-4xl text-xl  font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
-        <p class="leading-2 text-sm  pt-5 ">
+        <!-- <p class="leading-2 text-sm  pt-5 ">
             a place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
             <strong class="font-bold">Long Thorn Valley</strong> are suffering from memory loss caused by a terrible disaster known as 
             <strong class="font-bold">the Big Change</strong>.
@@ -71,9 +21,17 @@
             <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
             <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
             <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
-        </ol>
+        </ol> -->
 
-        <svg  class="cloud-animation svgin h-fit md:w-[40vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
+
+<div class=" relative flex flex-col justify-center content-center w-screen h-[100vh] text-center">
+  <div class="pb-[5vh] p-5">
+    <span class=" pt-10 text-outline md:text-4xl text-xl font-bold md:text-stroke">You are invited to visit</span>
+        <h1 class="md:text-4xl text-xl  font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
+  </div>
+
+  <div class="   justify-center content-center flex">
+    <svg  class=" svgin h-fit md:w-[50vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
           
           <defs>
             <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
@@ -220,19 +178,64 @@
 
 </g>
 </svg>
-    
-          </svg>
-        </div>
-    <!-- <a href="#map" class="text-2xl text-yellow-400 cursor-pointer mt-5 border border-solid rounded-lg border-yellow-400">
-       <p class='p-5'> Enter </p>
-    </a> -->
+  </div>
+  <!-- cloud-animation -->
+  
+
+
+    <div class="flex flex-col justify-center content-center w-screen">
+      <div class="image-container z-[2]">
+                  
+                  <img
+                          class=" h-[2vw] "
+                          src="logo1.png"
+                          width="100%"
+                          height="100%"
+                          alt="Your Image Alt Text"
+                      />
+                      <img
+                          class=" w-1/4 "
+                          src="logo2.png"
+                          width="100%"
+                          height="100%"
+                          alt="Your Image Alt Text"
+                      />
+                      <img
+                          class=" w-1/4 "
+                          src="logo3.png"
+                          width="100%"
+                          height="100%"
+                          alt="Your Image Alt Text"
+                      />
+                      <img
+                          class=" w-1/4 "
+                          src="logo4.jpg"
+                          width="100%"
+                          height="100%"
+                          alt="Your Image Alt Text"
+                      />
+                        <img
+                          class=" w-1/4 "
+                          src="logo5.jpg"
+                          width="100%"
+                          height="100%"
+                          alt="Your Image Alt Text"
+                      />
+
+      </div> 
+      <p class="text-xs">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
+    </div>
+
 </div>
+
+    
+  
 
            
             
        
 
-        <div></div>
+
   
  
 
@@ -340,13 +343,16 @@ export default {
           .image-container {
               display: flex;
               justify-content: space-around;
+                  justify-content: center;
               margin-top: 20px;
           }
   
           /* Style for each image */
           .image-container img {
-              width: 20vw; /* Adjust the width as needed */
-              height: auto; /* Maintain aspect ratio */
+              width: 7vw; 
+               width: auto; 
+              /* Adjust the width as needed */
+              height: 3vw; /* Maintain aspect ratio */
               margin: 10px; /* Margin between images */
           }
 
@@ -358,9 +364,9 @@ padding-bottom:2vh;
 /* padding-top: 3.5rem !important;
 padding-bottom: 3.5rem !important;
 z-index: 0 !important; */
-width: 80vw;
-    height: auto;
-    padding-top: 10vh;
+/* width: 80vw; */
+    height: 100vh;
+    /* padding-top: 10vh; */
         z-index: 1;
             position: relative;
 }
@@ -542,7 +548,7 @@ svg {
 } */
 
 .path-clicked {
-  fill: white !important;
+  fill: yellow !important;
   /* filter: grayscale(0%) !important; */
   /* transition: fill 0.3s ease;  */
   /* opacity: .5; */
@@ -585,6 +591,7 @@ svg {
     opacity: 1;
   /* fill: rgba(118, 114, 110, 0.51);  */
   /* fill: red !important; */
+  fill: yellow !important;
   /* transition: fill 3s ease; */
 }
 
