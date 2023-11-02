@@ -4,6 +4,7 @@ export default {
 
 
   router: {
+    middleware: 'auth',
     routes: [
       {
         path: "/",
@@ -14,14 +15,34 @@ export default {
         component: "pages/password.vue",
       },
       {
-        path: "/protected-page",
-        component: "pages/protected-page.vue",
+        path: "/home",
+        component: "pages/home.vue",
       },
       {
         path: "/world1",
         component: "pages/world1.vue",
+        meta: { requiresAuth: true },
       },
-      
+      {
+        path: "/world2",
+        component: "pages/world3.vue",
+        meta: { requiresAuth: true },
+      },
+      {
+        path: "/PrickleBackworld",
+        component: "pages/PrickleBackworld.vue",
+        meta: { requiresAuth: true },
+      },
+      {
+        path: "/LimbicForestworld",
+        component: "pages/LimbicForestworld.vue",
+        meta: { requiresAuth: true },
+      },
+      {
+        path: "/FinalMetallicworld",
+        component: "pages/FinalMetallicworld.vue",
+        meta: { requiresAuth: true },
+      },
     ],
   },
   

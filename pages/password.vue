@@ -31,6 +31,10 @@
         password: '',
       };
     },
+    created() {
+    // Listen for the custom event
+    this.$root.$on('authentication-success', this.handleAuthenticationSuccess);
+  },
     methods: {
       checkPassword() {
         // You can perform your password validation here
@@ -39,7 +43,14 @@
           if (this.password.toLowerCase() === 'earth') {
           // Password is correct (case-insensitive); set authentication to true
           setAuthentication(true);
+           
+          // Set a flag in local storage to remember the authentication
+            localStorage.setItem('authenticated', 'true');
           
+
+           // Emit the custom event for authentication success
+           this.$root.$emit('authentication-success');
+
           // Redirect to a protected page
         //   this.$router.push('/protected-page');
         this.$router.push('../world1');
@@ -48,6 +59,16 @@
         alert("Incorrect password. Please try again.");
         }
       },
+      handleAuthenticationSuccess() {
+  // Change the path fill color when authentication is successful
+  const path1 = document.getElementById('myPath1');
+  const path2 = document.getElementById('myPath2');
+
+  if (path1 && path2) {
+    path1.setAttribute('class', 'a bloom authenticated-color');
+    path2.setAttribute('class', 'a bloom authenticated-color');
+  }
+},
       goBack() {
       // Use Vue Router's go method to navigate back
       this.$router.go(-1);
