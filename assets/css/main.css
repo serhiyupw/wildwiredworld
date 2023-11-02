@@ -57,4 +57,23 @@ iframe{
 
 
 
+a {
+    fill: #fea7c8;
+    /* fill: inherit; */
+    text-decoration: inherit;
+    transition: opacity 1s ease;
+}
 
+a:hover {
+    fill: #fea7c8;
+    text-decoration: inherit;
+    opacity: 0.2;
+    transition: opacity 1s ease;
+}
+
+a:visited {
+    fill: red;
+    /* fill: inherit; */
+    opacity: 0.2 !important;
+    text-decoration: inherit;
+}

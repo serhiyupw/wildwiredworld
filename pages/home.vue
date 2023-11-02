@@ -32,13 +32,14 @@
 <div class=" relative flex flex-col justify-center content-center w-screen h-[100vh] text-center">
   <div class="pb-[5vh] p-5">
     <span class=" pt-10 text-outline md:text-4xl text-xl font-bold md:text-stroke">You are invited to visit</span>
-    <nuxt-link to="/LimbicForestworld">text-stroke
-      </nuxt-link>
+    <!-- <Nuxt-link class="nuxt-link-exact-active" to="/LimbicForestworld">text-stroke
+      </Nuxt-link> -->
       <h1 class="md:text-4xl text-xl  font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
   </div>
 
   <div class="   justify-center content-center flex">
- 
+
+
     <svg class=" svgin h-fit md:w-[50vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
           
           <defs>
@@ -47,7 +48,7 @@
             </clipPath>
           </defs> 
 
-            <style>tspan{white-space:pre}.a{fill:#fd9cca;stroke:#fff;stroke-miterlimit:100;stroke-width:3}.b{font-size: 21px;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.c{fill:none;stroke:#fff;stroke-miterlimit:100;stroke-width:3.2}.d{font-size: 21px;line-height: 24px;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.e{font-size: 24px;text-transform: uppercase;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}</style>
+            <style>tspan{white-space:pre}.a{stroke:#fff;stroke-miterlimit:100;stroke-width:3}.b{font-size: 21px;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.c{fill:none;stroke:#fff;stroke-miterlimit:100;stroke-width:3.2}.d{font-size: 21px;line-height: 24px;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.e{font-size: 24px;text-transform: uppercase;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}</style>
             
             <g clip-path="url(#cp1)">
               
@@ -81,9 +82,9 @@
               </a>
 
               <!-- limbic forest -->
-              <nuxt-link to="/LimbicForestworld">
-              <path fill-rule="evenodd" class="a forest" d="m800.1 251.4c-10.1 14.3-23.2 32.5-38.6 53.7-4.3 1.2-7.2 2-11.5 3.2-8.2-3.4-22.4-10.3-39.1-22.5-12.4-9.1-20.9-21.7-29.9-35.1-10-14.8-21.4-31.6-39.9-45.8-27.3-21-52.2-13.5-83.8-4.1-10.9 3.3-23.3 7-37.1 10-41.9 9.1-58.2 3.8-74.1-8-4.3-3.2-5.3-9.2-2.1-13.5 44.2-60.9 95.3-131.8 101.5-143 11.2-20.2 31.4-5.1 31.4-5.1 0 0 19.4 9.6 31.4 21.5 11.9 12 22.4 7.5 38.1 0.8 15.6-6.8 23.5-9.7 23.5-9.7 4.3-1.7 9.3 1.9 11.1 8.1l49.4 167.4c1.9 6.2 8.5 10.8 14.9 10.3l46.2-3.5c8.2-0.6 13.4 8.6 8.6 15.3zm-186.4-152.8c-6.8-8.5-33.1-15.3-40.8-15.3-7.6 0-34.8 14.5-39.8 21.7-5.1 7.2 7.5 20.4 10.9 25.9 3.4 5.5 16.2 22.5 16.2 22.5 5.1 4.3 5.9 9.5 16.9 9.8 9.8 0.3 9.2-13.6 9.2-20 0-6.4 7-17.8 11.2-21.7 4.3-3.9 9.4-3.8 19.6-4.2 10.2-0.4 3.4-10.2-3.4-18.7z"/>
-              </nuxt-link>
+              <Nuxt-link class=" forest" to="/LimbicForestworld">
+              <path id="myPath" fill-rule="" class="a forest" d="m800.1 251.4c-10.1 14.3-23.2 32.5-38.6 53.7-4.3 1.2-7.2 2-11.5 3.2-8.2-3.4-22.4-10.3-39.1-22.5-12.4-9.1-20.9-21.7-29.9-35.1-10-14.8-21.4-31.6-39.9-45.8-27.3-21-52.2-13.5-83.8-4.1-10.9 3.3-23.3 7-37.1 10-41.9 9.1-58.2 3.8-74.1-8-4.3-3.2-5.3-9.2-2.1-13.5 44.2-60.9 95.3-131.8 101.5-143 11.2-20.2 31.4-5.1 31.4-5.1 0 0 19.4 9.6 31.4 21.5 11.9 12 22.4 7.5 38.1 0.8 15.6-6.8 23.5-9.7 23.5-9.7 4.3-1.7 9.3 1.9 11.1 8.1l49.4 167.4c1.9 6.2 8.5 10.8 14.9 10.3l46.2-3.5c8.2-0.6 13.4 8.6 8.6 15.3zm-186.4-152.8c-6.8-8.5-33.1-15.3-40.8-15.3-7.6 0-34.8 14.5-39.8 21.7-5.1 7.2 7.5 20.4 10.9 25.9 3.4 5.5 16.2 22.5 16.2 22.5 5.1 4.3 5.9 9.5 16.9 9.8 9.8 0.3 9.2-13.6 9.2-20 0-6.4 7-17.8 11.2-21.7 4.3-3.9 9.4-3.8 19.6-4.2 10.2-0.4 3.4-10.2-3.4-18.7z"/>
+              </Nuxt-link>
 
 <text style="transform:matrix(1,0,0,1,694.586,444.289)" >
   <tspan x="21.7" y="16.3" class="d">The Sports</tspan>
@@ -188,6 +189,7 @@
 
 </g>
 </svg>
+
   </div>
   <!-- cloud-animation -->
   
@@ -281,7 +283,13 @@ export default {
     // Initial calculations (optional)
     this.updateTitlePosition();
     this.updateTitleWidth();
-  },
+
+        // Get the path element by its ID
+        const path = document.getElementById('myPath');
+
+},
+
+  
   beforeDestroy() {
     // Remove event listener to prevent memory leaks
     this.background.removeEventListener("mousemove", this.updateGradient);
@@ -330,11 +338,9 @@ export default {
 </script>
 
 <style scoped>
+/* Initial path style */
 
-.authenticated-color {
-  fill: yellow !important; 
-  /* Replace with the desired color */
-}
+
 
 .text-stroke{
     -webkit-text-stroke: 2px #aa213f; /* Adjust the color and size as needed */
@@ -540,57 +546,77 @@ svg {
 }
 
 
+a {
+    fill: #fea7c8;
+    /* fill: inherit; */
+    text-decoration: inherit;
+    transition: opacity 1s ease;
+}
 
-
-
-/* .bloom{
+a:hover {
+    fill: #fea7c8;
+    text-decoration: inherit;
     opacity: 0.2;
+    transition: opacity 1s ease;
+}
+
+a:visited {
+display: none;
+}
+
+
+
+.bloom{
+    fill: yellow;
 }
 
 .bloom:hover {
-    opacity: 1;
-  fill: yellow !important;
-} */
+  opacity: 0.2;
+}
 
-/* .chest{
-    transition: fill 3s ease;
-    opacity: 0.2;
+.chest{
+  opacity: 1;
+    transition: opacity 3s ease;
+    fill: rgb(173, 42, 92);
 }
 
 .chest:hover {
-    opacity: 1;
-  transition: fill 3s ease;
-} */
+  opacity: 0.2;
+  transition: opacity 3s ease;
+}
 
-/* .thorned{
-    transition: fill 3s ease;
-    opacity: 0.2;
+.thorned{
+  opacity: 1;
+    transition: opacity 3s ease;
+    fill: rgb(33, 58, 33);
 }
 
 .thorned:hover {
-  opacity: 1;
-  transition: fill 3s ease;
-} */
+  opacity: 0.2;
+  transition: opacity 3s ease;
+}
 
-/* .forest{
-    transition: fill 3s ease;
-    opacity: 0.2;
+.forest{
+  opacity: 1;
+    transition: opacity 3s ease;
+    fill: rgb(53, 53, 125);
 }
 
 .forest:hover {
-    opacity: 1;
-  transition: fill 3s ease;
-} */
+  opacity: 0.2;
+  transition: opacity 3s ease;
+}
 
-/* .pickle{
-    transition: fill 3s ease;
-    opacity: 0.2;
+.pickle{
+  opacity: 1;
+    transition: opacity 3s ease;
+    fill: green;
 }
 
 .pickle:hover {
-  opacity: 1;
-  transition: fill 3s ease;
-} */
+  opacity: 0.2;
+  transition: opacity 3s ease;
+}
 
 
 

@@ -15,6 +15,10 @@ export default {
         component: "pages/password.vue",
       },
       {
+        path: "/password2",
+        component: "pages/password2.vue",
+      },
+      {
         path: "/home",
         component: "pages/home.vue",
       },
@@ -29,13 +33,28 @@ export default {
         meta: { requiresAuth: true },
       },
       {
+        path: "/PrickleBack",
+        component: "pages/PrickleBack.vue",
+        meta: { requiresAuth: true },
+      },
+      {
         path: "/PrickleBackworld",
         component: "pages/PrickleBackworld.vue",
         meta: { requiresAuth: true },
       },
       {
+        path: "/LimbicForest",
+        component: "pages/LimbicForest.vue",
+        meta: { requiresAuth: true },
+      },
+      {
         path: "/LimbicForestworld",
         component: "pages/LimbicForestworld.vue",
+        meta: { requiresAuth: true },
+      },
+      {
+        path: "/FinalMetallic",
+        component: "pages/FinalMetallic.vue",
         meta: { requiresAuth: true },
       },
       {

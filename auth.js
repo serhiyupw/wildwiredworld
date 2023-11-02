@@ -1,4 +1,5 @@
 // auth.js
+isAuthenticated = localStorage.getItem('authenticated') === 'true';
 
 let isAuthenticated = false;
 let authToken = null;
