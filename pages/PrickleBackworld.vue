@@ -17,11 +17,11 @@
 <script>
 export default {
   name: 'world2',
-  // data() {
-  //   return {
-  //     mapPath: '/world-map.svg',
-  //   };
-  // },
+  data() {
+    return {
+      mapPath: '/world-map.svg',
+    };
+  },
   // methods: {
   //   handleMapClick(event) {
   //     // Handle click event on the map here

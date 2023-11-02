@@ -1,15 +1,19 @@
-// middleware/auth.js
-
 import { checkAuthentication } from '~/auth.js';
 
 export default function ({ route, redirect }) {
   const isAuthenticated = checkAuthentication();
 
-  // Check if the route requires authentication
   if (route.matched.some((record) => record.meta.requiresAuth)) {
-    // If the user is not authenticated, redirect to the password page
-    if (!isAuthenticated) {
+    if (!isAuthenticated && route.path !== '/password') {
       return redirect('/password');
     }
   }
 }
+
+
+// export default defineNuxtRouteMiddleware((to, from) => {
+//   // isAuthenticated() is an example method verifying if a user is authenticated
+//   if (isAuthenticated() === false) {
+//     return navigateTo('/password')
+//   }
+// })

@@ -4,30 +4,10 @@
     <!-- <TransitionComponent /> -->
     <!-- <AboutPage /> -->
     <LayoutHeader
-      :class="
-        $nuxt.$route.name != 'index' ||
-        $nuxt.$route.name == 'index-bak' ||
-        $nuxt.$route.name == 'about' ||
-        $nuxt.$route.name == 'contact' ||
-        $nuxt.$route.name != 'project-slug' ||
-        $nuxt.$route.name != 'archive-slug' ||
-        $nuxt.$route.name == 'work'
-          ? ''
-          : ' md:hidden'
-      "
+     
     ></LayoutHeader>  
     <LayoutHeaderMin
-      :class="
-        $nuxt.$route.name != 'index' ||
-        $nuxt.$route.name == 'index-bak' ||
-        $nuxt.$route.name == 'about' ||
-        $nuxt.$route.name == 'contact' ||
-        $nuxt.$route.name != 'project-slug' ||
-        $nuxt.$route.name != 'archive-slug' ||
-        $nuxt.$route.name == 'work'
-          ? 'hidden'
-          : 'hidden md:flex'
-      "
+  
     ></LayoutHeaderMin>
     <Nuxt />
     <!-- <LayoutFooter
