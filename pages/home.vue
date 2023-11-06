@@ -182,7 +182,7 @@
   </tspan>
 
   <tspan x="55.8" y="46.9" class="e">
-    NAVEL123
+    NAVEL
   </tspan>
 </text>
 
