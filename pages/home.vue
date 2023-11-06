@@ -2,20 +2,21 @@
   <!-- mt-5 border-[#ff00a0] border-4-->
 
   <div>
-    <main class="h-screen  w-screen text-[#ffffff] bg-[#f46a7d] overflow-hidden  ">
+    <AboutPage />
+    <main class="h-screen  flex content-container  w-screen text-[#ffffff] bg-[#f46a7d] overflow-hidden  " :style="contentContainerStyle">
       <div
-        class="h-screen w-screen text-[#ffffff] overflow-scroll  "
+        class=" w-[50vw] text-[#ffffff] overflow-scroll  "
         ref="background"
       >
         <div class="interactive-gradient "></div>
         <div class="square-grid opacity-20"></div>
         
        <!-- Add the logo img element to the top-left corner -->
-    <img
+    <!-- <img
       src="ww.png"
       alt="Your Logo"
       class="logo"
-    >
+    > -->
 
         <!-- <p class="leading-2 text-sm  pt-5 ">
             a place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
@@ -29,7 +30,7 @@
         </ol> -->
 
 
-<div class=" relative flex flex-col justify-center content-center w-screen h-[100vh] text-center">
+<div class=" relative flex flex-col justify-center content-center text-center">
   <div class="pb-[5vh] p-5">
     <span class=" pt-10 text-outline md:text-4xl text-xl font-bold md:text-stroke">You are invited to visit</span>
     <!-- <Nuxt-link class="nuxt-link-exact-active" to="/LimbicForestworld">text-stroke
@@ -259,15 +260,30 @@
       
 
       </div>
+      <div class=" w-[50vw] text-[#ffffff] overflow-scroll  ">
+          <div class=" relative flex flex-col justify-center content-center  h-[100vh] text-center">
+            <div class="pb-[5vh] p-5">
+              <span class=" pt-10 text-outline md:text-4xl text-xl font-bold md:text-stroke">You are invited to visit</span>
+              <!-- <Nuxt-link class="nuxt-link-exact-active" to="/LimbicForestworld">text-stroke
+                </Nuxt-link> -->
+                <h1 class="md:text-4xl text-xl  font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
+            </div>
+        </div>
+      </div>
       <nuxt />
     </main>
   </div>
 </template>
 
 <script>
+import AboutPage from '~/components/layout/AboutPage.vue';
+
 
 export default {
   name: "IndexPage",
+  components: {
+    AboutPage,
+  },
 
   mounted() {
     this.background = this.$refs.background;
@@ -303,6 +319,7 @@ export default {
       mapPath: "/toplayer.png",
       titleTop: 0, // Initial top position
       titleWidth: "100%", // Initial width
+      contentContainerStyle: {},
       // rotation: '',
     };
   },
@@ -332,6 +349,18 @@ export default {
       // Update the gradient background
       this.gradient.style.background = `linear-gradient(45deg, ${color1}, ${color2})`;
     },
+    updateContentContainerPosition() {
+      const isMobile = window.innerWidth <= 768;
+      // Calculate the offset based on blue box height
+      const offset = isMobile ? (this.isBlueBoxActive ? "100vw" : "0") : (this.isBlueBoxActive ? "50vw" : "0");
+
+      // Calculate the offset based on whether it's a mobile screen or not
+
+      // Set the content container position
+      this.contentContainerStyle = {
+        transform: `translateX(${offset})`,
+      };
+    },
   },
   
 };
@@ -339,8 +368,18 @@ export default {
 
 <style scoped>
 /* Initial path style */
+.content-container{
+  /* width: 100vw !important; */
+  width: 100vw;
+  /* height: 100vw !important; */
+}
 
-
+.content-container {
+  /* transition: transform 1s ease;  */
+  /* Add smooth transition for content movement */
+  padding-top: 30vh;
+  transition: transform .5s linear;
+}
 
 .text-stroke{
     -webkit-text-stroke: 2px #aa213f; /* Adjust the color and size as needed */
@@ -395,6 +434,15 @@ padding-bottom:2vh;
 
 
 @media (max-width: 760px) {
+
+  .content-container{
+    position: fixed;
+    width: 100vw !important;
+    background-color: #94c298;
+    border-bottom: 0.8px solid #000;
+    /* border-top: 1px solid #11ff00; */
+  }
+
    .mobile-flex{
     display: block;
    }
