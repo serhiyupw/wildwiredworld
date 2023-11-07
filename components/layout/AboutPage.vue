@@ -8,31 +8,112 @@
       >
     
         <!-- desk -->
-        <div class="headposition  resize-animation ">
+        <div class="headposition overflow-hidden  resize-animation ">
         <div
           class="content-container hidden  md:flex w-screen justify-between"
           :style="contentContainerStyle"
         >
-    
+     <!-- bg to header -->
+<!-- opacity-30 -->
+        <div class="  h-[35vh] fixed overflow-hidden pointer-events-none z-[0] ">
+            <img
+                          class="   "
+                          src="hometop.png"
+                          width="100%"
+                          height="100%"
+                          alt="Your Image Alt Text"
+                      />
+        </div>
+      
           <nav class="flex-row md:justify-center   top-0 hidden w-1/16 md:flex">
     
-    
+        <!-- big logo -->
             <!-- Add an SVG icon here -->
-            <div class="navele flex justify-between ">
-              <NuxtLink class="buttonlogo w-[20vw] h-auto" :to="isBlueBoxActive ? $route.path : '/'">
+            <div class="navele h-[35vh] flex justify-between ">
+              <NuxtLink class="buttonlogo w-[20vw]  h-auto" :to="isBlueBoxActive ? $route.path : '/'">
                 <img
-          src="ww.png"
-          alt="Your Logo"
-          class="logo"
-        />
-          
+                    src="ww.png"
+                    alt="Your Logo"
+                    class="logo fixed md:w-[30vw] sm:w-[15vw]"
+                    />
               </NuxtLink>
     
-    
-              <button class="button pointer-events-auto flex items-end pl-2 uppercase" @click="toggleBlueBox">
-                About
-             </button>
+              <!-- <div   class="logoo h-[35vh] md:w-[25vw] sm:w-[15vw]">
+                <img
+                    src="octo.png"
+                    alt="Your Logo"
+                    class="logoo"
+                    width="100%"
+                    height="100%"
+                    />
+              </div> -->
+
+              <div class="flex justify-center h-[35vh]  w-[17vw] flex-col textlook z-[100] text-[white]  text-left">
+    <p class="textlook  text-2xl text-[#38664d]">Rewilding Encounters of     <span class="textlook  text-2xl text-[white]">Langthorne Park.</span> </p>
+
+      <!-- <h1 class="textlook  text-xs  w-[10vw]  ">Long Thorn Valley</h1> -->
+  </div>
+           
+
+     <!-- links all and foot -->
+            <div class="linksstuff p-10 ">
+                <!-- links pages -->
+                    <button class="button border-2 border-zinc-50 pointer-events-auto flex items-end pl-2 uppercase" @click="toggleBlueBox">
+                        About
+                    </button>
+
+
+
+                        <!--  footer -->
+                    <div class="">
+            <div class="image-container z-[2]">
+                        
+                        <img
+                                class=" h-[2vw] "
+                                src="logo1.png"
+                                width="100%"
+                                height="100%"
+                                alt="Your Image Alt Text"
+                            />
+                            <img
+                                class=" w-1/4 "
+                                src="logo2.png"
+                                width="100%"
+                                height="100%"
+                                alt="Your Image Alt Text"
+                            />
+                            <img
+                                class=" w-1/4 "
+                                src="logo3.png"
+                                width="100%"
+                                height="100%"
+                                alt="Your Image Alt Text"
+                            />
+                            <img
+                                class=" w-1/4 "
+                                src="logo4.jpg"
+                                width="100%"
+                                height="100%"
+                                alt="Your Image Alt Text"
+                            />
+                                <img
+                                class=" w-1/4 "
+                                src="logo5.jpg"
+                                width="100%"
+                                height="100%"
+                                alt="Your Image Alt Text"
+                            />
+
+            </div> 
+            <p class="text-[0.55rem] text-[#38664d]">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
+                    </div>
             </div>
+
+           
+    
+      </div>
+
+
         </nav>
     
      
@@ -69,15 +150,17 @@
     
         <!-- in box -->
         <div class="blue-box z-[100002] " :class="{ active: isBlueBoxActive } ">
-          <div class=" lg:p-12 sm:p-1 lg:pt-8  w-screen max-w-screen">
+          <div class="  ">
     
          
             <div
             v-if="isBlueBoxActive"
             @click="toggleBlueBox"
-      class="text flex flex-1 flex-col justify-between lg:flex-row"
+      class=""
             >
-       
+            <p class=" absolute z-[10000000] p-10 text-[white] w-[7vw]" @click="toggleBlueBox"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%"  viewBox="0 0 357 357" xml:space="preserve" class="close-button__svg fill-white" style="overflow: visible;"><defs></defs><g><g id="close_1_"><polygon points="357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 
+			214.2,178.5 		"></polygon></g></g></svg></p>
+            <About />
            
             </div>
           </div>
@@ -100,12 +183,12 @@
     <script>
     import { groq } from '@nuxtjs/sanity'
     import { mapState, mapActions } from 'vuex'
-    // import AboutPage from '~/components/AboutPage.vue'
+    import About from '~/components/About.vue'
     
     export default {
-      // components: {
-      //   AboutPage,
-      // },
+      components: {
+        About,
+      },
       name: 'IndexPage',
       data() {
         return {
@@ -163,7 +246,21 @@
     
     
     <style scoped>
+    .linksstuff{
+        display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-transform: none;
+    justify-content: space-between;
+    /* padding: .5vw; */
+    z-index: 10;
+    height: 35vh;
+    }
     
+    .textlook{
+        text-transform: none !important;
+    }
     
     .text-stroke{
         -webkit-text-stroke: 2px #aa213f; /* Adjust the color and size as needed */
@@ -172,12 +269,25 @@
     
     .logo {
         position: absolute;
+        /* position: relative; */
+        z-index: 10;
         top: 10px; /* Adjust the top position as needed */
         left: 10px; /* Adjust the left position as needed */
-        max-width: 100px; /* Adjust the maximum width as needed */
+        /* max-width: 100px; */
+         /* Adjust the maximum width as needed */
         height: auto;
       }
     
+      .logoo {
+        /* position: absolute; */
+        position: relative;
+        z-index: 5;
+        top: 10px; /* Adjust the top position as needed */
+        left: 10px; /* Adjust the left position as needed */
+        /* max-width: 100px; */
+         /* Adjust the maximum width as needed */
+        height: auto;
+      }
           footer {
             position: fixed;
             bottom: 0;
@@ -513,7 +623,8 @@
     .button{
        padding: .5vw;
        font-size: 1.25rem ;
-       color: #39674e;
+       /* color: #39674e; */
+       color: white;
        display: flex;
         align-items: center;
     }
@@ -557,7 +668,7 @@
       height: 0; */
       width: 0%;
       height: 100%;
-      background-color: #d2d2d2;
+      background-color: #ffaf62;
       transition: width .5s linear, opacity 0.5s ease; /* Add smooth transitions */
       pointer-events: none; /* Disable pointer events when hidden */
       z-index: 100002;
