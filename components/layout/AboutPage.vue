@@ -3,7 +3,8 @@
     <div>
     
     <header
-        class=" absolute  top-0 left-0 z-[20000]  p-0  text-lg leading-snug uppercase  md:pb-2  "
+    :class="{ active: isBlueBoxActive } "
+        class=" absolute pointer-events-none top-0 left-0 z-[20000]  p-0  text-lg leading-snug uppercase  md:pb-2  "
       >
     
         <!-- desk -->
@@ -28,7 +29,7 @@
               </NuxtLink>
     
     
-              <button class="button flex items-end pl-2 uppercase" @click="toggleBlueBox">
+              <button class="button pointer-events-auto flex items-end pl-2 uppercase" @click="toggleBlueBox">
                 About
              </button>
             </div>
@@ -492,6 +493,7 @@
         flex-wrap: wrap;
         /* width: 100vw !important; */
         justify-content: center;
+        height: 35vh;
             /* padding-top: 1vh; */
         background-color: #94c298;
         position: fixed;
