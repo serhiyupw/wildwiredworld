@@ -3,7 +3,7 @@
 
   <div>
     <AboutPage />
-    <main class="h-screen  flex content-container  w-screen text-[#ffffff] bg-[#dc97b4] overflow-hidden  " :style="contentContainerStyle">
+    <main class="h-screen mobilelayout  flex content-container  w-screen text-[#ffffff] bg-[#dc97b4] overflow-hidden  " :style="contentContainerStyle">
     
       <div class="instrcuct w-[50vw] bg-[#38664d] text-[#ffffff] overflow-scroll  ">
       <div class="p-[1rem] ">
@@ -425,10 +425,42 @@ width: 90vw;
             position: relative;
 }
 
+.mobilelayout{
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.content-container {
+    padding-top: 26vh;
+    padding-top: 8vh;
+    transition: transform .5s linear;
+}
+
+
+.svgin {
+    width: 86vw;
+    height: auto;
+    padding-top: 0vh;
+}
+
+.instrcuct{
+  width: 100vw;
+  overflow: visible;
+}
+
+.orb{
+  width: 100vw;
+  overflow: visible;
+}
+
+.svgarea{
+  width: 100vw;
+  overflow: visible;
+}
    .svgin{
       width: 86vw;
     height: auto;
-    padding-top: 10vh;
+    /* padding-top: 10vh; */
 }
 }
 
