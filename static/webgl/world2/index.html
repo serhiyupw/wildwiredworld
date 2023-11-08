@@ -9,19 +9,18 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas ref="myCanvas" id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
-        <div id="unity-fullscreen-button"></div> 
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <!-- <div id="unity-build-title">WildWired_Final</div> -->
+        <div id="unity-build-title">WildWired_Final</div>
       </div>
     </div>
     <script>
@@ -58,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Final_19.10_ChetGrove.loader.js";
+      var loaderUrl = buildUrl + "/NEW_2023.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Final_19.10_ChetGrove.data.unityweb",
-        frameworkUrl: buildUrl + "/Final_19.10_ChetGrove.framework.js.unityweb",
-        codeUrl: buildUrl + "/Final_19.10_ChetGrove.wasm.unityweb",
+        dataUrl: buildUrl + "/NEW_2023.data.unityweb",
+        frameworkUrl: buildUrl + "/NEW_2023.framework.js.unityweb",
+        codeUrl: buildUrl + "/NEW_2023.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "WildWired_Final",
@@ -119,28 +118,29 @@
       document.body.appendChild(script);
 
     </script>
-    <style scoped>
-      /* canvas {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      } */
-
-      #unity-fullscreen-button{
-          display: none;
-      }
-
-      #unity-footer{
-          display: none;
-      } 
-
-      #unity-canvas {
-    background: #231F20;
-    width: 100vw !important;
-    height: 100vh !important;
-        }     
-    </style>
+         <style scoped>
+          /* canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          } */
+    
+          #unity-fullscreen-button{
+              display: none;
+          }
+    
+          #unity-footer{
+              display: none;
+          } 
+    
+          #unity-canvas {
+        background: #231F20;
+        width: 100vw !important;
+        height: 100vh !important;
+            }     
+        </style>
   </body>
 </html>
+ 

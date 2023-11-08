@@ -2,45 +2,64 @@
   <!-- mt-5 border-[#ff00a0] border-4-->
 
   <div>
-    <main class="h-screen  w-screen text-[#ffffff] bg-[#f46a7d] overflow-hidden  ">
-      <div
-        class="h-screen w-screen text-[#ffffff] overflow-scroll  "
-        ref="background"
-      >
-        <div class="interactive-gradient "></div>
-        <div class="square-grid opacity-20"></div>
-        
-       <!-- Add the logo img element to the top-left corner -->
-    <img
-      src="ww.png"
-      alt="Your Logo"
-      class="logo"
-    >
-
-        <!-- <p class="leading-2 text-sm  pt-5 ">
-            a place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
+    <AboutPage />
+    <main class="h-screen  flex content-container  w-screen text-[#ffffff] bg-[#dc97b4] overflow-hidden  " :style="contentContainerStyle">
+    
+      <div class="instrcuct w-[50vw] bg-[#38664d] text-[#ffffff] overflow-scroll  ">
+      <div class="p-[1rem] ">
+        <p class="leading-2 text-sm  pt-5 ">
+            A place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
             <strong class="font-bold">Long Thorn Valley</strong> are suffering from memory loss caused by a terrible disaster known as 
             <strong class="font-bold">the Big Change</strong>.
         </p>
-        <ol class="list-decimal text-xs md:w-2/4 p-0 pb-10 pt-5">
-            <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
-            <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
-            <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
-        </ol> -->
+        <ol class="list-decimal text-sm p-10 pb-10 pt-10 custom-ol">
+    <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
+    <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
+    <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
+</ol>
 
+      </div> 
+      </div>
 
-<div class=" relative flex flex-col justify-center content-center w-screen h-[100vh] text-center">
-  <div class="pb-[5vh] p-5">
-    <span class=" pt-10 text-outline md:text-4xl text-xl font-bold md:text-stroke">You are invited to visit</span>
-    <!-- <Nuxt-link class="nuxt-link-exact-active" to="/LimbicForestworld">text-stroke
-      </Nuxt-link> -->
-      <h1 class="md:text-4xl text-xl  font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
-  </div>
+      <div   class=" w-[50vw] orb p-10 bg-[#dc97b4] text-[#ffffff] overflow-scroll  ">
+        <div>
+          <img
+                          class="   "
+                          src="octo.png"
+                          width="100%"
+                          height="100%"
+                          alt="Your Image Alt Text"
+                      />
+        </div>
+      </div>
+
+      <div
+        class=" w-[50vw] svgarea p-10 bg-[#52a875] text-[#ffffff] overflow-hidden  "
+        ref="background"
+      >
+
+      <div>
+        <!-- <img
+                          class="square-grid   "
+                          src="passbg.png"
+                          width="100%"
+                          height="100%"
+                          alt="Your Image Alt Text"
+                      /> -->
+        <div class="square-grid opacity-20 "></div>
+      </div>
+
+<div class=" relative flex flex-col justify-center content-center text-center overflow-scroll">
+
+  <!-- <div class="pb-[5vh] p-5 z-[100]">
+    <span class=" pt-10 text-outline md:text-4xl text-lg font-bold md:text-stroke">You are invited to visit</span>
+      <h1 class="md:text-4xl text-lg  font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
+  </div> -->
 
   <div class="   justify-center content-center flex">
 
 
-    <svg class=" svgin h-fit md:w-[50vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
+    <svg class=" svgin h-fit md:w-[35vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
           
           <defs>
             <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
@@ -48,7 +67,7 @@
             </clipPath>
           </defs> 
 
-            <style>tspan{white-space:pre}.a{stroke:#fff;stroke-miterlimit:100;stroke-width:3}.b{font-size: 21px;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.c{fill:none;stroke:#fff;stroke-miterlimit:100;stroke-width:3.2}.d{font-size: 21px;line-height: 24px;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.e{font-size: 24px;text-transform: uppercase;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}</style>
+            <style>tspan{white-space:pre}.a{stroke:#fff;stroke-miterlimit:100;stroke-width:3}.b{font-size: 14px;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.c{fill:none;stroke:#fff;stroke-miterlimit:100;stroke-width:3.2}.d{font-size: 14px;line-height: 14px;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.e{font-size: 14px;text-transform: uppercase;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}</style>
             
             <g clip-path="url(#cp1)">
               
@@ -82,7 +101,7 @@
               </a>
 
               <!-- limbic forest -->
-              <Nuxt-link class=" forest" to="/LimbicForestworld">
+              <Nuxt-link class=" forest" to="/LimbicForest">
               <path id="myPath" fill-rule="" class="a forest" d="m800.1 251.4c-10.1 14.3-23.2 32.5-38.6 53.7-4.3 1.2-7.2 2-11.5 3.2-8.2-3.4-22.4-10.3-39.1-22.5-12.4-9.1-20.9-21.7-29.9-35.1-10-14.8-21.4-31.6-39.9-45.8-27.3-21-52.2-13.5-83.8-4.1-10.9 3.3-23.3 7-37.1 10-41.9 9.1-58.2 3.8-74.1-8-4.3-3.2-5.3-9.2-2.1-13.5 44.2-60.9 95.3-131.8 101.5-143 11.2-20.2 31.4-5.1 31.4-5.1 0 0 19.4 9.6 31.4 21.5 11.9 12 22.4 7.5 38.1 0.8 15.6-6.8 23.5-9.7 23.5-9.7 4.3-1.7 9.3 1.9 11.1 8.1l49.4 167.4c1.9 6.2 8.5 10.8 14.9 10.3l46.2-3.5c8.2-0.6 13.4 8.6 8.6 15.3zm-186.4-152.8c-6.8-8.5-33.1-15.3-40.8-15.3-7.6 0-34.8 14.5-39.8 21.7-5.1 7.2 7.5 20.4 10.9 25.9 3.4 5.5 16.2 22.5 16.2 22.5 5.1 4.3 5.9 9.5 16.9 9.8 9.8 0.3 9.2-13.6 9.2-20 0-6.4 7-17.8 11.2-21.7 4.3-3.9 9.4-3.8 19.6-4.2 10.2-0.4 3.4-10.2-3.4-18.7z"/>
               </Nuxt-link>
 
@@ -195,80 +214,31 @@
   
 
 
-    <div class="flex flex-col justify-center content-center w-screen">
-      <div class="image-container z-[2]">
-                  
-                  <img
-                          class=" h-[2vw] "
-                          src="logo1.png"
-                          width="100%"
-                          height="100%"
-                          alt="Your Image Alt Text"
-                      />
-                      <img
-                          class=" w-1/4 "
-                          src="logo2.png"
-                          width="100%"
-                          height="100%"
-                          alt="Your Image Alt Text"
-                      />
-                      <img
-                          class=" w-1/4 "
-                          src="logo3.png"
-                          width="100%"
-                          height="100%"
-                          alt="Your Image Alt Text"
-                      />
-                      <img
-                          class=" w-1/4 "
-                          src="logo4.jpg"
-                          width="100%"
-                          height="100%"
-                          alt="Your Image Alt Text"
-                      />
-                        <img
-                          class=" w-1/4 "
-                          src="logo5.jpg"
-                          width="100%"
-                          height="100%"
-                          alt="Your Image Alt Text"
-                      />
-
-      </div> 
-      <p class="text-xs">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
-    </div>
-
-</div>
-
-    
-  
-
-           
-            
-       
-
-
-  
  
 
-    
-
-
-
+</div>
+      </div>
 
       
-
-      </div>
       <nuxt />
     </main>
+    
+
   </div>
 </template>
 
 <script>
+
   import { checkAuthentication } from '~/auth.js';
+import AboutPage from '~/components/layout/AboutPage.vue';
+
+
 
 export default {
   name: "IndexPage",
+  components: {
+    AboutPage,
+  },
 
   mounted() {
     if(localStorage.getItem('authenticated'))
@@ -322,6 +292,7 @@ export default {
       mapPath: "/toplayer.png",
       titleTop: 0, // Initial top position
       titleWidth: "100%", // Initial width
+      contentContainerStyle: {},
       // rotation: '',
     };
   },
@@ -351,15 +322,49 @@ export default {
       // Update the gradient background
       this.gradient.style.background = `linear-gradient(45deg, ${color1}, ${color2})`;
     },
+    updateContentContainerPosition() {
+      const isMobile = window.innerWidth <= 768;
+      // Calculate the offset based on blue box height
+      const offset = isMobile ? (this.isBlueBoxActive ? "100vw" : "0") : (this.isBlueBoxActive ? "50vw" : "0");
+
+      // Calculate the offset based on whether it's a mobile screen or not
+
+      // Set the content container position
+      this.contentContainerStyle = {
+        transform: `translateX(${offset})`,
+      };
+    },
   },
   
 };
 </script>
 
 <style scoped>
+.instrcuct{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.svgarea{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 /* Initial path style */
+.content-container{
+  /* width: 100vw !important; */
+  width: 100vw;
+  /* height: 100vw !important; */
+}
 
-
+.content-container {
+  /* transition: transform 1s ease;  */
+  /* Add smooth transition for content movement */
+  padding-top: 35vh;
+  transition: transform .5s linear;
+}
 
 .text-stroke{
     -webkit-text-stroke: 2px #aa213f; /* Adjust the color and size as needed */
@@ -414,6 +419,15 @@ padding-bottom:2vh;
 
 
 @media (max-width: 760px) {
+
+  .content-container{
+    position: fixed;
+    width: 100vw !important;
+    background-color: #94c298;
+    border-bottom: 0.8px solid #000;
+    /* border-top: 1px solid #11ff00; */
+  }
+
    .mobile-flex{
     display: block;
    }
@@ -518,6 +532,28 @@ padding: 1rem;
   z-index: 1;
 }
 
+/* Style list markers with circle border */
+.custom-ol {
+    list-style-type: none; 
+    /* Remove the default numbers */
+    padding-left: 0;
+    counter-reset: custom-counter; 
+}
+
+.custom-ol li::before {
+  content: counter(custom-counter);
+    counter-increment: custom-counter;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 0.5em;
+    font-weight: bold;
+  }
+
+
 .interactive-gradient {
   position: absolute;
   top: 0;
@@ -528,6 +564,18 @@ padding: 1rem;
     z-index: 0;
 }
 
+.instrcuct{
+  z-index: 10;
+}
+
+.orb{
+  z-index: 10;
+}
+
+.svgarea{
+  z-index: 1;
+}
+
 .square-grid {
   position: absolute;
   top: 0;
@@ -535,6 +583,8 @@ padding: 1rem;
   left: 0;
   width: 100%;
   height: 100%;
+  /* width: 100%;
+  height: 50vw; */
   background-image: linear-gradient(
       to right,
       transparent 1px,
@@ -586,7 +636,7 @@ display: none;
 
 
 .bloom{
-    fill: yellow;
+    fill: #dfe169;
 }
 .bloom.authenticated-color{
   fill:rgb(168, 168, 30);
@@ -599,7 +649,7 @@ display: none;
 .chest{
   opacity: 1;
     transition: opacity 3s ease;
-    fill: rgb(173, 42, 92);
+    fill: #dc97b4;
 }
 
 .chest:hover {
@@ -610,7 +660,7 @@ display: none;
 .thorned{
   opacity: 1;
     transition: opacity 3s ease;
-    fill: rgb(33, 58, 33);
+    fill: #213a21;
 }
 
 .thorned:hover {
@@ -621,7 +671,7 @@ display: none;
 .forest{
   opacity: 1;
     transition: opacity 3s ease;
-    fill: rgb(53, 53, 125);
+    fill: #35357d;
 }
 
 .forest:hover {
@@ -632,7 +682,7 @@ display: none;
 .pickle{
   opacity: 1;
     transition: opacity 3s ease;
-    fill: green;
+    fill: #52a875;
 }
 
 .pickle:hover {
