@@ -45,7 +45,8 @@
         if (this.password.toLowerCase() === 'metal') {
           // Password is correct (case-insensitive); set authentication to true
           setAuthentication(true);
-        
+          localStorage.setItem('authenticated', 'true');
+          this.$root.$emit('authentication-success');
           
           // Redirect to a protected page
         //   this.$router.push('/protected-page');
@@ -55,6 +56,16 @@
         alert("Incorrect password. Please try again.");
         }
       },
+      handleAuthenticationSuccess() {
+  // Change the path fill color when authentication is successful
+  const path4 = document.getElementById('myPath4');
+  // const path2 = document.getElementById('myPath2');
+
+  if (path4) {
+    path4.setAttribute('class', 'a thorned authenticated-color');
+    // path2.setAttribute('class', 'a chest authenticated-color');
+  }
+},
       goBack() {
       // Use Vue Router's go method to navigate back
       this.$router.go(-1);

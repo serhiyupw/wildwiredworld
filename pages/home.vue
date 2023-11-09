@@ -91,13 +91,13 @@
               
               <!-- world two chest-->
               <a href="../password2" >
-                  <path fill-rule="evenodd" class="a chest" d="m478 328c18.5 5.9 37 8.1 56.5 10.4 12.8 1.6 26 3.1 39 5.8 29.9 6.2 48.5 26.4 55.2 60q0 0 0 0c1 5 1.1 11.6 3.2 16.1 3.5 7.5 9.4 5.4 16.6 5.8 20.3 1.1 38.3-20 49.5-34.8q0 0 0 0c8.4-11 25.8-34.5 46.1-62.2 3.5-4.9 1.8-11.9-3.7-14.4-8.8-4.2-21.1-10.8-35.2-21.1-13.8-10.1-22.8-23.4-32.3-37.5-10-14.9-20.4-30.3-37.6-43.6-23.4-17.9-44-11.8-75.2-2.4-11.1 3.3-23.7 7.1-37.9 10.2-45.9 9.9-64.3 3.4-81.8-9.7-4.3-3.2-10.4-2.2-13.5 2.1-17.8 24.4-33 45.3-41.7 57.2-3.2 4.4-2.1 10.6 2.4 13.7 29.2 19.7 59.5 34.6 90.4 44.4z"/>
+                  <path fill-rule="evenodd" id="myPath3" class="a chest" d="m478 328c18.5 5.9 37 8.1 56.5 10.4 12.8 1.6 26 3.1 39 5.8 29.9 6.2 48.5 26.4 55.2 60q0 0 0 0c1 5 1.1 11.6 3.2 16.1 3.5 7.5 9.4 5.4 16.6 5.8 20.3 1.1 38.3-20 49.5-34.8q0 0 0 0c8.4-11 25.8-34.5 46.1-62.2 3.5-4.9 1.8-11.9-3.7-14.4-8.8-4.2-21.1-10.8-35.2-21.1-13.8-10.1-22.8-23.4-32.3-37.5-10-14.9-20.4-30.3-37.6-43.6-23.4-17.9-44-11.8-75.2-2.4-11.1 3.3-23.7 7.1-37.9 10.2-45.9 9.9-64.3 3.4-81.8-9.7-4.3-3.2-10.4-2.2-13.5 2.1-17.8 24.4-33 45.3-41.7 57.2-3.2 4.4-2.1 10.6 2.4 13.7 29.2 19.7 59.5 34.6 90.4 44.4z"/>
               </a>
 
 
               <!-- thorned forest -->
               <a href="../FinalMetallic" >
-              <path fill-rule="evenodd" class="a thorned" d="m767.4 313.4c-23.8 32.9-66.4 89.6-78.2 105.2 0 0-3.7 6.2-3.7 6.2q0 0 0 0c-11 14.6 13.7 40.9 22.6 51.6 12.5 15.2 27.4 29.8 45.7 37.6 25.6 11 47.2 2.5 66.6-15.5q0 0 0 0 0 0 0 0c27.2-25 35.3-62.7 49.4-95.3 11.8-27.2 22.9-52.8 71-52.8 30.4 0 52.3 1.8 67.7 3.5 6.2 0.6 11.4-4.6 10.6-10.8l-13-111.3c-0.7-6.4-6.5-11.1-12.9-10.7l-164.3 12.3c-3 0.2-5.6 1.7-7.3 4.1-14.2 20.7-38.2 53.9-54.2 75.9z"/>
+              <path fill-rule="evenodd" id="myPath4" class="a thorned" d="m767.4 313.4c-23.8 32.9-66.4 89.6-78.2 105.2 0 0-3.7 6.2-3.7 6.2q0 0 0 0c-11 14.6 13.7 40.9 22.6 51.6 12.5 15.2 27.4 29.8 45.7 37.6 25.6 11 47.2 2.5 66.6-15.5q0 0 0 0 0 0 0 0c27.2-25 35.3-62.7 49.4-95.3 11.8-27.2 22.9-52.8 71-52.8 30.4 0 52.3 1.8 67.7 3.5 6.2 0.6 11.4-4.6 10.6-10.8l-13-111.3c-0.7-6.4-6.5-11.1-12.9-10.7l-164.3 12.3c-3 0.2-5.6 1.7-7.3 4.1-14.2 20.7-38.2 53.9-54.2 75.9z"/>
               </a>
 
               <!-- limbic forest -->
@@ -245,20 +245,59 @@ export default {
     {
       const path1 = document.getElementById('myPath1');
       const path2 = document.getElementById('myPath2');
+      // const path3 = document.getElementById('myPath3');
+      // const path4 = document.getElementById('myPath4');
 
       if (path1 && path2) {
         path1.setAttribute('class', 'a bloom authenticated-color');
         path2.setAttribute('class', 'a bloom authenticated-color');
+        // path3.setAttribute('class', 'a chest authenticated-color');
+        // path4.setAttribute('class', 'a thorned authenticated-color');
       }
       
     }
     else{
       const path1 = document.getElementById('myPath1');
       const path2 = document.getElementById('myPath2');
+      // const path3 = document.getElementById('myPath3');
+      // const path4 = document.getElementById('myPath4');
       path1.setAttribute('class', 'a bloom');
-        path2.setAttribute('class', 'a bloom');
+      path2.setAttribute('class', 'a bloom');
+      // path3.setAttribute('class', 'a chest');
+      // path4.setAttribute('class', 'a thorned');
+    }
+
+
+    if(localStorage.getItem('authenticated'))
+    {
+      // const path1 = document.getElementById('myPath1');
+      // const path2 = document.getElementById('myPath2');
+      const path3 = document.getElementById('myPath3');
+      const path4 = document.getElementById('myPath4');
+
+      if (path3) {
+        // path1.setAttribute('class', 'a bloom authenticated-color');
+        // path2.setAttribute('class', 'a bloom authenticated-color');
+        path3.setAttribute('class', 'a chest authenticated-color');
+        path4.setAttribute('class', 'a thorned authenticated-color');
+      }
+      
+    }
+    else{
+      // const path1 = document.getElementById('myPath1');
+      // const path2 = document.getElementById('myPath2');
+      const path3 = document.getElementById('myPath3');
+      const path4 = document.getElementById('myPath4');
+      // path1.setAttribute('class', 'a bloom');
+      // path2.setAttribute('class', 'a bloom');
+      path3.setAttribute('class', 'a chest');
+      path4.setAttribute('class', 'a thorned');
     }
     
+
+
+
+
     this.background = this.$refs.background;
     this.gradient = this.$el.querySelector(".interactive-gradient");
 
@@ -672,6 +711,7 @@ display: none;
 }
 .bloom.authenticated-color{
   fill:rgb(168, 168, 30);
+  opacity: 0.2;
 }
 
 .bloom:hover {
@@ -684,6 +724,10 @@ display: none;
     fill: #dc97b4;
 }
 
+.chest.authenticated-color{
+  opacity: 0.2;
+}
+
 .chest:hover {
   opacity: 0.2;
   transition: opacity 3s ease;
@@ -692,7 +736,11 @@ display: none;
 .thorned{
   opacity: 1;
     transition: opacity 3s ease;
-    fill: #213a21;
+    fill: #707070;
+}
+
+.thorned.authenticated-color{
+  opacity: 0.2;
 }
 
 .thorned:hover {

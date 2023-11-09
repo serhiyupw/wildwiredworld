@@ -50,7 +50,7 @@
            
           // Set a flag in local storage to remember the authentication
             localStorage.setItem('authenticated', 'true');
-          
+           
 
            // Emit the custom event for authentication success
            this.$root.$emit('authentication-success');

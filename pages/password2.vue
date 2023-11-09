@@ -43,7 +43,8 @@
           if (this.password.toLowerCase() === 'fire') {
           // Password is correct (case-insensitive); set authentication to true
           setAuthentication(true);
-          
+          localStorage.setItem('authenticated', 'true');
+          this.$root.$emit('authentication-success');
           // Redirect to a protected page
         //   this.$router.push('/protected-page');
         this.$router.push('../world2');
@@ -52,6 +53,16 @@
         alert("Incorrect password. Please try again.");
         }
       },
+      handleAuthenticationSuccess() {
+  // Change the path fill color when authentication is successful
+  const path3 = document.getElementById('myPath3');
+  // const path2 = document.getElementById('myPath2');
+
+  if (path3) {
+    path3.setAttribute('class', 'a chest authenticated-color');
+    // path2.setAttribute('class', 'a chest authenticated-color');
+  }
+},
       goBack() {
       // Use Vue Router's go method to navigate back
       this.$router.go(-1);
