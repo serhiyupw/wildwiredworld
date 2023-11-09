@@ -228,7 +228,10 @@
 </template>
 
 <script>
+
+  import { checkAuthentication } from '~/auth.js';
 import AboutPage from '~/components/layout/AboutPage.vue';
+
 
 
 export default {
@@ -238,6 +241,24 @@ export default {
   },
 
   mounted() {
+    if(localStorage.getItem('authenticated'))
+    {
+      const path1 = document.getElementById('myPath1');
+      const path2 = document.getElementById('myPath2');
+
+      if (path1 && path2) {
+        path1.setAttribute('class', 'a bloom authenticated-color');
+        path2.setAttribute('class', 'a bloom authenticated-color');
+      }
+      
+    }
+    else{
+      const path1 = document.getElementById('myPath1');
+      const path2 = document.getElementById('myPath2');
+      path1.setAttribute('class', 'a bloom');
+        path2.setAttribute('class', 'a bloom');
+    }
+    
     this.background = this.$refs.background;
     this.gradient = this.$el.querySelector(".interactive-gradient");
 
@@ -648,6 +669,9 @@ display: none;
 
 .bloom{
     fill: #dfe169;
+}
+.bloom.authenticated-color{
+  fill:rgb(168, 168, 30);
 }
 
 .bloom:hover {
