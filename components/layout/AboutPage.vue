@@ -131,19 +131,21 @@
     
     
             <!-- Add an SVG icon here -->
-            <div class="flex justify-between mobilemenu">
-              <NuxtLink class="w-[11vw] mobilemenupad h-auto" to="/">
+            <div class="flex justify-between pointer-events-auto mobilemenu h-[10vh]">
+              <NuxtLink class="w-[11vw] mobilemenupad h-auto" to="/indextemp">
                 <img
           src="ww.png"
           alt="Your Logo"
-          class="logo w-[29vw]"
+          class="logo w-[19vw]"
         >
               </NuxtLink>
     
               
-              <button class="pl-2 uppercase flex items-end mobilemenupad " @click="toggleBlueBox">
-        About
-      </button>
+              <button class="pl-2 uppercase pointer-events-auto flex items-end mobilemenupad" @click="toggleBlueBox">
+    <span class="fill-[white] text-[white]" v-if="!showXIcon">Menu</span>
+    <!-- <i v-if="!showXIcon" class="fas fa-bars"></i> -->
+    <span class="text-3xl text-[white]" v-else>&times;</span>
+  </button>
             </div>
         </nav>
         </div>
@@ -156,11 +158,23 @@
             <div
             v-if="isBlueBoxActive"
             @click="toggleBlueBox"
-      class=""
+      class="mobilemenumain bg-white"
+            >
+            <ul class="list-none p-4 text-[#38664d]">
+        <li class=" border-b-2 p-4" ><NuxtLink to="/about">About</NuxtLink></li>
+        <li class=" border-b-2 p-4" ><NuxtLink to="/backstory">Backstory</NuxtLink></li>
+        <li class=" border-b-2 p-4" ><NuxtLink to="/team">Collaborators</NuxtLink></li>
+      </ul>
+            </div>
+
+            <div
+            v-if="isBlueBoxActive"
+            @click="toggleBlueBox"
+      class="mobilemenuere"
             >
             <p class=" absolute z-[10000000] p-10 text-[white] w-[7vw]" @click="toggleBlueBox"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%"  viewBox="0 0 357 357" xml:space="preserve" class="close-button__svg fill-white" style="overflow: visible;"><defs></defs><g><g id="close_1_"><polygon points="357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 
 			214.2,178.5 		"></polygon></g></g></svg></p>
-            <About />
+            <div class=""><About /></div>
            
             </div>
           </div>
@@ -197,6 +211,7 @@
           index: 1,
           realIndex: 0,
           step: 0,
+          showXIcon: false,
           isBlueBoxActive: false,
           contentContainerStyle: {},
           back: false,
@@ -213,6 +228,7 @@
           this.project = reference
         },
         toggleBlueBox() {
+          this.showXIcon = !this.showXIcon;
           // Toggle the blue box visibility
           this.isBlueBoxActive = !this.isBlueBoxActive;
     
@@ -325,9 +341,18 @@
                 position: relative;
     }
     
-    
+    .mobilemenumain{
+      display: none;
+    }
     
     @media (max-width: 760px) {
+      .mobilemenuere{
+        display: none;
+      }
+
+      .mobilemenumain{
+        display: block;
+      }
        .mobile-flex{
         display: block;
        }
