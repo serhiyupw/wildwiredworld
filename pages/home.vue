@@ -321,41 +321,38 @@ export default {
     {
       const path1 = document.getElementById('myPath1');
       const path2 = document.getElementById('myPath2');
-      // const path3 = document.getElementById('myPath3');
-      // const path4 = document.getElementById('myPath4');
 
       if (path1 && path2) {
         path1.setAttribute('class', 'a bloom authenticated-color');
         path2.setAttribute('class', 'a bloom authenticated-color');
-        // path3.setAttribute('class', 'a chest authenticated-color');
-        // path4.setAttribute('class', 'a thorned authenticated-color');
-      }
+    }
       
     }
     if(localStorage.getItem('authenticated2'))
     {
-      // const path1 = document.getElementById('myPath1');
-      // const path2 = document.getElementById('myPath2');
       const path3 = document.getElementById('myPath3');
-      // const path4 = document.getElementById('myPath4');
 
       if (path3) {
-        // path1.setAttribute('class', 'a bloom authenticated-color');
-        // path2.setAttribute('class', 'a bloom authenticated-color');
         path3.setAttribute('class', 'a chest authenticated-color');
-        // path4.setAttribute('class', 'a thorned authenticated-color');
       }
-      
     }
+    // if(localStorage.getItem('authenticated3'))
+    // {
+    //   const path4 = document.getElementById('myPath4');
+
+    //   if (path4) {
+    //     path4.setAttribute('class', 'a thorned authenticated-color');
+    //   }
+    // }
     else{
       const path1 = document.getElementById('myPath1');
       const path2 = document.getElementById('myPath2');
       const path3 = document.getElementById('myPath3');
-      // const path4 = document.getElementById('myPath4');
+      const path4 = document.getElementById('myPath4');
       path1.setAttribute('class', 'a bloom');
       path2.setAttribute('class', 'a bloom');
       path3.setAttribute('class', 'a chest');
-      // path4.setAttribute('class', 'a thorned');
+      path4.setAttribute('class', 'a thorned');
     }
 
 

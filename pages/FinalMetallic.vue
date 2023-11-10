@@ -28,7 +28,7 @@
 </template>
   
   <script>
-  import { setAuthentication } from '~/auth.js';
+  import { setAuthentication3 } from '~/auth.js';
   
   export default {
     data() {
@@ -44,8 +44,8 @@
         //   setAuthentication(true);
         if (this.password.toLowerCase() === 'metal') {
           // Password is correct (case-insensitive); set authentication to true
-          setAuthentication(true);
-          localStorage.setItem('authenticated', 'true');
+          setAuthentication3(true);
+          localStorage.setItem('authenticated3', 'true');
           this.$root.$emit('authentication-success');
           
           // Redirect to a protected page
