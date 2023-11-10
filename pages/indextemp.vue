@@ -1,6 +1,7 @@
 <template>
 
   <div>
+    <AboutPage />
     <main class="h-screen  w-screen  ">
       <div
         class="h-screen w-screen text-[#ffffff] overflow-scroll  "
@@ -10,7 +11,7 @@
         <div class="square-grid opacity-20"></div> -->
 
         <BackgroundVideo />
-   
+    
 
 
         <!-- <div class="dropdown">
@@ -20,10 +21,10 @@
 
         <div class="centered-text p-5">
           <div class="dropdown w-screen md:w-3/5 lg:w-4/5">
-            <span  class=' text-2xl   '>"Wild Wired! Rewilding Encounters of Langthorne Park" by <a class="underline" href="https://www.instagram.com/hervisions_/">HERVISIONS</a> has experienced a power surge causing technical issues with the mobile-friendly site-specific game.
+            <!-- <span  class=' text-2xl   '>"Wild Wired! Rewilding Encounters of Langthorne Park" by <a class="underline" href="https://www.instagram.com/hervisions_/">HERVISIONS</a> has experienced a power surge causing technical issues with the mobile-friendly site-specific game.
               <br/> <br/>
               Come back here to help the plants, creatures and parasites of Long Thorn Valley to recover their memories on the 10th November 2023. 
-            </span>
+            </span> -->
             <!-- <div class="dropdown-content">
               <a href="#">Option 1</a>
               <a href="#">Option 2</a>
@@ -49,14 +50,16 @@
 <script>
 
 import BackgroundVideo from '@/components/BackgroundVideo.vue';
-
+import AboutPage from '~/components/layout/AboutPage.vue';
 
 export default {
   name: "IndexPage",
 
     components: {
     BackgroundVideo,
+    AboutPage,
   },
+  
 
   mounted() {
     this.background = this.$refs.background;
@@ -154,6 +157,7 @@ export default {
       align-items: center;
       height: 100vh; /* Adjust to center within the desired vertical space */
       text-align: center;
+      padding-top: 30vh;
     }
 
      /* Style for the dropdown */

@@ -21,17 +21,24 @@
       </div> 
       </div>
 
-      <div   class=" w-[50vw] orb p-10 bg-[#dc97b4] text-[#ffffff] overflow-scroll  ">
-        <div>
-          <img
-                          class="   "
-                          src="octo.png"
-                          width="100%"
-                          height="100%"
-                          alt="Your Image Alt Text"
-                      />
-        </div>
-      </div>
+      <div class="w-[50vw] orb p-10 bg-[#dc97b4] text-[#ffffff] overflow-scroll">
+    <div class="gallery-container">
+      <button class="gallery-arrow" @click="prevImage">&#8249;</button>
+      <img
+        v-if="currentImageIndex === 0"
+        class="gallery-image"
+        src="siphonophore2.png"
+        alt="Image 1"
+      />
+      <img
+        v-if="currentImageIndex === 1"
+        class="gallery-image"
+        src="octo.png"
+        alt="Image 2"
+      />
+      <button class="gallery-arrow" @click="nextImage">&#8250;</button>
+    </div>
+  </div>
 
       <div
         class=" w-[50vw] svgarea p-10 bg-[#52a875] text-[#ffffff] overflow-hidden  "
@@ -308,6 +315,8 @@ export default {
       titleTop: 0, // Initial top position
       titleWidth: "100%", // Initial width
       contentContainerStyle: {},
+      currentImageIndex: 0,
+      totalImages: 2,
       // rotation: '',
     };
   },
@@ -325,6 +334,13 @@ export default {
         // Authentication is successful
         this.$root.$emit('authentication-success');
       }
+    },
+    nextImage() {
+      this.currentImageIndex = (this.currentImageIndex + 1) % this.totalImages;
+    },
+    prevImage() {
+      this.currentImageIndex =
+        (this.currentImageIndex - 1 + this.totalImages) % this.totalImages;
     },
 
     updateGradient(event) {
@@ -355,6 +371,29 @@ export default {
 </script>
 
 <style scoped>
+.gallery-container {
+  position: relative;
+}
+
+.gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.gallery-arrow:first-child {
+  left: 0;
+}
+
+.gallery-arrow:last-child {
+  right: 0;
+}
 .instrcuct{
   display: flex;
     flex-direction: column;
