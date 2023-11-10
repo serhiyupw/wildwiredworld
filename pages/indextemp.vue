@@ -277,6 +277,9 @@ width: 80vw;
     line-height: normal;
    }
 
+   .centered-text {
+    padding-top: 0vh;
+}
    .svg-container{
 /* padding-top: 3.5rem !important;
 padding-bottom: 3.5rem !important;
