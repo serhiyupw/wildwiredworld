@@ -47,8 +47,8 @@
 <!-- Teams/Collaborators Section -->
 <section class=" pt-10 relative z-[100]   overflow-scroll h-screen text-white">
               <!-- <section class="pt-[40rem]  overflow-scroll  relative z-[1000000] flex h-screen justify-start teams-section flex-wrap content-center py-10 text-white"> -->
-  <div class="container mx-auto p-10 pt-0 text-center">
-    <h2 class="text-3xl font-semibold mb-4">Teams and Collaborators</h2>
+  <div class="container mx-auto p-10 pt-0 text-justify">
+    <h2 class="text-3xl font-semibold mb-4 text-center">Collaborators</h2>
     <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
       <!-- Collaborator 1 -->
       <div class="col-span-1">
@@ -173,7 +173,7 @@
             class="w-full h-auto rounded-lg"
           /> -->
           <a href="https://www.instagram.com/hervisions_/"><h3 class="text-xl font-semibold mt-2">Zaiba Jabbar</h3></a>
-          <p class="text-gray-300">(Creative Director)</p>
+          <p class="text-gray-300">(founder of HERVISIONS, Creative director, Curator and Creative Producer)</p>
           <p> is an award-winning director, moving image artist, commissioner, independent curator and founder of HERVISIONS. She’s interested in the democratisation and accessibility by how we experience art outside the white cube. Her curatorial project HERVISIONS is an investigation into how people in the margins are using technology to create art outside of traditional formats, making space for themselves through the experience of expanded moving image. She is a leader in augmented reality and digital art exhibitions online and offline working with partners and institutes that include Tate Modern, LUX, i-D, Google Arts and Culture, IAMSOUND, The London College of Fashion, Loom Festival, Spectacles, arebyte, Furtherfield and The Photographers Gallery. Zaiba was curator in residence at LUX in (2018) and a board member of Abandon Normal Devices.</p>
         </div>
       </div>

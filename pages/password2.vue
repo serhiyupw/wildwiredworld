@@ -43,7 +43,7 @@
           if (this.password.toLowerCase() === 'fire') {
           // Password is correct (case-insensitive); set authentication to true
           setAuthentication(true);
-          localStorage.setItem('authenticated', 'true');
+          localStorage.setItem('authenticated2', 'true');
           this.$root.$emit('authentication-success');
           // Redirect to a protected page
         //   this.$router.push('/protected-page');

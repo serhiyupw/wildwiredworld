@@ -54,7 +54,7 @@ Please help us secure funding from Arts Council England by completing an evaluat
 
 
     <div class="container mx-auto text-center centerdiv ">
-      <h2 class="text-3xl pt-10  text-center  font-semibold mb-4">The Game</h2>
+      <h2 class="text-3xl pt-10  text-center  mb-4 p-1">The Game</h2>
         <div class='centerdiv'>
       <div class='md:w-2/3 w-screen p-1 '>
         <p>

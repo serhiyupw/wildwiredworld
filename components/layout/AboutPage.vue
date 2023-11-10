@@ -38,15 +38,15 @@
                   />
             </NuxtLink>
   
-            <!-- <div   class="logoo h-[35vh] md:w-[25vw] sm:w-[15vw]">
+            <div   class="logoo fixed h-[35vh] md:w-[35vw] sm:w-[25vw]">
               <img
-                  src="octo.png"
+                  src="Max.png"
                   alt="Your Logo"
                   class="logoo"
                   width="100%"
                   height="100%"
                   />
-            </div> -->
+            </div>
 
             <div class="flex justify-center h-[35vh]  w-[17vw] flex-col textlook z-[100] text-[white]  text-left">
   <p class="textlook  text-2xl text-[#38664d]">Rewilding Encounters of     <span class="textlook  text-2xl text-[white]">Langthorne Park.</span> </p>
@@ -369,14 +369,20 @@ default:
     }
   
     .logoo {
-      /* position: absolute; */
-      position: relative;
+      /* position: relative;
       z-index: 5;
-      top: 10px; /* Adjust the top position as needed */
-      left: 10px; /* Adjust the left position as needed */
-      /* max-width: 100px; */
-       /* Adjust the maximum width as needed */
-      height: auto;
+      top: 10px;
+      left: 10px; 
+      height: auto; */
+
+          /* position: absolute; */
+    /* position: relative; */
+    z-index: 5;
+    top: 0px;
+    left: 45vw;
+    /* max-width: 100px; */
+    /* height: auto; */
+    overflow: hidden;
     }
         footer {
           position: fixed;
@@ -723,6 +729,7 @@ default:
      padding: .5vw;
      font-size: 1.25rem ;
      /* color: #39674e; */
+     background: #3e7557;
      color: white;
      display: flex;
       align-items: center;

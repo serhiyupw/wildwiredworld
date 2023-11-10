@@ -27,7 +27,7 @@
 </template>
   
   <script>
-  import { setAuthentication } from '~/auth.js';
+  // import { setAuthentication } from '~/auth.js';
   
   export default {
     data() {

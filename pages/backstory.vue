@@ -25,9 +25,9 @@
 
                 <section class="relative z-[1] flex h-screen  justify-start teams-section flex-wrap content-center py-10 text-white overflow-scroll">
     
-    <div class="  pb-52 absolute text-center justify-center">
-                  <div class="container mx-auto text-center w-3/4  ">
-                    <h2 class="text-3xl font-semibold mb-4">Backstory</h2>
+    <div class="  pb-52 absolute text-justify  justify-center">
+                  <div class="container mx-auto  w-3/4  ">
+                    <h2 class="text-3xl font-semibold text-center mb-4">Backstory</h2>
                   <div>
       
     </div>
@@ -41,7 +41,7 @@
               <Richtext :blocks="post.body" v-if="post.body">d</Richtext>
     </div> -->
 
-    <div class="  flex flex-col items-center text-center justify-center">
+    <div class="  flex flex-col items-center  justify-center">
     <div class='md:w-2/3 w-screen ' >
       
       
@@ -301,7 +301,7 @@ The results of the workshops have since been re-interpreted by the artists into 
 
 
 
-    <div class="container mx-auto text-center md:w-1/4 w-3/4  ">
+    <div class="container mx-auto  md:w-1/4 w-3/4  ">
 
         <div class="image-container z-[2]">
                   

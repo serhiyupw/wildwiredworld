@@ -24,44 +24,113 @@
       <div class="w-[50vw] orb p-10 bg-[#dc97b4] text-[#ffffff] overflow-scroll">
     <div class="gallery-container">
       <button class="gallery-arrow" @click="prevImage">&#8249;</button>
-      <img
+      <!-- <img
         v-if="currentImageIndex === 0"
         class="gallery-image"
-        src="siphonophore2.png"
+        src="heart1.png"
         alt="Image 1"
-      />
-      <img
-        v-if="currentImageIndex === 1"
+      /> -->
+      <div v-if="currentImageIndex === 0">
+        <img
         class="gallery-image"
-        src="octo.png"
+        src="heart1.png"
+        alt="Image 1"
+        />
+        <p class=" border-[1px] border-white rounded-full capitalize flex justify-center">heart</p>
+      </div>
+      
+      <div v-if="currentImageIndex === 1">
+        <img
+        class="gallery-image"
+        src="kidney.png"
         alt="Image 2"
       />
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">kidney</p>
+      </div>
+
+      <div v-if="currentImageIndex === 2">
+        <img
+        class="gallery-image"
+        src="liver2.png"
+        alt="Image 2"
+      />
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">liver</p>
+      </div>
+      
+      
+
+      <div v-if="currentImageIndex === 3">
+        <img
+        class="gallery-image"
+        src="lung3.png"
+        alt="Image 2"
+      />
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">lung</p>
+      </div>
+
+      <div v-if="currentImageIndex === 4">
+        <img
+        class="gallery-image"
+        src="Max.png"
+        alt="Image 2"
+      />
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Max</p>
+      </div>
+     
+      
+      <div v-if="currentImageIndex === 5">
+        <img
+        class="gallery-image"
+        src="Parasite.png"
+        alt="Image 2"
+      />
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Parasite</p>
+      </div>
+
+      <div v-if="currentImageIndex === 6">
+        <img
+        class="gallery-image"
+        src="spleen2.png"
+        alt="Image 2"
+      />
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">spleen</p>
+      </div>
+      
+      <div v-if="currentImageIndex === 7">
+        <img
+        class="gallery-image"
+        src="twins2.png"
+        alt="Image 2"
+      />
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">twins</p>
+      </div>
+     
+      <div v-if="currentImageIndex === 8">
+        <img
+        class="gallery-image"
+        src="violetta.png"
+        alt="Image 2"
+      />
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">violetta</p>
+      </div>
+     
       <button class="gallery-arrow" @click="nextImage">&#8250;</button>
     </div>
   </div>
 
+  <!-- bg-[#52a875] -->
       <div
-        class=" w-[50vw] svgarea p-10 bg-[#52a875] text-[#ffffff] overflow-hidden  "
+        class=" w-[50vw] svgarea p-10  bg-[#c8bb57] text-[#ffffff] overflow-hidden  "
         ref="background"
       >
 
       <div>
-        <!-- <img
-                          class="square-grid   "
-                          src="passbg.png"
-                          width="100%"
-                          height="100%"
-                          alt="Your Image Alt Text"
-                      /> -->
+      
         <div class="square-grid opacity-20 "></div>
       </div>
 
 <div class=" relative flex flex-col justify-center content-center text-center overflow-scroll">
 
-  <!-- <div class="pb-[5vh] p-5 z-[100]">
-    <span class=" pt-10 text-outline md:text-4xl text-lg font-bold md:text-stroke">You are invited to visit</span>
-      <h1 class="md:text-4xl text-lg  font-bold text-yellow-400 md:text-stroke">Long Thorn Valley</h1>
-  </div> -->
 
   <div class="   justify-center content-center flex">
 
@@ -108,9 +177,9 @@
               </a>
 
               <!-- limbic forest -->
-              <Nuxt-link class=" forest" to="/LimbicForest">
+              <a class=" forest" to="../LimbicForest">
               <path id="myPath" fill-rule="" class="a forest" d="m800.1 251.4c-10.1 14.3-23.2 32.5-38.6 53.7-4.3 1.2-7.2 2-11.5 3.2-8.2-3.4-22.4-10.3-39.1-22.5-12.4-9.1-20.9-21.7-29.9-35.1-10-14.8-21.4-31.6-39.9-45.8-27.3-21-52.2-13.5-83.8-4.1-10.9 3.3-23.3 7-37.1 10-41.9 9.1-58.2 3.8-74.1-8-4.3-3.2-5.3-9.2-2.1-13.5 44.2-60.9 95.3-131.8 101.5-143 11.2-20.2 31.4-5.1 31.4-5.1 0 0 19.4 9.6 31.4 21.5 11.9 12 22.4 7.5 38.1 0.8 15.6-6.8 23.5-9.7 23.5-9.7 4.3-1.7 9.3 1.9 11.1 8.1l49.4 167.4c1.9 6.2 8.5 10.8 14.9 10.3l46.2-3.5c8.2-0.6 13.4 8.6 8.6 15.3zm-186.4-152.8c-6.8-8.5-33.1-15.3-40.8-15.3-7.6 0-34.8 14.5-39.8 21.7-5.1 7.2 7.5 20.4 10.9 25.9 3.4 5.5 16.2 22.5 16.2 22.5 5.1 4.3 5.9 9.5 16.9 9.8 9.8 0.3 9.2-13.6 9.2-20 0-6.4 7-17.8 11.2-21.7 4.3-3.9 9.4-3.8 19.6-4.2 10.2-0.4 3.4-10.2-3.4-18.7z"/>
-              </Nuxt-link>
+              </a>
 
 <text style="transform:matrix(1,0,0,1,694.586,444.289)" >
   <tspan x="21.7" y="16.3" class="d">The Sports</tspan>
@@ -236,7 +305,7 @@
 
 <script>
 
-  import { checkAuthentication } from '~/auth.js';
+// import { checkAuthentication } from '~/auth.js';
 import AboutPage from '~/components/layout/AboutPage.vue';
 
 
@@ -263,29 +332,42 @@ export default {
       }
       
     }
+    if(localStorage.getItem('authenticated2'))
+    {
+      // const path1 = document.getElementById('myPath1');
+      // const path2 = document.getElementById('myPath2');
+      const path3 = document.getElementById('myPath3');
+      // const path4 = document.getElementById('myPath4');
+
+      if (path3) {
+        // path1.setAttribute('class', 'a bloom authenticated-color');
+        // path2.setAttribute('class', 'a bloom authenticated-color');
+        path3.setAttribute('class', 'a chest authenticated-color');
+        // path4.setAttribute('class', 'a thorned authenticated-color');
+      }
+      
+    }
     else{
       const path1 = document.getElementById('myPath1');
       const path2 = document.getElementById('myPath2');
-      // const path3 = document.getElementById('myPath3');
+      const path3 = document.getElementById('myPath3');
       // const path4 = document.getElementById('myPath4');
       path1.setAttribute('class', 'a bloom');
       path2.setAttribute('class', 'a bloom');
-      // path3.setAttribute('class', 'a chest');
+      path3.setAttribute('class', 'a chest');
       // path4.setAttribute('class', 'a thorned');
     }
 
 
 
-    
 
 
 
-
-    this.background = this.$refs.background;
-    this.gradient = this.$el.querySelector(".interactive-gradient");
+    // this.background = this.$refs.background;
+    // this.gradient = this.$el.querySelector(".interactive-gradient");
 
     // Add mousemove event listener
-    this.background.addEventListener("mousemove", this.updateGradient);
+    // this.background.addEventListener("mousemove", this.updateGradient);
 
       // Add event listeners
     window.addEventListener("scroll", this.updateTitlePosition);
@@ -303,7 +385,7 @@ export default {
   
   beforeDestroy() {
     // Remove event listener to prevent memory leaks
-    this.background.removeEventListener("mousemove", this.updateGradient);
+    // this.background.removeEventListener("mousemove", this.updateGradient);
 
     window.removeEventListener("scroll", this.updateTitlePosition);
     window.removeEventListener("resize", this.updateTitleWidth);
@@ -316,7 +398,7 @@ export default {
       titleWidth: "100%", // Initial width
       contentContainerStyle: {},
       currentImageIndex: 0,
-      totalImages: 2,
+      totalImages: 8,
       // rotation: '',
     };
   },
@@ -343,16 +425,16 @@ export default {
         (this.currentImageIndex - 1 + this.totalImages) % this.totalImages;
     },
 
-    updateGradient(event) {
-      // Calculate gradient colors based on mouse position
-      const x = (event.clientX / window.innerWidth) * 255;
-      const y = (event.clientY / window.innerHeight) * 255;
-      const color1 = `rgb(255,${81 - y},81, 0.6)`;
-      const color2 = `rgb(${255 - x}, ${81 - y}, 81,  0.3)`;
+    // updateGradient(event) {
+    //   // Calculate gradient colors based on mouse position
+    //   const x = (event.clientX / window.innerWidth) * 255;
+    //   const y = (event.clientY / window.innerHeight) * 255;
+    //   const color1 = `rgb(255,${81 - y},81, 0.6)`;
+    //   const color2 = `rgb(${255 - x}, ${81 - y}, 81,  0.3)`;
  
-      // Update the gradient background
-      this.gradient.style.background = `linear-gradient(45deg, ${color1}, ${color2})`;
-    },
+    //   // Update the gradient background
+    //   this.gradient.style.background = `linear-gradient(45deg, ${color1}, ${color2})`;
+    // },
     updateContentContainerPosition() {
       const isMobile = window.innerWidth <= 768;
       // Calculate the offset based on blue box height
@@ -656,6 +738,8 @@ padding: 1rem;
 
 .orb{
   z-index: 10;
+  display: flex;
+  align-items: center;
 }
 
 .svgarea{
@@ -708,12 +792,12 @@ a {
     transition: opacity 1s ease;
 }
 
-a:hover {
+/* a:hover {
     fill: #fea7c8;
     text-decoration: inherit;
-    opacity: 0.2;
+    opacity: 0.7;
     transition: opacity 1s ease;
-}
+} */
 
 a:visited {
 display: none;
@@ -730,7 +814,7 @@ display: none;
 }
 
 .bloom:hover {
-  opacity: 0.2;
+  opacity: 0.7;
 }
 
 .chest{
@@ -744,7 +828,7 @@ display: none;
 }
 
 .chest:hover {
-  opacity: 0.2;
+  opacity: 0.7;
   transition: opacity 3s ease;
 }
 
@@ -759,7 +843,7 @@ display: none;
 }
 
 .thorned:hover {
-  opacity: 0.2;
+  opacity: 0.7;
   transition: opacity 3s ease;
 }
 
@@ -770,7 +854,7 @@ display: none;
 }
 
 .forest:hover {
-  opacity: 0.2;
+  opacity: 0.7;
   transition: opacity 3s ease;
 }
 
@@ -781,7 +865,7 @@ display: none;
 }
 
 .pickle:hover {
-  opacity: 0.2;
+  opacity: 0.7;
   transition: opacity 3s ease;
 }
 
