@@ -46,7 +46,7 @@
 
 
   <!-- Teams/Collaborators Section -->
-  <section class=" pt-32 relative z-[100]   overflow-scroll h-screen text-white">
+  <section class=" pt-24 relative z-[100]   overflow-scroll h-screen text-white">
                 <!-- <section class="pt-[40rem]  overflow-scroll  relative z-[1000000] flex h-screen justify-start teams-section flex-wrap content-center py-10 text-white"> -->
     <div class="container mx-auto p-10 pt-0 text-center">
       <h2 class="text-3xl font-semibold mb-4">Teams and Collaborators</h2>

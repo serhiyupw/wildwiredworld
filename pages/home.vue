@@ -1,7 +1,7 @@
 <template>
   <!-- mt-5 border-[#ff00a0] border-4-->
 
-  <div>
+  <div> 
     <AboutPage />
     <main class="h-screen mobilelayout  flex content-container  w-screen text-[#ffffff] bg-[#dc97b4] overflow-hidden  " :style="contentContainerStyle">
     
@@ -268,31 +268,7 @@ export default {
     }
 
 
-    if(localStorage.getItem('authenticated'))
-    {
-      // const path1 = document.getElementById('myPath1');
-      // const path2 = document.getElementById('myPath2');
-      const path3 = document.getElementById('myPath3');
-      const path4 = document.getElementById('myPath4');
 
-      if (path3) {
-        // path1.setAttribute('class', 'a bloom authenticated-color');
-        // path2.setAttribute('class', 'a bloom authenticated-color');
-        path3.setAttribute('class', 'a chest authenticated-color');
-        path4.setAttribute('class', 'a thorned authenticated-color');
-      }
-      
-    }
-    else{
-      // const path1 = document.getElementById('myPath1');
-      // const path2 = document.getElementById('myPath2');
-      const path3 = document.getElementById('myPath3');
-      const path4 = document.getElementById('myPath4');
-      // path1.setAttribute('class', 'a bloom');
-      // path2.setAttribute('class', 'a bloom');
-      path3.setAttribute('class', 'a chest');
-      path4.setAttribute('class', 'a thorned');
-    }
     
 
 

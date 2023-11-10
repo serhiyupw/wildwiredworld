@@ -26,7 +26,7 @@
 
                 <section class="relative z-[1] flex h-screen  justify-start teams-section flex-wrap content-center  text-white overflow-scroll">
     
-    <div class="  p-10 pt-32 ">
+    <div class="  p-10 pt-28 ">
                   <div class="container mx-auto text-center centerdiv  ">
       <h2 class="text-3xl font-semibold mb-4">About</h2>
     <div class='md:w-2/3 w-screen p-1 '>
@@ -53,8 +53,8 @@ Please help us secure funding from Arts Council England by completing an evaluat
 
 
 
-    <div class="container mx-auto text-center  ">
-      <h2 class="text-3xl pt-10 font-semibold mb-4">The Game</h2>
+    <div class="container mx-auto text-center centerdiv ">
+      <h2 class="text-3xl pt-10  text-center  font-semibold mb-4">The Game</h2>
         <div class='centerdiv'>
       <div class='md:w-2/3 w-screen p-1 '>
         <p>
