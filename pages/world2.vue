@@ -1,7 +1,7 @@
 <template>
 <div >
         <div class='flex absolute z-[100000000000000000] w-screen justify-end p-5'>
-          <a class="overlay-button" href="..">
+          <a class="overlay-button" href="home">
               <div class="aboutbtn z-[100000000000000000]">Back</div>
           </a>
         </div>

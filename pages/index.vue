@@ -1,6 +1,7 @@
 <template>
 
   <div>
+    <AboutPage />
     <main class="h-screen  w-screen  ">
       <div
         class="h-screen w-screen text-[#ffffff] overflow-scroll  "
@@ -10,7 +11,7 @@
         <div class="square-grid opacity-20"></div> -->
 
         <BackgroundVideo />
-   
+    
 
 
         <!-- <div class="dropdown">
@@ -20,42 +21,20 @@
 
         <div class="centered-text p-5">
           <div class="dropdown w-screen md:w-3/5 lg:w-4/5">
-            <span  class=' text-2xl   '>"Wild Wired! Rewilding Encounters of Langthorne Park" by <a class="underline" href="https://www.instagram.com/hervisions_/">HERVISIONS</a> has experienced a power surge causing technical issues with the mobile-friendly site-specific game.
+            <!-- <span  class=' text-2xl   '>"Wild Wired! Rewilding Encounters of Langthorne Park" by <a class="underline" href="https://www.instagram.com/hervisions_/">HERVISIONS</a> has experienced a power surge causing technical issues with the mobile-friendly site-specific game.
               <br/> <br/>
               Come back here to help the plants, creatures and parasites of Long Thorn Valley to recover their memories on the 10th November 2023. 
-            </span>
+            </span> -->
             <!-- <div class="dropdown-content">
               <a href="#">Option 1</a>
               <a href="#">Option 2</a>
               <a href="#">Option 3</a>
             </div> -->
             <br/> <br/>
-          <button @click="toggleDropdown" class="custom-button">About
+          <a  href="./home" class="custom-button">Enter
             <span :class="{ 'arrow-up': !isDropdownActive, 'arrow-down': isDropdownActive }"></span>
-          </button>
-          <div class="dropdownbtn" v-if="isOpen">
-            <!-- Your dropdown options go here -->
-            <!-- <a href="#">Option 1</a>
-            <a href="#">Option 2</a>
-            <a href="#">Option 3</a> -->
-            <p class=" text-left text-sm w-screen md:w-4/5 lg:w-4/5 pt-2 p-4 ">
-
-              Wild Wired! Rewilding Encounters of Langthorne Park by <a class="underline" href="https://www.instagram.com/hervisions_/">HERVISIONS</a> 
-              Kristina Pulejkova, Melissa Schwarz, Chun Sun, Bianca Shonee Arroyo-Kreimes, and Eternal Engine
-
-              Is a mobile-friendly site-specific game with five environments.
-              <br/>  <br/>
-              It is set in a place that exists in a parallel universe at the exact location of Langthorne Park, known as Long Thorn Valley. The flora and fauna of Long Thorn Valley are suffering from memory loss caused by a terrible disaster known as the Big Change.
-              <br/>  <br/>
-              Long Thorn Valley, a place that exists in the exact location of Langthorne Park on a planet that we will call Other Earth, where organs, organisms, and parasites thrive in symbiotic relationships! The flora and fauna of the Long Thorn Valley are suffering from memory loss caused by air, land and water pollution. Are you ready to jump between worlds and help fantastical creatures recover their memories
-              <br/>  <br/>
-              Wild Wired! Rewilding Encounters of Langthorne Park by HERVISIONS. A new commission in collaboration with William Morris Gallery, Leytonstone Toy Library, and Langthorne Park Youth Club with funding from Waltham Forest Council and Arts Council. 
-              <br/>  <br/>
-              <i class=" text-xs ">Wild Wired! Rewilding Encounters of Langthorne Park is co-curated and produced by Zaiba Jabbar and Tanya Boyarkina with Christine Lai</i>
-              <br/>  <br/>
-              To find out more about the project click <a class="underline" href="https://wmgallery.org.uk/event/wild-wired-rewilding-encounters-of-langthorne-park/">here</a>.
-            </p>
-          </div>
+          </a>
+          
           </div>
 
         </div>
@@ -71,14 +50,16 @@
 <script>
 
 import BackgroundVideo from '@/components/BackgroundVideo.vue';
-
+import AboutPage from '~/components/layout/AboutPage.vue';
 
 export default {
   name: "IndexPage",
 
     components: {
     BackgroundVideo,
+    AboutPage,
   },
+  
 
   mounted() {
     this.background = this.$refs.background;
@@ -176,6 +157,7 @@ export default {
       align-items: center;
       height: 100vh; /* Adjust to center within the desired vertical space */
       text-align: center;
+      padding-top: 30vh;
     }
 
      /* Style for the dropdown */
@@ -221,20 +203,7 @@ export default {
   /* padding-bottom: 5px; */
 }
 
-.arrow-up::after, .arrow-down::after {
-  content: '\2193'; /* Unicode character for up arrow ▲ */
-  display: inline-block;
-  font-size: 12px; /* Adjust the size of the arrow as needed */
-  margin-left: 5px; /* Adjust the spacing between text and arrow */
-  transition: transform 0.3s; /* Add a smooth transition for the arrow */
-}
 
-.arrow-down::after {
-  /* content: '\2191'; */
-  content: '\2193';
-  transform: rotate(180deg); 
-  /* Rotate the arrow for the down state */
-}
 
 
 .text-stroke{
@@ -308,6 +277,9 @@ width: 80vw;
     line-height: normal;
    }
 
+   .centered-text {
+    padding-top: 0vh;
+}
    .svg-container{
 /* padding-top: 3.5rem !important;
 padding-bottom: 3.5rem !important;
