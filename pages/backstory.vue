@@ -42,7 +42,7 @@
     </div> -->
 
     <div class="  flex flex-col items-center  justify-center">
-    <div class='md:w-2/3 w-screen ' >
+    <div class='md:w-2/3 w-screen p-[4vw] ' >
       
       
       <div class=' flex justify-center pb-3'>

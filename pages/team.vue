@@ -214,6 +214,18 @@
         </div>
 
 
+            <!-- Collaborator 3 -->
+     <div class="col-span-1">
+        <div class="collaborator-card p-4 border border-[#455baf] rounded-lg">
+          <a href="https://wmgallery.org.uk/whats-on/radical-landscapes-events-and-activities-programme/">
+            <h3 class="text-xl font-semibold mt-2">Nicholas Delap</h3></a>
+          <p class="text-gray-300">(Digital artist)</p>
+          <p>is a Digital artist who explores wilderness, Post Humanism and re-wilding as themes within his artworks, creating immersive and other worldly virtual environments, sculptures and video installations. His work seeks to undermine the traditional boundaries between the Human, The Natural and the Technological.
+          </p>
+        </div>
+      </div>
+
+
 
           <!-- <footer> -->
           <!-- Footer content -->
