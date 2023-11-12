@@ -157,7 +157,7 @@
 
               <!-- priclke-->
               <a href="../PrickleBack" >
-              <path fill-rule="evenodd" class="a pickle" d="m570.6 552.9c4.2 3.8 10.8 3.2 14.3-1.3 14.4-19 26.2-37.9 30.4-64.5q0.2-1.3 0.4-2.6c0 0 4-20.1 4.3-28.6 0.3-8.9 0-15.8 0-25.8-1-36.4-12.2-69.4-50.2-77.3-12.7-2.6-25.7-4.1-38.2-5.6-19.2-2.3-38.9-4.7-58.4-10.8-34-10.9-103.7-52.2-106.1-51.9-2.8 0.4-163.1-96.9-163.1-96.9-5.5-3.3-14.4-3.2-19.8 0.1 0 0-71.4 44.2-84.1 55.7-23.6 21.4-49.2 42.2-39.5 53.4l18.3 23.1c4.9 4.1 23.5 4.8 55.6 4.8 32.1 0 52.7 5.5 52.7 5.5 6.3 0.7 11.8-3.8 12.2-10l0.5-7.3c0.2-2.1 2-3.9 4.1-3.9 14.1 0 47 12.6 47 12.6 2 0.5 4.4-0.7 5.1-2.7l2-4.9c0.6-1.5 2.3-2.2 3.7-1.5 95.6 46.4 270.2 204.7 308.8 240.4z"/>
+              <path fill-rule="evenodd" id="pickle" class="a pickle" d="m570.6 552.9c4.2 3.8 10.8 3.2 14.3-1.3 14.4-19 26.2-37.9 30.4-64.5q0.2-1.3 0.4-2.6c0 0 4-20.1 4.3-28.6 0.3-8.9 0-15.8 0-25.8-1-36.4-12.2-69.4-50.2-77.3-12.7-2.6-25.7-4.1-38.2-5.6-19.2-2.3-38.9-4.7-58.4-10.8-34-10.9-103.7-52.2-106.1-51.9-2.8 0.4-163.1-96.9-163.1-96.9-5.5-3.3-14.4-3.2-19.8 0.1 0 0-71.4 44.2-84.1 55.7-23.6 21.4-49.2 42.2-39.5 53.4l18.3 23.1c4.9 4.1 23.5 4.8 55.6 4.8 32.1 0 52.7 5.5 52.7 5.5 6.3 0.7 11.8-3.8 12.2-10l0.5-7.3c0.2-2.1 2-3.9 4.1-3.9 14.1 0 47 12.6 47 12.6 2 0.5 4.4-0.7 5.1-2.7l2-4.9c0.6-1.5 2.3-2.2 3.7-1.5 95.6 46.4 270.2 204.7 308.8 240.4z"/>
               </a>
               <text style="transform:matrix(.695,.719,-0.719,.695,10.922,299.37)" >
                 <tspan x=".3" y="16.3" class="b">Entrance</tspan>
@@ -321,13 +321,17 @@ export default {
     {
       const path1 = document.getElementById('myPath1');
       const path2 = document.getElementById('myPath2');
-
       if (path1 && path2) {
-        path1.setAttribute('class', 'a bloom authenticated-color');
-        path2.setAttribute('class', 'a bloom authenticated-color');
+          path1.setAttribute('class', 'a bloom authenticated-color');
+          path2.setAttribute('class', 'a bloom authenticated-color');
+      }
+    } else{
+      const path1 = document.getElementById('myPath1');
+      const path2 = document.getElementById('myPath2');
+      path1.setAttribute('class', 'a bloom');
+      path2.setAttribute('class', 'a bloom');
     }
-      
-    }
+
     if(localStorage.getItem('authenticated2'))
     {
       const path3 = document.getElementById('myPath3');
@@ -335,25 +339,47 @@ export default {
       if (path3) {
         path3.setAttribute('class', 'a chest authenticated-color');
       }
-    }
-    // if(localStorage.getItem('authenticated3'))
-    // {
-    //   const path4 = document.getElementById('myPath4');
-
-    //   if (path4) {
-    //     path4.setAttribute('class', 'a thorned authenticated-color');
-    //   }
-    // }
-    else{
-      const path1 = document.getElementById('myPath1');
-      const path2 = document.getElementById('myPath2');
+    } else{
       const path3 = document.getElementById('myPath3');
-      const path4 = document.getElementById('myPath4');
-      path1.setAttribute('class', 'a bloom');
-      path2.setAttribute('class', 'a bloom');
       path3.setAttribute('class', 'a chest');
+    }
+
+    if(localStorage.getItem('authenticated3'))
+    {
+      const path4 = document.getElementById('myPath4');
+
+      if (path4) {
+        path4.setAttribute('class', 'a thorned authenticated-color');
+      }
+    } else{
+      const path4 = document.getElementById('myPath4');
       path4.setAttribute('class', 'a thorned');
     }
+
+    if(localStorage.getItem('authenticatedforest'))
+    {
+      const path = document.getElementById('myPath');
+
+      if (path) {
+        path.setAttribute('class', 'a forest authenticated-color');
+      }
+    } else{
+      const path = document.getElementById('myPath');
+      path.setAttribute('class', 'a forest');
+    }
+
+    if(localStorage.getItem('authenticatedpickle'))
+    {
+      const pickle = document.getElementById('pickle');
+
+      if (pickle) {
+        pickle.setAttribute('class', 'a pickle authenticated-color');
+      }
+    } else{
+      const pickle = document.getElementById('pickle');
+      pickle.setAttribute('class', 'a pickle');
+    }
+   
 
 
 
@@ -821,6 +847,7 @@ display: none;
 }
 
 .chest.authenticated-color{
+  fill: #dd367b;
   opacity: 0.2;
 }
 
@@ -836,6 +863,7 @@ display: none;
 }
 
 .thorned.authenticated-color{
+  fill: #c0b9b9;
   opacity: 0.2;
 }
 
@@ -854,6 +882,10 @@ display: none;
   opacity: 0.7;
   transition: opacity 3s ease;
 }
+.forest.authenticated-color{
+  opacity: 0.2;
+  fill: #3c3c6b;
+}
 
 .pickle{
   opacity: 1;
@@ -865,7 +897,10 @@ display: none;
   opacity: 0.7;
   transition: opacity 3s ease;
 }
-
+.pickle.authenticated-color{
+  opacity: 0.2;
+  fill: #76a589;
+}
 
 
 

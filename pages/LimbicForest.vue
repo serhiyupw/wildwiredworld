@@ -43,7 +43,7 @@
           if (this.password.toLowerCase() === 'water') {
           // Password is correct (case-insensitive); set authentication to true
           setAuthentication(true);
-          
+          localStorage.setItem('authenticatedforest', 'true');
           // Redirect to a protected page
         //   this.$router.push('/protected-page');
         this.$router.push('../LimbicForestworld');
