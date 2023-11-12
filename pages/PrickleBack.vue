@@ -42,7 +42,7 @@
         if (this.password.toLowerCase() === 'wood') {
           // Password is correct (case-insensitive); set authentication to true
           setAuthentication(true);
-          
+          localStorage.setItem('authenticatedpickle', 'true');
           // Redirect to a protected page
         //   this.$router.push('/protected-page');
         this.$router.push('../PrickleBackworld');
