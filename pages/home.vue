@@ -321,7 +321,6 @@ export default {
     {
       const path1 = document.getElementById('myPath1');
       const path2 = document.getElementById('myPath2');
-
       if (path1 && path2) {
           path1.setAttribute('class', 'a bloom authenticated-color');
           path2.setAttribute('class', 'a bloom authenticated-color');
