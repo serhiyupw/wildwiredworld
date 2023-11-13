@@ -8,9 +8,9 @@
               <div class="aboutbtn z-[2000]">Esc</div>
           </a>
         </div>
-    <div class='flex flex-col h-screen justify-center'>
+    <div class='flex flex-col h-screen justify-center text-center'>
 
-      <div class="z-[2000] flex flex-row justify-center text-[6rem] capitalize font-bold">
+      <div class="z-[2000] flex flex-row justify-center text-[6rem] textmb capitalize font-bold">
         <h1 class='leading-[1.1] tracking-tight text-[#4a74e6]'>blooming nevel</h1>
       </div>
       
@@ -83,7 +83,11 @@
   
 
   <style scoped>
-
+@media (max-width: 760px) {
+  .textmb{
+    font-size: 4rem
+  }
+}
 .aboutbtn{
   width: auto;
   /* height: 60px; */
