@@ -120,22 +120,21 @@
 
   <!-- bg-[#52a875] -->
       <div
-        class=" w-[50vw] svgarea p-10  bg-[#c8bb57] text-[#ffffff] overflow-hidden  "
+        class=" w-[50vw] svgarea p-10   bg-[#c8bb57] text-[#ffffff] overflow-hidden  "
         ref="background"
       >
 
-      <div>
-      
-        <div class="square-grid opacity-20 "></div>
-      </div>
+    
 
-<div class=" relative flex flex-col justify-center content-center text-center overflow-scroll">
-
+<div class="mbheight relative flex flex-col justify-center content-center text-center overflow-scroll">
+  
+  <!-- <div class="square-grid opacity-20 "></div> -->
 
   <div class="   justify-center content-center flex">
 
+   
 
-    <svg class=" svgin h-fit md:w-[35vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
+    <svg class="  svgin h-fit md:w-[35vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
           
           <defs>
             <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
@@ -587,6 +586,9 @@ padding-bottom:2vh;
     /* border-top: 1px solid #11ff00; */
   }
 
+  .mbheight{
+    height: 27vh;
+  }
    .mobile-flex{
     display: block;
    }
@@ -611,8 +613,8 @@ width: 90vw;
 }
 
 .content-container {
-    padding-top: 26vh;
-    padding-top: 8vh;
+    /* padding-top: 26vh; */
+    padding-top: 5vh;
     transition: transform .5s linear;
 }
 

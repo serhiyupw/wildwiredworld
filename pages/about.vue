@@ -24,12 +24,12 @@
         
   
 
-                <section class="relative z-[1] flex h-screen  justify-start teams-section flex-wrap content-center  text-white overflow-scroll">
+                <section class="relative z-[1] flex h-screen text-justify  justify-start teams-section flex-wrap content-center  text-white overflow-scroll">
     
-    <div class="  p-10 pt-28 ">
-                  <div class="container mx-auto text-center centerdiv  ">
-      <h2 class="text-3xl font-semibold mb-4">About</h2>
-    <div class='md:w-2/3 w-screen p-1 '>
+    <div class=" text-justify  p-10 pb-10 pt-28 ">
+                  <div class="container mx-auto centerdiv text-justify  ">
+      <h2 class="text-3xl font-semibold text-center mb-4">About</h2>
+    <div class='md:w-2/3 w-screen p-[1.25rem]'>
         <p>
             Inspired by William Morris’s proto-ecotopian fiction News from Nowhere, HERVISIONS digital art studio presents an exciting speculative public artwork and mobile-friendly game in response to the Radical Landscapes exhibition at the William Morris Gallery, exploring the natural environment and landscapes of Langthorne Park, Leytonstone. Produced in collaboration with Leytonstone Toy Library, ​​the Youth Club at Worth Unlimited and local communities.
 
@@ -53,10 +53,10 @@ Please help us secure funding from Arts Council England by completing an evaluat
 
 
 
-    <div class="container mx-auto text-center centerdiv ">
-      <h2 class="text-3xl pt-10  text-center  mb-4 p-1">The Game</h2>
-        <div class='centerdiv'>
-      <div class='md:w-2/3 w-screen p-1 '>
+    <div class="container mx-auto centerdiv text-justify ">
+      <h2 class="text-2xl pt-10  text-center  mb-4 p-1">The Game</h2>
+        <div class='centerdiv text-justify'>
+      <div class='md:w-2/3 w-screen p-[1.25rem]'>
         <p>
             This is a mobile-friendly site-specific game with five environments.
 
@@ -71,23 +71,25 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
 </div>
 
 
- <div class=" mobile-text md:w-2/4 w-screen  bg-[#ffffff5b] p-0 font-semibold  text-left border border-solid rounded-lg centerdiv">
+<!-- <div class="p-[1.25rem]"> -->
+ <div class=" mobile-text md:w-2/4 w-screen  bg-[#ffffff5b] p-0 font-semibold  border border-solid rounded-lg centerdiv text-justify">
         <!-- <p class=" p-5 pb-0 ">This is a mobile-friendly site-specific game with five environments.</p> -->
         <!-- <br/> -->
-        <ol class="list-decimal p-10 centerdiv">
+        
+        <ol class="list-decimal p-10 centerdiv text-justify">
             <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
             <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
             <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
         </ol>
     </div>
-
+  <!-- </div> -->
         <!-- <ol class="list-decimal pl-5">
             <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
             <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
             <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
         </ol> -->
 
-        <div class="image-container z-[2]  md:w-1/4 w-3/4 centerdiv">
+        <div class="image-container z-[2]  md:w-1/4 w-3/4 centerdiv text-justify">
                   
                   <!-- <img
                           class=" w-4/4 p-3"
@@ -98,7 +100,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
                       /> -->
 
               </div> 
-              <p>&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
+              <p class="p-[1.25rem]">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
     </div>
     </div>
   </div>
@@ -233,7 +235,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
               margin: 10px; /* Margin between images */
           }
   
-  .centerdiv{
+  .centerdiv text-justify{
         display: flex;
     flex-direction: column;
     align-items: center;

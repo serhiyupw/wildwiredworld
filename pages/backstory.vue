@@ -25,7 +25,7 @@
 
                 <section class="relative z-[1] flex h-screen  justify-start teams-section flex-wrap content-center py-10 text-white overflow-scroll">
     
-    <div class="  pb-52 absolute text-justify  justify-center">
+    <div class="   absolute text-justify  justify-center">
                   <div class="container mx-auto  w-3/4  ">
                     <h2 class="text-3xl font-semibold text-center mb-4">Backstory</h2>
                   <div>
@@ -41,10 +41,11 @@
               <Richtext :blocks="post.body" v-if="post.body">d</Richtext>
     </div> -->
 
-    <div class="  flex flex-col items-center  justify-center">
-    <div class='md:w-2/3 w-screen p-[4vw] ' >
+    <div class=" pb-10 flex flex-col items-center  justify-center">
+   
+    <div class='md:w-2/3 w-screen  ' >
       
-      
+      <div class="p-[1.25rem]">
       <div class=' flex justify-center pb-3'>
             <img
                       class="  w-4/4 md:w-2/4  p-0 "
@@ -63,22 +64,25 @@ The results of the workshops have since been re-interpreted by the artists into 
 
             </Richtext>
 
-            <h2 class=" pt-20 pl-0 font-semibold mb-4">Game environment-building workshop with Melissa Schwarz</h2>
+      </div>
 
     </div>
 
+
     <div class='md:w-2/3 w-screen ' >
     
+      <div class="p-[1.25rem]">
+      <h2 class=" pt-20 pl-0 font-semibold mb-4">Game environment-building workshop with Melissa Schwarz</h2>
 
         <Richtext class=''>
             Participants were invited to take photographs of their favourite places in Langthorne Park. Together with artist Melissa Schwarz, they discussed why they liked them, what the park meant to them and how they envisioned the park to look in the future - hundreds of years from now. They then uploaded their images to Midjourney, a generative artificial intelligence program. Here, with Melissa’s help, participants crafted text-based prompts to enhance the images and add various future-like elements to them. Melissa used these images to develop the gaming environment and landscapes of Long Thorn Valley.
             </Richtext>
-
+</div>
 
 <br/>
 <br/>
 
-
+<div class="p-[1.25rem]">
     <Richtext class=''>
         See some examples of the photographs participants took and the resulting AI-enhanced images:
     </Richtext>
@@ -162,15 +166,20 @@ The results of the workshops have since been re-interpreted by the artists into 
                       alt="loading img"
                     />
       </div>
+</div>
 
-    <h2 class=" pt-20 pl-0 font-semibold mb-4">Game character-building workshop with Chun Sun</h2>
 
 
-    <Richtext class=''>
+    <div class="p-[1.25rem]">
+      <h2 class=" pt-20 pl-0 font-semibold mb-4">Game character-building workshop with Chun Sun</h2>
+
+      <Richtext class=''>
         As part of creating the characters that would inhabit Long Thorn Valley, participants randomly picked an organ or organism from a box to collage. They used dried flowers and leaves, local vegetation from the park and digitally printed flora and fauna to create their futuristic organs and organisms. Following this, they were invited to name their creation and assign a superpower to them. The result of which can be seen below on the left, and AI-enhanced images on the right:  
     </Richtext>
+    </div>
+    
 
-
+    <div class="p-[1.25rem]">
     <div class='mobileimgpart md:flex-row flex-col flex justify-center pt-10 pb-5'>
             <img
                       class="  w-4/4 md:w-2/4  p-0 pr-5 "
@@ -253,7 +262,10 @@ The results of the workshops have since been re-interpreted by the artists into 
                       alt="loading img"
                     />
       </div>
+</div>
 
+
+<div class="p-[1.25rem]">
     <h2 class=" pt-20 pl-0 font-semibold mb-4">Game narrative-building workshop with Kristina Pulejkova</h2>
 
 
@@ -279,7 +291,8 @@ The results of the workshops have since been re-interpreted by the artists into 
                       height="100%"
                       alt="loading img"
                     />
-      </div>     <div class='mobileimgpart md:flex-row flex-col flex justify-center pt-10 pb-5'>
+      </div>     
+      <div class='mobileimgpart md:flex-row flex-col flex justify-center pt-10 pb-5'>
             <img
                       class="  w-4/4 md:w-2/4  p-0 pr-5 "
                       src="https://i.ibb.co/z6RSsSr/Wiled-Wired-Backstory-22.png"
@@ -296,27 +309,30 @@ The results of the workshops have since been re-interpreted by the artists into 
                     />
       </div> 
   <!-- <h2 class=" p-40 pl-0 font-semibold mb-4">Game environment-building workshop with Melissa Schwarz</h2> -->
+</div>
+
 
 </div>
 
 
 
-    <div class="container mx-auto  md:w-1/4 w-3/4  ">
+    <!-- <div class="container mx-auto  md:w-1/4 w-3/4 p-[1.25rem] "> -->
 
-        <div class="image-container z-[2]">
+        <div class="image-container z-[2] ">
                   
-                  <img
+                  <!-- <img
                           class=" w-4/4 p-3"
                           src="logos.png"
                           width="100%"
                           height="100%"
                           alt="loading img"
-                      />
+                      /> -->
 
               </div>
-              <p>&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
+              <p class="p-[1.25rem] ">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
 
-    </div>
+    <!-- </div> -->
+  
   </div>
 </div>
 

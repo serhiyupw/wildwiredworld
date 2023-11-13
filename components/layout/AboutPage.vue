@@ -30,7 +30,7 @@
       <!-- big logo -->
           <!-- Add an SVG icon here -->
           <div class="navele h-[35vh] flex justify-between ">
-            <NuxtLink class="buttonlogo w-[30vw]  h-auto" :to="isBlueBoxActive ? $route.path : '/'">
+            <NuxtLink class="buttonlogo w-[30vw]  h-auto" to="/home">
               <img
                   src="ww.png"
                   alt="Your Logo"
@@ -120,6 +120,8 @@
           </div> 
           <p class="text-[0.55rem] text-[#38664d]">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
                   </div>
+
+
           </div>
 
          
@@ -144,8 +146,8 @@
    
   
           <!-- Add an SVG icon here -->
-          <div class="flex justify-between pointer-events-auto mobilemenu h-[10vh]">
-            <NuxtLink class="w-[11vw] mobilemenupad h-auto" to="/indextemp">
+          <div class="flex justify-between pointer-events-auto mobilemenu h-[5vh]">
+            <NuxtLink class="w-[11vw] mobilemenupad h-auto" to="/home">
               <img
         src="ww.png"
         alt="Your Logo"
@@ -174,6 +176,51 @@
             <NuxtLink class=" border-b-2 p-4" to="/backstory" >Backstory</NuxtLink> 
             <NuxtLink class=" border-b-2 p-4" to="/team" >Collaborators</NuxtLink> 
           </li>
+          <div class="flex justify-center flex-col w-auto">
+          <div class="image-container h-[2vh] min-h-[2vh] z-[2]">
+                      
+                      <img
+                              class=" w-[2vw] "
+                              src="logo1.png"
+                              width="100%"
+                              height="100%"
+                              alt="Your Image Alt Text"
+                          />
+                          <img
+                              class=" w-1/4 "
+                              src="logo2.png"
+                              width="100%"
+                              height="100%"
+                              alt="Your Image Alt Text"
+                          />
+                          <img
+                              class=" w-1/4 "
+                              src="logo3.png"
+                              width="100%"
+                              height="100%"
+                              alt="Your Image Alt Text"
+                          />
+                          <img
+                              class=" w-1/4 "
+                              src="logo4.jpg"
+                              width="100%"
+                              height="100%"
+                              alt="Your Image Alt Text"
+                          />
+                              <img
+                              class=" w-1/4 "
+                              src="logo5.jpg"
+                              width="100%"
+                              height="100%"
+                              alt="Your Image Alt Text"
+                          />
+
+          </div> 
+
+          <div class=" flex justify-center">
+            <p class="text-[0.55rem] text-center pt-5 w-2/3  text-[#38664d]">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
+          </div>
+                  </div>
         </ul>
       </div>
 
@@ -426,6 +473,10 @@ default:
   }
   
   @media (max-width: 760px) {
+    .image-container {
+      height: 2vh !important;
+      min-height: 2vh !important;
+            }
     .mobilemenuere{
       display: none;
     }

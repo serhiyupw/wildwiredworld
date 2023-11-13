@@ -46,9 +46,9 @@
 
 
   <!-- Teams/Collaborators Section -->
-  <section class=" pt-24 relative z-[100]   overflow-scroll h-screen text-white">
+  <section class=" pt-24 pb-10 relative z-[100]   overflow-scroll h-screen text-white">
                 <!-- <section class="pt-[40rem]  overflow-scroll  relative z-[1000000] flex h-screen justify-start teams-section flex-wrap content-center py-10 text-white"> -->
-    <div class="container mx-auto p-10 pt-0  text-justify">
+    <div class="container mx-auto p-[1.25rem] pt-0 pb-0 text-justify">
       <h2 class="text-3xl font-semibold mb-4 text-center">Collaborators</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <!-- Collaborator 1 -->
@@ -229,22 +229,22 @@
 
           <!-- <footer> -->
           <!-- Footer content -->
-          <div class="col-span-1 container mx-auto text-center w-3/4  ">
+          <!-- <div class="col-span-1 container mx-auto text-justify w-3/4  "> -->
 
 <div class="image-container z-[2]">
           
-          <img
+          <!-- <img
                   class=" w-4/4 p-3"
                   src="logos.png"
                   width="100%"
                   height="100%"
                   alt="Your Image Alt Text"
-              />
+              /> -->
 
       </div>
-      <p>&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
+      <p class="text-justify">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
 
-</div>
+<!-- </div> -->
 <!-- </footer> -->
 
 

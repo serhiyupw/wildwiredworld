@@ -33,7 +33,7 @@
                 <section class="relative z-[1] flex h-screen  justify-start teams-section flex-wrap content-center  text-white overflow-scroll">
     
     <div class="  p-10 ">
-                  <div class="container mx-auto  centerdiv  ">
+                  <div class="container mx-auto text-justify  centerdiv  ">
       <h2 class="text-xl font-semibold mb-4">About</h2>
     <div class=' text-base  p-1 '>
         <p>
@@ -59,7 +59,7 @@ Please help us secure funding from Arts Council England by completing an evaluat
 
 
 
-    <div class="container mx-auto   ">
+    <div class="container mx-auto text-justify  ">
       <h2 class="text-base pt-10 mb-4 p-1">The Game</h2>
         <div class='centerdiv'>
       <div class=' text-base p-1 '>
@@ -77,7 +77,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
 </div>
 
 
- <div class=" mobile-text    bg-[#ffffff5b] p-0 font-semibold  text-left border border-solid rounded-lg centerdiv">
+ <div class=" mobile-text    bg-[#ffffff5b] p-0 font-semibold  text-justify border border-solid rounded-lg centerdiv">
         <!-- <p class=" p-5 pb-0 ">This is a mobile-friendly site-specific game with five environments.</p> -->
         <!-- <br/> -->
         <ol class=" text-base list-decimal p-10 centerdiv">
