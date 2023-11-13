@@ -146,7 +146,7 @@
    
   
           <!-- Add an SVG icon here -->
-          <div class="flex justify-between pointer-events-auto mobilemenu h-[5vh]">
+          <div class="flex justify-between pointer-events-auto mobilemenu h-[7vh]">
             <NuxtLink class="w-[11vw] mobilemenupad h-auto" to="/home">
               <img
         src="ww.png"

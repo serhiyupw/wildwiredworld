@@ -26,7 +26,7 @@
 
                 <section class="relative z-[1] flex h-screen text-justify  justify-start teams-section flex-wrap content-center  text-white overflow-scroll">
     
-    <div class=" text-justify  p-10 pb-10 pt-28 ">
+    <div class=" text-justify pb-10 pt-28 ">
                   <div class="container mx-auto centerdiv text-justify  ">
       <h2 class="text-3xl font-semibold text-center mb-4">About</h2>
     <div class='md:w-2/3 w-screen p-[1.25rem]'>

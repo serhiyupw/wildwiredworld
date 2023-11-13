@@ -587,7 +587,7 @@ padding-bottom:2vh;
   }
 
   .mbheight{
-    height: 27vh;
+    height: 35vh;
   }
    .mobile-flex{
     display: block;
