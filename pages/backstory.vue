@@ -23,7 +23,7 @@
         
   
 
-                <section class="relative z-[1] flex h-screen  justify-start teams-section flex-wrap content-center py-10 text-white overflow-scroll pt-[5rem]">
+                <section class="relative z-[1] flex h-screen  justify-start teams-section flex-wrap content-center py-10 text-white overflow-scroll pt-[7rem]">
     
     <div class="   absolute text-justify  justify-center">
                   <div class="container mx-auto  w-3/4  ">
