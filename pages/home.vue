@@ -614,7 +614,7 @@ width: 90vw;
 
 .content-container {
     /* padding-top: 26vh; */
-    padding-top: 5vh;
+    padding-top: 10vh;
     transition: transform .5s linear;
 }
 
