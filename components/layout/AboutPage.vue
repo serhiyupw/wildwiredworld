@@ -151,7 +151,7 @@
               <img
         src="ww.png"
         alt="Your Logo"
-        class="logo w-[19vw]"
+        class="logo w-[21vw]"
       >
             </NuxtLink>
   
