@@ -129,10 +129,16 @@
 <div class="mbheight relative flex flex-col justify-center content-center text-center overflow-scroll">
   
   <!-- <div class="square-grid opacity-20 "></div> -->
+      <!-- enter the game flex-col-->
+  <div class="p-[1rem] text-center ">
+        <p class="leading-2 text-base  pb-5 ">
+            Enter the game
+        </p>
+      </div> 
 
-  <div class="   justify-center content-center flex">
+  <div class="   justify-center content-center flex ">
 
-   
+    
 
     <svg class="  svgin h-fit md:w-[35vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
           
