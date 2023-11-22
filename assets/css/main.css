@@ -96,6 +96,10 @@ a:visited {
       max-width: 140vw !important;
     }
 
+    .minheightmb{
+      min-height: 15vh !important;
+    }
+
     .image-container {
     height: 6vh !important;
 }

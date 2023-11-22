@@ -139,13 +139,14 @@
   
       <!-- mobile -->
       <div
-        class="content-container mobile lg:hidden sm:contents overflow-hidden h-[12vh] md:contents  "
+        class="content-container minheightmb mobile lg:hidden sm:contents overflow-hidden h-[12vh] md:contents  "
         :style="contentContainerStyle"
       >
-        <nav class="navelemb mobile flex-row w-1/16 h-[12vh] overflow-hidden ">
+        <nav class="navelemb minheightmb mobile flex-row w-1/16 h-[12vh] overflow-hidden ">
           
-          <div class=" svgheadmb  fixed overflow-hidden h-[12vh] pointer-events-none z-[0] ">
-                <img
+          <div class="minheightmb svgheadmb  fixed overflow-hidden h-[12vh] pointer-events-none z-[0] ">
+               <!-- svg -->
+            <img
                               class=" mbsvg  "
                               src="hometop.png"
                               width="100%"
@@ -155,19 +156,19 @@
             </div>
   
           <!-- Add an SVG icon here -->
-          <div class="flex justify-between pointer-events-auto mobilemenu overflow-hidden z-[10] h-[12vh]">
-      
+          <div class="minheightmb flex justify-between pointer-events-auto mobilemenu overflow-hidden z-[10] h-[12vh]">
+      <!-- logo -->
             <div class="flex w-[75vw] flex-col z-[10]">
               <NuxtLink class="logowidth  mobilemenupad h-auto" to="/home">
               <img
                   src="ww.png"
                   alt="Your Logo"
-                  class=""
+                  class=" w-[50vw]"
                 >
             </NuxtLink>
   
             <div class=" textlook z-[100] text-[white]  text-left ">
-  <p class="textlook  text-xl text-[#38664d]">Rewilding Encounters of     <span class="textlook  text-[white]">Langthorne Park</span> </p>
+  <p class="textlook  text-[4vw] text-[#38664d]">Rewilding Encounters of     <span class="textlook  text-[white]">Langthorne Park</span> </p>
     <!-- <h1 class="textlook  text-xs  w-[10vw]  ">Long Thorn Valley</h1> -->
 </div>
             </div>
