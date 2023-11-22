@@ -49,7 +49,7 @@
             </div>
 
             <div class="flex justify-center h-[35vh]  w-[17vw] flex-col textlook z-[100] text-[white]  text-left">
-  <p class="textlook  text-2xl text-[#38664d]">Rewilding Encounters of     <span class="textlook  text-2xl text-[white]">Langthorne Park.</span> </p>
+  <p class="textlook  text-2xl text-[#38664d]">Rewilding Encounters of     <span class="textlook  text-2xl text-[white]">Langthorne Park</span> </p>
 
     <!-- <h1 class="textlook  text-xs  w-[10vw]  ">Long Thorn Valley</h1> -->
 </div>
@@ -118,7 +118,7 @@
                           />
 
           </div> 
-          <p class="text-[0.55rem] text-[#38664d]">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
+          <p class="text-[0.55rem] text-[#ffffff]">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
                   </div>
 
 
@@ -143,20 +143,35 @@
         :style="contentContainerStyle"
       >
         <nav class="navelemb mobile flex-row w-1/16 ">
-   
+    <div class=" svgheadmb  fixed overflow-hidden pointer-events-none z-[0] ">
+          <img
+                        class="   "
+                        src="hometop.png"
+                        width="100%"
+                        height="100%"
+                        alt="Your Image Alt Text"
+                    />
+      </div>
   
           <!-- Add an SVG icon here -->
-          <div class="flex justify-between pointer-events-auto mobilemenu h-[12vh]">
-            <NuxtLink class="w-[11vw] mobilemenupad h-auto" to="/home">
+          <div class="flex justify-between pointer-events-auto mobilemenu z-[10] h-[12vh]">
+      
+            <div class="flex w-[75vw] flex-col z-[10]">
+              <NuxtLink class="logowidth  mobilemenupad h-auto" to="/home">
               <img
-        src="ww.png"
-        alt="Your Logo"
-        class="logo w-[21vw]"
-      >
+                  src="ww.png"
+                  alt="Your Logo"
+                  class=""
+                >
             </NuxtLink>
   
+            <div class=" textlook z-[100] text-[white]  text-left ">
+  <p class="textlook  text-xl text-[#38664d]">Rewilding Encounters of     <span class="textlook  text-[white]">Langthorne Park</span> </p>
+    <!-- <h1 class="textlook  text-xs  w-[10vw]  ">Long Thorn Valley</h1> -->
+</div>
+            </div>
             
-            <button class="pl-2 uppercase pointer-events-auto flex items-end mobilemenupad" @click="toggleBlueBox('about' && 'backstory' && 'collaborators')">
+            <button class="w-[25vw] pl-2 uppercase pointer-events-auto flex items-end mobilemenupad z-[10]" @click="toggleBlueBox('about' && 'backstory' && 'collaborators')">
   <span class="fill-[white] text-[white]" v-if="!showXIcon">Menu</span>
   <!-- <i v-if="!showXIcon" class="fas fa-bars"></i> -->
   <span class="text-3xl text-[white]" v-else>&times;</span>
@@ -218,14 +233,16 @@
           </div> 
 
           <div class=" flex justify-center">
-            <p class="text-[0.55rem] text-center pt-5 w-2/3  text-[#38664d]">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
+            <p class="foottextmb text-center pt-5 w-2/3  text-[#38664d]">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
           </div>
                   </div>
         </ul>
       </div>
 
       <div v-if="isBlueBoxActive" @click="toggleBlueBox" class="mobilemenuere">
-        <p class="absolute z-[10000000] p-10 text-[white] w-[7vw]" @click="toggleBlueBox">
+       
+
+        <p class="absolute z-[10000000] p-10 text-[#273c30] w-[7vw]" @click="toggleBlueBox">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -236,7 +253,7 @@
             height="100%"
             viewBox="0 0 357 357"
             xml:space="preserve"
-            class="close-button__svg fill-white"
+            class="close-button__svg fill-[#273c30]"
             style="overflow: visible;"
           >
             <defs></defs>
@@ -253,20 +270,7 @@
     </div>
   </div>
 
-      <!-- <div class="blue-box z-[100002] " :class="{ active: isBackBoxActive } ">
-        <div
-          v-if="isBackBoxActive"
-          @click="toggleBackstory"
-    class="mobilemenuere"
-          >
-          <p class=" absolute z-[10000000] p-10 text-[white] w-[7vw]" @click="toggleBlueBox">
-            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%"  viewBox="0 0 357 357" xml:space="preserve" class="close-button__svg fill-white" style="overflow: visible;"><defs></defs><g><g id="close_1_"><polygon points="357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 
-                214.2,178.5 		"></polygon></g></g></svg>
-          </p>
-          <div class=""> hi <About /></div>
-         
-          </div>
-      </div> -->
+   
       
    
     </header>
@@ -406,29 +410,16 @@ default:
   
   .logo {
       position: absolute;
-      /* position: relative; */
       z-index: 10;
-      top: 10px; /* Adjust the top position as needed */
-      left: 10px; /* Adjust the left position as needed */
-      /* max-width: 100px; */
-       /* Adjust the maximum width as needed */
+      top: 10px;
+      left: 10px;
       height: auto;
     }
   
     .logoo {
-      /* position: relative;
-      z-index: 5;
-      top: 10px;
-      left: 10px; 
-      height: auto; */
-
-          /* position: absolute; */
-    /* position: relative; */
     z-index: 5;
     top: 0px;
-    left: 45vw;
-    /* max-width: 100px; */
-    /* height: auto; */
+    left: 32vw;
     overflow: hidden;
     }
         footer {

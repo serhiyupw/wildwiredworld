@@ -228,6 +228,10 @@ The results of the workshops have since been re-interpreted by the artists into 
                     height="100%"
                     alt="loading img"
                   />
+              
+    </div>
+    <div class='mobileimgpart md:flex-row flex-col flex justify-center pt-10 pb-5'>
+        
                   <img
                     class="  w-4/4 md:w-2/4  p-0 "
                     src="https://i.ibb.co/s6wNcDd/Wiled-Wired-Backstory-19.png"

@@ -6,13 +6,17 @@
     <main class="h-screen mobilelayout  flex content-container  w-screen text-[#ffffff] bg-[#dc97b4] overflow-hidden  " :style="contentContainerStyle">
     
       <div class="instrcuct w-[50vw] bg-[#38664d] text-[#ffffff] overflow-scroll  ">
-      <div class="p-[1rem] text-justify ">
+       
+        <div class="p-[1rem] text-justify ">
+          <h2 class="text-xl flex items-center  flex-col leading-2  font-semibold ">
+          Instructions
+        </h2>
         <p class="leading-2 text-sm  pt-5 ">
             A place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
             <strong class="font-bold">Long Thorn Valley</strong> are suffering from memory loss caused by a terrible disaster known as 
             <strong class="font-bold">the Big Change</strong>.
         </p>
-        <ol class="list-decimal text-sm p-10 pb-10 pt-10 custom-ol">
+        <ol class="list-decimal text-sm pb-10 pt-10 custom-ol">
     <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
     <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
     <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
@@ -21,7 +25,7 @@
       </div> 
       </div>
 
-      <div class="w-[50vw] orb p-10 bg-[#dc97b4] text-[#ffffff] overflow-scroll">
+      <div class="w-[50vw] justify-center orb p-10 bg-[#dc97b4] text-[#ffffff] overflow-scroll">
         <!-- <div class="p-[1rem] text-center ">
         <h2 class="text-xl flex items-center flex-col leading-2  font-semibold ">
           Meet the Organs, creatures and parasites of Longthorn Valley
@@ -53,7 +57,7 @@
         src="heart1.png"
         alt="Image 1"
         />
-        <p class=" border-[1px] border-white rounded-full capitalize flex justify-center">Arboricor heart</p>
+        <p class="  capitalize flex justify-center">Arboricor heart</p>
       </div>
       
       <div v-if="currentImageIndex === 1">
@@ -62,7 +66,7 @@
         src="kidney.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Renalith kidney</p>
+        <p class=" capitalize  flex justify-center">Renalith kidney</p>
       </div>
 
       <div v-if="currentImageIndex === 2">
@@ -71,7 +75,7 @@
         src="liver2.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Chlora liver</p>
+        <p class=" capitalize  flex justify-center">Chlora liver</p>
       </div>
       
       
@@ -82,7 +86,7 @@
         src="lung3.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Aerophyta lung</p>
+        <p class=" capitalize  flex justify-center">Aerophyta lung</p>
       </div>
 
       <div v-if="currentImageIndex === 4">
@@ -91,7 +95,7 @@
         src="Max.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Max</p>
+        <p class=" capitalize  flex justify-center">Max</p>
       </div>
      
       
@@ -101,7 +105,7 @@
         src="Parasite.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Two Headed Flower</p>
+        <p class=" capitalize  flex justify-center">Two Headed Flower</p>
       </div>
 
       <div v-if="currentImageIndex === 6">
@@ -110,7 +114,7 @@
         src="spleen2.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Syvan spleen</p>
+        <p class=" capitalize  flex justify-center">Syvan spleen</p>
       </div>
       
       <div v-if="currentImageIndex === 7">
@@ -119,7 +123,7 @@
         src="twins2.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Nalu</p>
+        <p class=" capitalize  flex justify-center">Nalu</p>
       </div>
      
       <div v-if="currentImageIndex === 8">
@@ -128,7 +132,7 @@
         src="violetta.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">violetta</p>
+        <p class=" capitalize  flex justify-center">violetta</p>
       </div>
      
       <button class="gallery-arrow" @click="nextImage">&#8250;</button>
@@ -762,7 +766,7 @@ padding: 1rem;
 .custom-ol {
     list-style-type: none; 
     /* Remove the default numbers */
-    padding-left: 0;
+    /* padding-left: 0; */
     counter-reset: custom-counter; 
 }
 

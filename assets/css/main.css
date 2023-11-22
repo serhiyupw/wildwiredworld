@@ -62,6 +62,7 @@ a {
     /* fill: inherit; */
     text-decoration: inherit;
     transition: opacity 1s ease;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -77,3 +78,38 @@ a:visited {
     opacity: 0.6 !important;
     text-decoration: inherit;
 }
+
+
+
+
+    
+    @media (max-width: 760px) {
+      .logowidth {
+        width: 40vw;
+    }
+    .svgheadmb{
+      scale: 2;
+    }
+
+    .image-container {
+    height: 6vh !important;
+}
+
+.image-container img {
+    height: 9vw !important;
+}
+
+.foottextmb{
+  font-size: .7rem;
+}
+    /* header {
+    position: fixed;
+    width: 100vw;
+    height: 12vh;
+    overflow: hidden;
+    background-color: #94c298;
+} */
+.instrcuct {
+    padding-top: 7vh;
+}
+    }

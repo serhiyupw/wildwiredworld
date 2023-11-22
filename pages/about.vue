@@ -24,24 +24,25 @@
         
   
 
-                <section class="relative z-[1] flex h-screen text-justify  justify-start teams-section flex-wrap content-center  text-white overflow-scroll">
+                <section class="relative z-[1] flex h-screen text-justify  justify-start teams-section flex-wrap content-center  text-[#273c30] overflow-scroll">
     
-    <div class=" text-justify pb-10 pt-28 ">
+    <div class=" text-justify pb-10 pt-[10rem] ">
                   <div class="container mx-auto centerdiv text-justify  ">
       <h2 class="text-3xl font-semibold text-center mb-4">About</h2>
     <div class='md:w-2/3 w-screen p-[1.25rem]'>
-        <p>
-            Inspired by William Morris’s proto-ecotopian fiction News from Nowhere, HERVISIONS digital art studio presents an exciting speculative public artwork and mobile-friendly game in response to the Radical Landscapes exhibition at the William Morris Gallery, exploring the natural environment and landscapes of Langthorne Park, Leytonstone. Produced in collaboration with Leytonstone Toy Library, ​​the Youth Club at Worth Unlimited and local communities.
+      <p>
+            Inspired by William Morris’s proto-ecotopian fiction News from Nowhere, HERVISIONS digital art studio presents an exciting speculative public artwork and mobile-friendly game in response to the <a href="https://wmgallery.org.uk/event/radical-landscapes/" target="_blank">Radical Landscapes</a> exhibition at the William Morris Gallery, exploring the natural environment and landscapes of Langthorne Park, Leytonstone. Produced in collaboration with Leytonstone Toy Library, ​​the Youth Club at Worth Unlimited and local communities.
 
 This project aims to explore digital rewilding – connecting the hyperlocal ecology of Langthorne Park to the wider global Climate Emergency and exploring how boundaries between humans, nature and technology are dissolving. The work draws on themes of identity, social mobility, collective storytelling, and our relationship to place.
 
 In a series of workshops, local residents and young people worked with digital artists to imagine the future of Langthorne Park, set in a parallel universe. The results of the workshops are re-interpreted into an interactive site-specific mobile-friendly game.
 
 
-<br/><br/>
-Visit this page on the William Morris Gallery website for further information.
 
-Please help us secure funding from Arts Council England by completing an evaluation survey here. The data collected through this survey will be used to better understand our audiences. The data collected is non-identifiable - it cannot be traced back to individuals. 
+<br/><br/>
+Visit <a href="https://wmgallery.org.uk/event/wild-wired-rewilding-encounters-of-langthorne-park-showcase-event/" target="_blank">this page</a> on the  William Morris Gallery website for further information.
+
+Please help us secure funding from Arts Council England by completing an evaluation survey <a href="https://www.illuminate-data.org.uk/survey/rztbqp" target="_blank">here</a>. The data collected through this survey will be used to better understand our audiences. The data collected is non-identifiable - it cannot be traced back to individuals. 
         </p>
     </div>
     </div>
@@ -72,16 +73,14 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
 
 
 <!-- <div class="p-[1.25rem]"> -->
- <div class=" mobile-text md:w-2/4 w-screen  bg-[#ffffff5b] p-0 font-semibold  border border-solid rounded-lg centerdiv text-justify">
-        <!-- <p class=" p-5 pb-0 ">This is a mobile-friendly site-specific game with five environments.</p> -->
-        <!-- <br/> -->
+ <!-- <div class=" mobile-text md:w-2/4 w-screen  bg-[#dc97b4] p-0 font-semibold  border border-solid rounded-lg centerdiv text-justify">
         
         <ol class="list-decimal p-10 centerdiv text-justify">
             <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
             <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
             <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
         </ol>
-    </div>
+    </div> -->
   <!-- </div> -->
         <!-- <ol class="list-decimal pl-5">
             <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
