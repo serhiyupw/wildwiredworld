@@ -139,22 +139,23 @@
   
       <!-- mobile -->
       <div
-        class="content-container mobile lg:hidden sm:contents md:contents  "
+        class="content-container mobile lg:hidden sm:contents overflow-hidden h-[12vh] md:contents  "
         :style="contentContainerStyle"
       >
-        <nav class="navelemb mobile flex-row w-1/16 ">
-    <div class=" svgheadmb  fixed overflow-hidden pointer-events-none z-[0] ">
-          <img
-                        class="   "
-                        src="hometop.png"
-                        width="100%"
-                        height="100%"
-                        alt="Your Image Alt Text"
-                    />
-      </div>
+        <nav class="navelemb mobile flex-row w-1/16 h-[12vh] overflow-hidden ">
+          
+          <div class=" svgheadmb  fixed overflow-hidden h-[12vh] pointer-events-none z-[0] ">
+                <img
+                              class=" mbsvg  "
+                              src="hometop.png"
+                              width="100%"
+                              height="100%"
+                              alt="Your Image Alt Text"
+                          />
+            </div>
   
           <!-- Add an SVG icon here -->
-          <div class="flex justify-between pointer-events-auto mobilemenu z-[10] h-[12vh]">
+          <div class="flex justify-between pointer-events-auto mobilemenu overflow-hidden z-[10] h-[12vh]">
       
             <div class="flex w-[75vw] flex-col z-[10]">
               <NuxtLink class="logowidth  mobilemenupad h-auto" to="/home">
@@ -177,6 +178,8 @@
   <span class="text-3xl text-[white]" v-else>&times;</span>
 </button>
           </div>
+
+
       </nav>
       </div>
   

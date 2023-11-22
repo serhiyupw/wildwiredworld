@@ -88,7 +88,12 @@ a:visited {
         width: 40vw;
     }
     .svgheadmb{
-      scale: 2;
+      /* scale: 2; */
+    }
+
+    .mbsvg{
+      width: 140vw !important;
+      max-width: 140vw !important;
     }
 
     .image-container {
