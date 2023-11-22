@@ -469,8 +469,8 @@ default:
   
   @media (max-width: 760px) {
     .image-container {
-      height: 2vh !important;
-      min-height: 2vh !important;
+      /* height: 2vh !important;
+      min-height: 2vh !important; */
             }
     .mobilemenuere{
       display: none;

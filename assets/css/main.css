@@ -97,12 +97,18 @@ a:visited {
     }
 
     .minheightmb{
-      min-height: 15vh !important;
+      min-height: 23vh !important;
     }
 
     .image-container {
-    height: 6vh !important;
+    height: auto !important;
+    min-height: 2vh !important; 
 }
+
+.image-container {
+      /* height: 2vh !important;
+      min-height: 2vh !important; */
+            }
 
 .image-container img {
     height: 9vw !important;
