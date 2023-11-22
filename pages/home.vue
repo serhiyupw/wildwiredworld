@@ -28,8 +28,8 @@
           <p class="text-xs w-2/6 font-normal pt-[.2vh] border-2 border-zinc-50 bg-[#38664d]" >Find out more about the world building?</p>
         </h2>
         </div>  -->
-        <div class="p-[1rem] text-center ">
-        <h2 class="text-xl flex items-center flex-col leading-2  font-semibold ">
+        <div class="p-[1rem] text-justify ">
+        <h2 class="text-xl flex items-center  flex-col leading-2  font-semibold ">
           Meet the Organs, creatures and parasites of Longthorn Valley
         </h2>
         <!-- <p class="pt-[.3rem] underline ">Find out more about the world building?</p> -->
@@ -148,11 +148,11 @@
   
   <!-- <div class="square-grid opacity-20 "></div> -->
       <!-- enter the game flex-col-->
-  <div class="p-[1rem] text-center pb-5 mb-4">
-        <h2 class="text-xl leading-2  font-semibold ">
+  <div class="p-[1rem] text-justify pb-5 mb-4">
+        <h2 class="text-xl pl-[1rem]  font-semibold ">
             Enter the game
         </h2>
-        <p class="p-[1rem] pt-[.2rem] text-xs text-center ">To enter the game click on the different environments  and find the passwords on banners around the park and be transported to the Parallel world of Langthorne Park.
+        <p class="p-[1rem] pt-[.2rem] text-xs text-justify ">To enter the game click on the different environments  and find the passwords on banners around the park and be transported to the Parallel world of Langthorne Park.
         </p>
   </div> 
 
@@ -606,6 +606,10 @@ padding-bottom:2vh;
 
 
 @media (max-width: 760px) {
+
+.gallery-image {
+    width: 65vw;
+}
 
   .content-container{
     position: fixed;
