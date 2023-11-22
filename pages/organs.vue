@@ -253,7 +253,7 @@
             </div>
             <div class="logoo  h-[35vh] md:w-[35vw] sm:w-[25vw]">
                   <img
-                      src="violetta.png"
+                      src="Violetta.png"
                       alt="Your Logo"
                       class="logoo"
                       width="100%"

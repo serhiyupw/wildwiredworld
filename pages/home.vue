@@ -37,6 +37,7 @@
           <p class="pt-[.3rem] underline ">Find out more about the world building?</p>
         </NuxtLink> 
         </div> 
+        <!-- <NuxtLink to="/organs"> -->
     <div class="gallery-container">
       
       <button class="gallery-arrow" @click="prevImage">&#8249;</button>
@@ -132,6 +133,7 @@
      
       <button class="gallery-arrow" @click="nextImage">&#8250;</button>
     </div>
+      <!-- </NuxtLink> -->
   </div>
 
   <!-- bg-[#52a875] -->
