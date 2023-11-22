@@ -174,8 +174,8 @@
               class="w-full h-auto rounded-lg"
             /> -->
             <a href="https://www.instagram.com/hervisions_/"><h3 class="text-xl font-semibold mt-2">Zaiba Jabbar</h3></a>
-            <p class="text-gray-300">(founder of HERVISIONS, Creative director, Curator and Creative Producer)</p>
-            <p> is an award-winning director, moving image artist, commissioner, independent curator and founder of HERVISIONS. She’s interested in the democratisation and accessibility by how we experience art outside the white cube. Her curatorial project HERVISIONS is an investigation into how people in the margins are using technology to create art outside of traditional formats, making space for themselves through the experience of expanded moving image. She is a leader in augmented reality and digital art exhibitions online and offline working with partners and institutes that include Tate Modern, LUX, i-D, Google Arts and Culture, IAMSOUND, The London College of Fashion, Loom Festival, Spectacles, arebyte, Furtherfield and The Photographers Gallery. Zaiba was curator in residence at LUX in (2018) and a board member of Abandon Normal Devices.</p>
+            <p class="text-gray-300">(Founder of HERVISIONS, Creative director, Curator and Creative Producer)</p>
+            <p> is an award-winning director, moving image artist, commissioner, independent curator and Founder of HERVISIONS. She’s interested in the democratisation and accessibility by how we experience art outside the white cube. Her curatorial project HERVISIONS is an investigation into how people in the margins are using technology to create art outside of traditional formats, making space for themselves through the experience of expanded moving image. She is a leader in augmented reality and digital art exhibitions online and offline working with partners and institutes that include Tate Modern, LUX, i-D, Google Arts and Culture, IAMSOUND, The London College of Fashion, Loom Festival, Spectacles, arebyte, Furtherfield and The Photographers Gallery. Zaiba was curator in residence at LUX in (2018) and a board member of Abandon Normal Devices.</p>
           </div>
         </div>
 
@@ -190,7 +190,7 @@
             /> -->
             <a href="https://tanyaboyarkina.com/"><h3 class="text-xl font-semibold mt-2">Tanya Boyarkina</h3></a>
             <p class="text-gray-300">(Curator and Creative Producer)</p>
-            <p>is a London-based curator and creative/digital producer aiming to demystify complex technological processes through playful, collaborative and participative formats. She has been working with museums, galleries, independent art institutions (including Tate, Furtherfield and Mediale) and diverse artists for over a decade, curating and producing online and real-life events which connect audiences of all ages and abilities with evolving digital cultures. Tanya is a co-founder of Compiler.zone, a platform for digital art, curation, and critical technical practice addressing contemporary socio-political challenges.
+            <p>is a London-based curator and creative/digital producer aiming to demystify complex technological processes through playful, collaborative and participative formats. She has been working with museums, galleries, independent art institutions (including Tate, Furtherfield and Mediale) and diverse artists for over a decade, curating and producing online and real-life events which connect audiences of all ages and abilities with evolving digital cultures. Tanya is a co-Founder of Compiler.zone, a platform for digital art, curation, and critical technical practice addressing contemporary socio-political challenges.
             </p>
           </div>
         </div>

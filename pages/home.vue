@@ -22,7 +22,23 @@
       </div>
 
       <div class="w-[50vw] orb p-10 bg-[#dc97b4] text-[#ffffff] overflow-scroll">
+        <!-- <div class="p-[1rem] text-center ">
+        <h2 class="text-xl flex items-center flex-col leading-2  font-semibold ">
+          Meet the Organs, creatures and parasites of Longthorn Valley
+          <p class="text-xs w-2/6 font-normal pt-[.2vh] border-2 border-zinc-50 bg-[#38664d]" >Find out more about the world building?</p>
+        </h2>
+        </div>  -->
+        <div class="p-[1rem] text-center ">
+        <h2 class="text-xl flex items-center flex-col leading-2  font-semibold ">
+          Meet the Organs, creatures and parasites of Longthorn Valley
+        </h2>
+        <!-- <p class="pt-[.3rem] underline ">Find out more about the world building?</p> -->
+        <NuxtLink class="pt-[.3rem] underline" to="/organs" >
+          <p class="pt-[.3rem] underline ">Find out more about the world building?</p>
+        </NuxtLink> 
+        </div> 
     <div class="gallery-container">
+      
       <button class="gallery-arrow" @click="prevImage">&#8249;</button>
       <!-- <img
         v-if="currentImageIndex === 0"
@@ -36,7 +52,7 @@
         src="heart1.png"
         alt="Image 1"
         />
-        <p class=" border-[1px] border-white rounded-full capitalize flex justify-center">heart</p>
+        <p class=" border-[1px] border-white rounded-full capitalize flex justify-center">Arboricor heart</p>
       </div>
       
       <div v-if="currentImageIndex === 1">
@@ -45,7 +61,7 @@
         src="kidney.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">kidney</p>
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Renalith kidney</p>
       </div>
 
       <div v-if="currentImageIndex === 2">
@@ -54,7 +70,7 @@
         src="liver2.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">liver</p>
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Chlora liver</p>
       </div>
       
       
@@ -65,7 +81,7 @@
         src="lung3.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">lung</p>
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Aerophyta lung</p>
       </div>
 
       <div v-if="currentImageIndex === 4">
@@ -84,7 +100,7 @@
         src="Parasite.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Parasite</p>
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Two Headed Flower</p>
       </div>
 
       <div v-if="currentImageIndex === 6">
@@ -93,7 +109,7 @@
         src="spleen2.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">spleen</p>
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Syvan spleen</p>
       </div>
       
       <div v-if="currentImageIndex === 7">
@@ -102,7 +118,7 @@
         src="twins2.png"
         alt="Image 2"
       />
-        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">twins</p>
+        <p class=" capitalize border-[1px] border-white rounded-full flex justify-center">Nalu</p>
       </div>
      
       <div v-if="currentImageIndex === 8">
@@ -130,13 +146,15 @@
   
   <!-- <div class="square-grid opacity-20 "></div> -->
       <!-- enter the game flex-col-->
-  <div class="p-[1rem] text-center ">
-        <p class="leading-2 text-base  pb-5 ">
+  <div class="p-[1rem] text-center pb-5 mb-4">
+        <h2 class="text-xl leading-2  font-semibold ">
             Enter the game
+        </h2>
+        <p class="p-[1rem] pt-[.2rem] text-xs text-center ">To enter the game click on the different environments  and find the passwords on banners around the park and be transported to the Parallel world of Langthorne Park.
         </p>
-      </div> 
+  </div> 
 
-  <div class="   justify-center content-center flex ">
+  <div class="justify-center content-center flex ">
 
     
 
@@ -481,6 +499,9 @@ export default {
 </script>
 
 <style scoped>
+.gallery-image{
+width: 20vw;
+}
 .gallery-container {
   position: relative;
 }
@@ -771,6 +792,7 @@ padding: 1rem;
   z-index: 10;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .svgarea{

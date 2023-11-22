@@ -40,7 +40,7 @@
   
             <div   class="logoo fixed h-[35vh] md:w-[35vw] sm:w-[25vw]">
               <img
-                  src="Max.png"
+                  src="siphonophore.png"
                   alt="Your Logo"
                   class="logoo"
                   width="100%"
