@@ -982,6 +982,7 @@ default:
   
   .mobilemenupad{
     padding: 0.5vw;
+    justify-content: flex-end;
   }
   }
   
