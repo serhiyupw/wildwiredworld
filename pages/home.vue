@@ -4,11 +4,12 @@
   <div> 
     <AboutPage />
     <main class="h-screen mobilelayout  flex content-container  w-screen text-[#ffffff] bg-[#dc97b4] overflow-hidden  " :style="contentContainerStyle">
-    
+      
+
       <div class="instrcuct w-[50vw] bg-[#38664d] text-[#ffffff] overflow-scroll  ">
        
-        <div class="p-[1rem] text-justify ">
-          <h2 class="text-xl flex items-center  flex-col leading-2  font-semibold ">
+        <div class="p-[1rem] text-left ">
+          <h2 class="text-xl  flex items-center  flex-col leading-2  font-semibold ">
           Instructions
         </h2>
         <p class="leading-2 text-sm  pt-5 ">
@@ -25,20 +26,20 @@
       </div> 
       </div>
 
-      <div class="w-[50vw] justify-center orb p-10 bg-[#dc97b4] text-[#ffffff] overflow-scroll">
+      <div class="w-[50vw] justify-center orb p-[1rem] pt-[2rem] bg-[#dc97b4] text-[#ffffff] overflow-scroll">
         <!-- <div class="p-[1rem] text-center ">
         <h2 class="text-xl flex items-center flex-col leading-2  font-semibold ">
           Meet the Organs, creatures and parasites of Longthorn Valley
           <p class="text-xs w-2/6 font-normal pt-[.2vh] border-2 border-zinc-50 bg-[#38664d]" >Find out more about the world building?</p>
         </h2>
         </div>  -->
-        <div class="p-[1rem] text-justify ">
-        <h2 class="text-xl flex items-center  flex-col leading-2  font-semibold ">
-          Meet the Organs, creatures and parasites of Longthorn Valley
+        <div class="p-[1rem] pb-[2rem] text-left ">
+        <h2 class="text-xl text-center flex items-center  flex-col leading-2  font-semibold ">
+          Meet the Organs, Creatures and Parasites of Long Thorn Valley.
         </h2>
         <!-- <p class="pt-[.3rem] underline ">Find out more about the world building?</p> -->
         <NuxtLink class="pt-[.3rem] underline" to="/organs" >
-          <p class="pt-[.3rem] underline ">Find out more about the world building?</p>
+          <p class="pt-[.3rem] underline text-center ">Find out more about the world building?</p>
         </NuxtLink> 
         </div> 
         <!-- <NuxtLink to="/organs"> -->
@@ -57,7 +58,7 @@
         src="heart1.png"
         alt="Image 1"
         />
-        <p class="  capitalize flex justify-center">Arboricor heart</p>
+        <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize flex justify-center">Arboricor heart</p></NuxtLink>
       </div>
       
       <div v-if="currentImageIndex === 1">
@@ -66,7 +67,7 @@
         src="kidney.png"
         alt="Image 2"
       />
-        <p class=" capitalize  flex justify-center">Renalith kidney</p>
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Renalith kidney</p></NuxtLink>
       </div>
 
       <div v-if="currentImageIndex === 2">
@@ -75,7 +76,7 @@
         src="liver2.png"
         alt="Image 2"
       />
-        <p class=" capitalize  flex justify-center">Chlora liver</p>
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Chlora liver</p></NuxtLink>
       </div>
       
       
@@ -86,7 +87,7 @@
         src="lung3.png"
         alt="Image 2"
       />
-        <p class=" capitalize  flex justify-center">Aerophyta lung</p>
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Aerophyta lung</p></NuxtLink>
       </div>
 
       <div v-if="currentImageIndex === 4">
@@ -95,7 +96,7 @@
         src="Max.png"
         alt="Image 2"
       />
-        <p class=" capitalize  flex justify-center">Max</p>
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Max</p></NuxtLink>
       </div>
      
       
@@ -105,7 +106,7 @@
         src="Parasite.png"
         alt="Image 2"
       />
-        <p class=" capitalize  flex justify-center">Two Headed Flower</p>
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Two Headed Flower</p></NuxtLink>
       </div>
 
       <div v-if="currentImageIndex === 6">
@@ -114,7 +115,7 @@
         src="spleen2.png"
         alt="Image 2"
       />
-        <p class=" capitalize  flex justify-center">Syvan spleen</p>
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Syvan spleen</p></NuxtLink>
       </div>
       
       <div v-if="currentImageIndex === 7">
@@ -123,7 +124,7 @@
         src="twins2.png"
         alt="Image 2"
       />
-        <p class=" capitalize  flex justify-center">Nalu</p>
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Nalu</p></NuxtLink>
       </div>
      
       <div v-if="currentImageIndex === 8">
@@ -132,11 +133,52 @@
         src="violetta.png"
         alt="Image 2"
       />
-        <p class=" capitalize  flex justify-center">violetta</p>
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">violetta</p></NuxtLink>
+      </div>
+
+      <div v-if="currentImageIndex === 9">
+        <img
+        class="gallery-image"
+        src="siphonophore.png"
+        alt="Image 2"
+      />
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Siphonophore</p></NuxtLink>
       </div>
      
+
+      <div v-if="currentImageIndex === 10">
+        <img
+        class="gallery-image"
+        src="parasite1.png"
+        alt="Image 2"
+      />
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Cnidaria</p></NuxtLink>
+      </div>
+
+      <div v-if="currentImageIndex === 11">
+        <img
+        class="gallery-image"
+        src="parasite2.png"
+        alt="Image 2"
+      />
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Barrus</p></NuxtLink>
+      </div>
+
+      <div v-if="currentImageIndex === 12">
+        <img
+        class="gallery-image"
+        src="parasite3.png"
+        alt="Image 2"
+      />
+         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Leeverd</p></NuxtLink>
+      </div>
+
+
+
+
       <button class="gallery-arrow" @click="nextImage">&#8250;</button>
     </div>
+
       <!-- </NuxtLink> -->
   </div>
 
@@ -152,11 +194,11 @@
   
   <!-- <div class="square-grid opacity-20 "></div> -->
       <!-- enter the game flex-col-->
-  <div class="p-[1rem] text-justify pb-5 mb-4">
-        <h2 class="text-xl pl-[1rem]  font-semibold ">
+  <div class="p-[1rem] text-left pb-5 mb-4">
+        <h2 class="text-xl pl-[1rem] text-center  font-semibold ">
             Enter the game
         </h2>
-        <p class="p-[1rem] pt-[.2rem] text-xs text-justify ">To enter the game click on the different environments  and find the passwords on banners around the park and be transported to the Parallel world of Langthorne Park.
+        <p class="p-[1rem] pt-[.2rem] text-xs text-left ">To enter the game click on the different environments  and find the passwords on banners around the park and be transported to the Parallel world of Langthorne Park.
         </p>
   </div> 
 
@@ -172,7 +214,7 @@
             </clipPath>
           </defs> 
 
-            <style>tspan{white-space:pre}.a{stroke:#fff;stroke-miterlimit:100;stroke-width:3}.b{font-size: 14px;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.c{fill:none;stroke:#fff;stroke-miterlimit:100;stroke-width:3.2}.d{font-size: 14px;line-height: 14px;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.e{font-size: 14px;text-transform: uppercase;fill: #ffffff;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}</style>
+            <style>tspan{white-space:pre}.a{stroke:#fff;stroke-miterlimit:100;stroke-width:3}.b{font-size: 19px;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}.c{fill:none;stroke:#fff;stroke-miterlimit:100;stroke-width:3.2}.d{font-size: 14px;line-height: 14px;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}.e{font-size: 19px;text-transform: uppercase;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}</style>
             
             <g clip-path="url(#cp1)">
               
@@ -228,7 +270,7 @@
 </text>
 
 <text style="transform:matrix(1,0,0,1,483.817,51.594)" >
-  <tspan x="63.3" y="16.3" class="b">
+  <tspan x="45.3" y="16.3" class="b">
     Lake
   </tspan>
 </text>
@@ -431,7 +473,9 @@ export default {
 
         // Get the path element by its ID
         const path = document.getElementById('myPath');
-
+       
+      //  sticker
+  
 },
 
   
@@ -450,7 +494,7 @@ export default {
       titleWidth: "100%", // Initial width
       contentContainerStyle: {},
       currentImageIndex: 0,
-      totalImages: 8,
+      totalImages: 12,
       // rotation: '',
     };
   },
@@ -714,14 +758,14 @@ padding: 1rem;
   border-radius: 45px;
   line-height: 50px;
   margin: 0px 5px;
-  font-weight: 500;
+  font-weight: 100;
   /* z-index: 1; */
   /* overflow: hidden; */
 }
 
 .borderheadtext{
   padding: 0px 250px 0px 20px;
-  font-weight: 500;
+  font-weight: 100;
 }
 .socialtbtn{
     width: auto;
@@ -733,7 +777,7 @@ padding: 1rem;
   border: 1px solid #ff00a0;
   border-radius: 45px;
     margin: 0px 5px;
-    font-weight: 500;
+    font-weight: 100;
   line-height: 80px;
 }
 
@@ -758,7 +802,7 @@ padding: 1rem;
   border: 1px solid #808080;
   border-radius: 10px;
   line-height: 80px;
-  font-weight: 500;
+  font-weight: 100;
   z-index: 1;
 }
 

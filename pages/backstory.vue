@@ -25,7 +25,7 @@
 
                 <section class="relative z-[1] flex h-screen  justify-start teams-section flex-wrap content-center py-10 text-[#273c30] overflow-scroll pt-[7rem]">
     
-    <div class="   absolute text-justify  justify-center">
+    <div class="   absolute text-left  justify-center">
                   <div class="container mx-auto  w-3/4  ">
                     <h2 class="text-3xl font-semibold text-center mb-4">Backstory</h2>
                   <div>

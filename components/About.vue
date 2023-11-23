@@ -33,7 +33,7 @@
                 <section class="relative z-[1] flex h-screen  justify-start teams-section flex-wrap content-center  text-white overflow-scroll">
     
     <div class="  p-10 ">
-                  <div class="container mx-auto text-justify  centerdiv  ">
+                  <div class="container mx-auto text-left  centerdiv  ">
       <h2 class="text-xl font-semibold mb-4">About</h2>
     <div class=' text-base  p-1 '>
         <p>
@@ -45,7 +45,7 @@ In a series of workshops, local residents and young people worked with digital a
 
 
 <br/><br/>
-Visit <a href="https://wmgallery.org.uk/event/wild-wired-rewilding-encounters-of-langthorne-park-showcase-event/" target="_blank">this page</a> on the  William Morris Gallery website for further information.
+Visit <a href="https://www.wmgallery.org.uk/event/wild-wired-rewilding-encounters-of-langthorne-park/" target="_blank">this page</a> on the  William Morris Gallery website for further information.
 
 Please help us secure funding from Arts Council England by completing an evaluation survey <a href="https://www.illuminate-data.org.uk/survey/rztbqp" target="_blank">here</a>. The data collected through this survey will be used to better understand our audiences. The data collected is non-identifiable - it cannot be traced back to individuals. 
         </p>
@@ -59,7 +59,7 @@ Please help us secure funding from Arts Council England by completing an evaluat
 
 
 
-    <div class="container mx-auto text-justify  ">
+    <div class="container mx-auto text-left  ">
       <h2 class="text-base pt-10 mb-4 p-1">The Game</h2>
         <div class='centerdiv'>
       <div class=' text-base p-1 '>
@@ -77,7 +77,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
 </div>
 
 
- <!-- <div class=" mobile-text    bg-[#dc97b4] p-0 font-semibold  text-justify border border-solid rounded-lg centerdiv">
+ <!-- <div class=" mobile-text    bg-[#dc97b4] p-0 font-semibold  text-left border border-solid rounded-lg centerdiv">
         <ol class=" text-base list-decimal p-10 centerdiv">
             <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
             <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>

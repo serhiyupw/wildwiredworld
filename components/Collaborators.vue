@@ -47,7 +47,7 @@
 <!-- Teams/Collaborators Section -->
 <section class=" pt-10 relative z-[100]   overflow-scroll h-screen text-white">
               <!-- <section class="pt-[40rem]  overflow-scroll  relative z-[1000000] flex h-screen justify-start teams-section flex-wrap content-center py-10 text-white"> -->
-  <div class="container mx-auto p-10 pt-0 text-justify">
+  <div class="container mx-auto p-10 pt-0 text-left">
     <h2 class="text-3xl font-semibold mb-4 text-center">Collaborators</h2>
     <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
       <!-- Collaborator 1 -->
@@ -125,7 +125,7 @@
             class="w-full h-auto rounded-lg"
           /> -->
           <a target="_blank" href="https://www.instagram.com/eternal.enginee/"><h3 class="text-xl font-semibold mt-2">Eternal Engine</h3></a>
-          <p class="text-[#38664d]"> (Game Development and Built)</p>
+          <p class="text-[#38664d]"> (Game Developer and Visual Artist)</p>
           <p>are an artistic queer duo of Jagoda Wójtowicz (she/her) and Martix Navrot (he/him). Their experimental research combines audio-visual praxis and prototypes of virtuality which explore the performativity of virtual spaces and intermedium anomalies (3D, AI, VR, XR). Eternal Engine use speculation and queer methodologies in their artistic praixs, to investigate the Future/s of technology and quantum reality. To achieve this they push the boundaries of the Real and the Virtual with seemingly unnoticeable steps – by a millimeter, by an atom, by a pixel.
           </p>
         </div>
@@ -219,8 +219,8 @@
         <div class="collaborator-card p-4 border border-[#455baf] rounded-lg">
           <a target="_blank" href="">
             <h3 class="text-xl font-semibold mt-2">Nicholas Delap</h3></a>
-          <p class="text-[#38664d]">(Digital artist)</p>
-          <p>is a Digital artist who explores wilderness, Post Humanism and re-wilding as themes within his artworks, creating immersive and other worldly virtual environments, sculptures and video installations. His work seeks to undermine the traditional boundaries between the Human, The Natural and the Technological.
+          <p class="text-[#38664d]">(Game Developer and Visual Artist)</p>
+          <p>is a digital artist, posthumanism or post-humanism who explores wilderness, Post Humanism and re-wilding as themes within his artworks, creating immersive and other worldly virtual environments, sculptures and video installations. His work seeks to undermine the traditional boundaries between the Human, The Natural and the Technological.
           </p>
         </div>
       </div>

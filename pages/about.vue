@@ -24,10 +24,10 @@
         
   
 
-                <section class="relative z-[1] flex h-screen text-justify  justify-start teams-section flex-wrap content-center  text-[#273c30] overflow-scroll">
+                <section class="relative z-[1] flex h-screen text-left  justify-start teams-section flex-wrap content-center  text-[#273c30] overflow-scroll">
     
-    <div class=" text-justify pb-10 pt-[10rem] ">
-                  <div class="container mx-auto centerdiv text-justify  ">
+    <div class=" text-left pb-10 pt-[10rem] ">
+                  <div class="container mx-auto centerdiv text-left  ">
       <h2 class="text-3xl font-semibold text-center mb-4">About</h2>
     <div class='md:w-2/3 w-screen p-[1.25rem]'>
       <p>
@@ -40,7 +40,7 @@ In a series of workshops, local residents and young people worked with digital a
 
 
 <br/><br/>
-Visit <a href="https://wmgallery.org.uk/event/wild-wired-rewilding-encounters-of-langthorne-park-showcase-event/" target="_blank">this page</a> on the  William Morris Gallery website for further information.
+Visit <a href="https://www.wmgallery.org.uk/event/wild-wired-rewilding-encounters-of-langthorne-park/" target="_blank">this page</a> on the  William Morris Gallery website for further information.
 
 Please help us secure funding from Arts Council England by completing an evaluation survey <a href="https://www.illuminate-data.org.uk/survey/rztbqp" target="_blank">here</a>. The data collected through this survey will be used to better understand our audiences. The data collected is non-identifiable - it cannot be traced back to individuals. 
         </p>
@@ -54,9 +54,9 @@ Please help us secure funding from Arts Council England by completing an evaluat
 
 
 
-    <div class="container mx-auto centerdiv text-justify ">
+    <div class="container mx-auto centerdiv text-left ">
       <h2 class="text-2xl pt-10  text-center  mb-4 p-1">The Game</h2>
-        <div class='centerdiv text-justify'>
+        <div class='centerdiv text-left'>
       <div class='md:w-2/3 w-screen p-[1.25rem]'>
         <p>
             This is a mobile-friendly site-specific game with five environments.
@@ -73,9 +73,9 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
 
 
 <!-- <div class="p-[1.25rem]"> -->
- <!-- <div class=" mobile-text md:w-2/4 w-screen  bg-[#dc97b4] p-0 font-semibold  border border-solid rounded-lg centerdiv text-justify">
+ <!-- <div class=" mobile-text md:w-2/4 w-screen  bg-[#dc97b4] p-0 font-semibold  border border-solid rounded-lg centerdiv text-left">
         
-        <ol class="list-decimal p-10 centerdiv text-justify">
+        <ol class="list-decimal p-10 centerdiv text-left">
             <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
             <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
             <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
@@ -88,7 +88,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
             <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
         </ol> -->
 
-        <div class="image-container z-[2]  md:w-1/4 w-3/4 centerdiv text-justify">
+        <div class="image-container z-[2]  md:w-1/4 w-3/4 centerdiv text-left">
                   
                   <!-- <img
                           class=" w-4/4 p-3"
@@ -234,7 +234,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
               margin: 10px; /* Margin between images */
           }
   
-  .centerdiv text-justify{
+  .centerdiv text-left{
         display: flex;
     flex-direction: column;
     align-items: center;

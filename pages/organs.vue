@@ -76,7 +76,7 @@
                       width="70%"
                       height="70%"
                       />
-                      <p class=" capitalize flex justify-center">Arboricor heart</p>
+                      <p class=" capitalize flex justify-center">Arboricor heart (Organ)</p>
             
                 <div v-show="activeOverlay === 'heart'" class="overlay text-[white] items-center bg-[#dc97b4d8] flex flex-row text-justify p-10">
                      <div class="widthmbover text-justify w-2/6">
@@ -106,7 +106,7 @@
                       width="100%"
                       height="100%"
                       />
-                      <p class=" capitalize flex justify-center">Renalith kidney</p>
+                      <p class=" capitalize flex justify-center">Renalith kidney (Organ)</p>
                     
                     <div v-show="activeOverlay === 'kidney'" class="overlay text-[white] items-center bg-[#35357dec] flex flex-row text-justify p-10">
                      <div class="widthmbover text-justify w-2/6">
@@ -127,15 +127,15 @@
               </div>
 
 
-            <div v-on:click="toggleOverlay('liver')" class="logoo  h-[35vh] md:w-[35vw] sm:w-[25vw]">
+            <div v-on:click="toggleOverlay('liver')" class="logoo flex flex-col items-center  h-[35vh] md:w-[35vw] sm:w-[25vw]">
                   <img
                       src="liver2.png"
                       alt="Your Logo"
                       class="logoo"
-                      width="100%"
-                      height="100%"
+                      width="85%"
+                      height="85%"
                       />
-                  <p class=" capitalize  flex justify-center">Chlora liver</p>
+                  <p class=" capitalize  flex justify-center">Chlora liver (Organ)</p>
 
                 <div v-show="activeOverlay === 'liver'" class="overlay text-[white] items-center bg-[#35357dec] flex flex-row text-justify p-10">
                      <div class="widthmbover text-justify w-2/6">
@@ -164,7 +164,7 @@
                       width="100%"
                       height="100%"
                       />
-                      <p class=" capitalize  flex justify-center">Aerophyta lung</p>
+                      <p class=" capitalize  flex justify-center">Aerophyta lung (Organ)</p>
 
 
                 <div v-show="activeOverlay === 'lung'" class="overlay text-[white] items-center bg-[#707070d8] flex flex-row text-justify p-10">
