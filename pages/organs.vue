@@ -2,7 +2,7 @@
 
 
 
-  <div class='border-[#313131] bg-[#ededed] border-4 h-screen w-screen overflow-scroll '>
+  <div class='border-[#313131] bg-[#ededed] border-4 h-screen w-screen overflow-scroll overflow-x-hidden '>
     <!-- <div class="interactive-gradient "></div> -->
     <div class="square-grid z-[10] pointer-events-none opacity-20"></div>
     
