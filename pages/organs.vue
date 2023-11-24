@@ -59,15 +59,23 @@
             </div>
       </div>
 
-      <div class="z-[2000] flex flex-col pb-[20vh] pt-[5vh] justify-center items-center text-lg font-light textmb  ">
-        <!-- <h1 class='leading-[1.1] headtextmb tracking-tight text-[white]  w-11/12 items-start flex'>Who you play</h1> -->
+      <!-- <div class="z-[2000] flex flex-col pb-[20vh] pt-[5vh] justify-center items-center text-lg font-light textmb  ">
         <p class='textmbsizep leading-[1.1] subtextmb tracking-tight w-3/6  items-start flex text-[white]'>The Guardian of Long Thorn Valley is a siphonophorous, a multi-cultured worm-like creature that used to live in deep waters, but had to adapt to life on land due to the natural devastation caused by the now-extinct Volgi. A Guardian protects natural habitats on Other Earth. Their job is to interfere in the ecosystem as little as possible while collecting precious flora and fauna memories, preserving them for wildlife’s protection. 
           Last of their kind, Siph became a Guardian . Although a collection of many organisms, it also had a best friend - a siphonophorous called Mora in the deep oceans on Other Earth. A particularly strong nuclear ray experiment carried out by the Volgi ended up drying out the Beyond Seeing Sea, and separating Siph and Mora in the process. The sea turned into Beyond Seeing lake, Deaf pond and other small water basins scattered across the valley, 
           The Guardian can travel through dimensions. 
         </p>
+      </div> -->
+
+      <div class="z-[2000] flex flex-col pb-[25vh] pt-[5vh] justify-center items-center text-lg font-light textmb  ">
+        <p class='textmbsizep leading-[1.1] subtextmb tracking-tight w-3/6  items-start flex text-[white]'>Long Thorn Valley is a place that exists in the exact location of Langthorne Park. It is a well-known fact for multidimensional creatures, as Long Thorn resides in a parallel universe, only 5000 to the nth from Earth’s universe in the Mirrored Sequence. 
+          <br/><br/>
+          Under the double glow of twin moons Na and Lu, on a planet that we will call Other Earth, there is a wild natural habitat called Long Thorn Valley, where creatures and nature thrive in symbiotic relationships. Creatures and plants are connected in the Valley, drawing a great circle where no animal or plant ends or begins. It is one of the last bastions of untouched nature, protected by the watchful eye of the Guardian. Creatures and plants are connected by long, transparent tentacles, stretching above the ground like huge highways for nourishment and information. Bound in hunger and in well-being, in draughts and times of fecundity, the sinuous tendrils breathe life into one big, magnificent organism cradled by the Valley.
+        </p>
       </div>
 
-      
+
+
+
       <div class="  flex flex-col justify-center  items-center text-4xl font-light capitalize ">
         <h1 class='leading-[1.1] headtextmb tracking-tight text-[white]'>Organs, creatures and parasites of Longthorn Valley</h1>
         <h1 class='subtextmb leading-[1.1] tracking-tight text-xl pb-16 pt-7 text-[white]'>Click on an Organ, creatures or parasites for more info</h1>
@@ -90,8 +98,8 @@
     
 
         <!-- overlay -->
-        <div v-show="activeOverlay === 'heart'" class="overlay text-[white] items-center bg-[#dc97b4d8] flex flex-row text-justify p-10">
-             <div class="widthmbover padovermb text-justify w-2/6">
+        <div v-show="activeOverlay === 'heart'" class="overlay text-[white] items-center bg-[#dc97b4d8] flex flex-row text-left p-10">
+             <div class="widthmbover padovermb text-left w-2/6">
               <p class="pb-1 text-4xl">Arboricor heart</p>
               <p class="pb-1">Location: Chest Grove</p>
               <div class="logoo  h-3/6 w-[100%]">
@@ -136,7 +144,7 @@
               </svg>
 
              </div>
-             <div class="widthmbover text-justify w-2/6">
+             <div class="widthmbover text-left w-2/6">
               <p class="pb-1">Chest Grove</p>
               <p class="">Chest Grove is the centre of the Valley and is also where the portal to Langthorne Park - the Oval Passage is located. Surrounded by ancient Mother trees, the Chest Grove is the home of the Arboricore, a heart-like creature that forms a symbiotic relationship with the blood-red trees. Due to their high levels of iron,the trees and plants leaves of Chest Grove are bright, iridescent red and have a slight glow. Tree trunks and roots vary between indigo blue and deep iris purple.
               </p>
@@ -157,8 +165,8 @@
               <p class=" capitalize flex justify-center">Renalith kidney (Organ)</p>
             
               <!-- overlay -->
-            <div v-show="activeOverlay === 'kidney'" class="overlay text-[white] items-center bg-[#35357dec] flex flex-row text-justify p-10">
-             <div class="widthmbover padovermb text-justify w-2/6">
+            <div v-show="activeOverlay === 'kidney'" class="overlay text-[white] items-center bg-[#35357dec] flex flex-row text-left p-10">
+             <div class="widthmbover padovermb text-left w-2/6">
               <p class="pb-1 text-4xl">Renalith ( Kidney-like creature)</p>
               <p class="pb-1">Location: Limbic Forest</p>
               <div class="logoo  h-3/6 w-[100%]">
@@ -200,7 +208,7 @@
                         </g>
               </svg>
              </div>
-             <div class="widthmbover text-justify w-2/6">
+             <div class="widthmbover text-left w-2/6">
               <p class="pb-1">Limbic Forest</p>
               <p class="">The Limbic Forest is a bright, swampy place, filled with colorful flowers and soft mossy undergrowth. It is the habitat of the Renalith (Kidney), which lives in symbiosis with the trees and plants of the forest. The flora of the Limbic Forest is lush with pastel colours. Some say it is the colour of the rainbow, as it is the most colorful part of the valley due to the abundance of water in the habitat. It is where Beyond seeing Lake is located.
               </p>
@@ -220,8 +228,8 @@
           <p class=" capitalize  flex justify-center">Chlora liver (Organ)</p>
 
           <!-- overlay -->
-        <div v-show="activeOverlay === 'liver'" class="overlay text-[white] items-center bg-[#52a875ec] flex flex-row text-justify p-10">
-             <div class="widthmbover padovermb text-justify w-2/6">
+        <div v-show="activeOverlay === 'liver'" class="overlay text-[white] items-center bg-[#52a875ec] flex flex-row text-left p-10">
+             <div class="widthmbover padovermb text-left w-2/6">
               <p class="pb-1 text-4xl">Chlora liver</p>
               <p class="pb-1">Location: Prickle Back</p>
               <div class="logoo  h-3/6 w-[100%]">
@@ -263,7 +271,7 @@
                         </g>
               </svg>
              </div>
-             <div class="widthmbover text-justify w-2/6">
+             <div class="widthmbover text-left w-2/6">
               <p class="pb-1">Prickle Back</p>
               <p class="">On a distant alien planet with two moons, an extraordinary symbiosis unfolds between the flora and a unique sentient organism known as the "Chlora Liver." Resembling a living liver, this organism harmoniously coexists with the alien plants, its iridescent, fluid-filled sacs interwoven among the roots and stems of the vibrant foliage. The Chlora Liver acts as a natural regulator, purifying the environment of the Valley by detoxifying harmful substances from the soil and converting them into vital nutrients for the flora. Its luminescent hues pulse with an ethereal glow, orchestrating a silent symphony of life within the ecosystem. In this foreign landscape, the Chlora Liver embodies the intricate balance that exists between the inhabitants and their surroundings, a testament to the wonder and interdependence that thrives in the Valley.
 
@@ -284,8 +292,8 @@
               <p class=" capitalize  flex justify-center">Aerophyta lung (Organ)</p>
 
 <!-- overlay -->
-        <div v-show="activeOverlay === 'lung'" class="overlay text-[white] items-center bg-[#707070d8] flex flex-row text-justify p-10">
-             <div class="widthmbover padovermb text-justify w-2/6">
+        <div v-show="activeOverlay === 'lung'" class="overlay text-[white] items-center bg-[#707070d8] flex flex-row text-left p-10">
+             <div class="widthmbover padovermb text-left w-2/6">
               <p class="pb-1 text-4xl">Aerophyta lung</p>
               <p class="pb-1">Location: Thorned Diafragm</p>
               <div class="logoo  h-3/6 w-[100%]">
@@ -327,9 +335,10 @@
                         </g>
               </svg>
              </div>
-             <div class="widthmbover text-justify w-2/6">
+             <div class="widthmbover text-left w-2/6">
               <p class="pb-1">Thorned Diafragm</p>
               <p class="pb-1">Thorned Diaphragm is the home of the Aerophyta - a lung-like creature. A dark, cosy place, filled with thick groves and soft mossy undergrowth. The flora of this place has a metallic sheen, due to its abundance in the element Metal.
+              
               </p>
               <p >Aerophyta live in symbiosis with the trees and plants of the forest. The flora of the silent forest is the dark colour and sheen of liquorice candy.</p>
              </div>
@@ -353,8 +362,8 @@
               <p class=" capitalize  flex justify-center">Max (Creature)</p>
     
             <!-- overlay -->
-              <div v-show="activeOverlay === 'max'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-justify p-10">
-             <div class="widthmbover padovermbless text-justify w-2/6">
+              <div v-show="activeOverlay === 'max'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
+             <div class="widthmbover padovermbless text-left w-2/6">
               <p class="pb-1 text-4xl justify-center flex">Max  “Creature”</p>
               <!-- <p class="pb-1">Location: Chest Grove</p> -->
               <div class="logoo  h-3/6 w-[100%]">
@@ -366,7 +375,7 @@
                       height="100%"
                       />
               </div>
-              <p class="">Max appear in swarms and share memories. 
+              <p class="">Max appear in swarms and share memories. <br/>
 Max can glow in the night and steal pollen stars created by the Two-headed flower. The main thing the Max are after is the pollen’s glow. A glowing creature, Max’s glow serves as a beacon for creatures that are looking for food in the dark parts of the Valley’s undergrowth, and a deadly trap for winged insects drawn to the light. The pollen stars enable Max to glow in the dark, a feature that Max lets other, bigger creatures exploit for their own feeding. In return, Max is spared and gets to roam the Valley, lighting the way to creatures’ advantage or detriment.  
 </p>
              </div>
@@ -389,8 +398,8 @@ Max can glow in the night and steal pollen stars created by the Two-headed flowe
               <p class=" capitalize  flex justify-center">Two Headed Flower (Parasite)</p>
     
                 <!-- overlay -->
-        <div v-show="activeOverlay === 'parasite'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-justify p-10">
-          <div class="widthmbover padovermblessh text-justify w-[60]">
+        <div v-show="activeOverlay === 'parasite'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
+          <div class="widthmbover padovermblessh text-left w-[60]">
               <p class="pb-1 text-4xl justify-center flex">The Two-headed Flower (Parasite) </p>
               <!-- <p class="pb-1">Location: Chest Grove</p> -->
               <div class="logoo flex justify-center  h-3/6 w-[100%]">
@@ -403,7 +412,9 @@ Max can glow in the night and steal pollen stars created by the Two-headed flowe
                       />
               </div>
               <p class="">Two-headed flower lives in swarms, they share memories with the swarm, creating a collective being. Lives in the Thorned Diaphragm, responds to element Metal. 
+                <br/>
 Part creature part plant, the Two-headed flower is a parasite which has the power to live forever. The flower has translucent tendrils that carry an enzyme that can make a creature live forever. It dwells in the Valley, latched onto trees and plants alike, taking food and drawing energy from them. In return, Two-headed flower bestows them with a lengthy life, sharing its enzyme making plants and trees resilient to the harsh climate. When frost is biting, the plants would freeze, preserving their life under the ice and when it’s dry they will dry up and live in animated suspension until the next rain. It also produces glowing, star-shaped pollen which is often stolen by the creatures Max. 
+<br/>
 The Volgi have hunted for this elusive parasite, wanting to conquer death, acquiring the last coveted item on their technology-induced world - eternal life. However, the Volgi didn’t know that the eternal life is only a half-life, as any Volgi taking the pollen will instantly shrivel and dry up, becoming a husk of their selves. The Volgi that tried the enzyme have met their peril by crumbling under the harsh sun of Other Earth
 </p>
              </div>
@@ -425,8 +436,8 @@ The Volgi have hunted for this elusive parasite, wanting to conquer death, acqui
               <p class=" capitalize  flex justify-center">Syvan spleen (Organ)</p>
               
               <!-- overlay -->
-          <div v-show="activeOverlay === 'spleen'" class="overlay text-[white] items-center bg-[#dfe169f0] flex flex-row text-justify p-10">
-             <div class="widthmbover padovermb text-justify w-2/6">
+          <div v-show="activeOverlay === 'spleen'" class="overlay text-[white] items-center bg-[#dfe169f0] flex flex-row text-left p-10">
+             <div class="widthmbover padovermb text-left w-2/6">
               <p class="pb-1 text-4xl">Syvan spleen</p>
               <p class="pb-1">Location: Blooming Navel</p>
               <div class="logoo  h-3/6 w-[100%]">
@@ -470,7 +481,7 @@ The Volgi have hunted for this elusive parasite, wanting to conquer death, acqui
                         </g>
               </svg>
              </div>
-             <div class="widthmbover text-justify w-2/6">
+             <div class="widthmbover text-left w-2/6">
               <p class="pb-1">Blooming Navel</p>
               <p class="pb-1">(Mangroves)</p>
               <p class="">A lush ocre, orange habitat made of short, mushroom-like flora. Plants at the Blooming Navel are every orange hue and are quite meaty in texture. The Navel is the habitat of the Spleen.
@@ -493,8 +504,8 @@ The Volgi have hunted for this elusive parasite, wanting to conquer death, acqui
     
     
                  <!-- overlay -->
-        <div v-show="activeOverlay === 'twins'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-justify p-10">
-          <div class="widthmbover padovermbless text-justify w-2/6">
+        <div v-show="activeOverlay === 'twins'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
+          <div class="widthmbover padovermbless text-left w-2/6">
               <p class="pb-1 text-4xl justify-center flex">Nalu (Non racial twins) swarm</p>
               <!-- <p class="pb-1">Location: Chest Grove</p> -->
               <div class="logoo  h-3/6 w-[100%]">
@@ -508,7 +519,7 @@ The Volgi have hunted for this elusive parasite, wanting to conquer death, acqui
               </div>
               <p class="">Can teleport to a better place. </p>
               <p class="">Nalu are winged creatures with one eye and clawed extremities. Nalu are always born as twins and are able to teleport to other places in the Valley. They also live in swarms and share memories with the swarm, making the swarm a collective memory vessel. 
-If twin Nalu get separated, the swarm is not able to teleport until they are reunited. 
+If twin Nalu get separated, the swarm is not able to teleport until they are reunited. <br/>
 An old Volgi legend says we Nalu twins are the children of Na and Lu - the two moons of Other Earth. Like the two moons, when they meet, they release a great power - teleport to any place we imagine. 
 </p>
              </div>
@@ -529,8 +540,8 @@ An old Volgi legend says we Nalu twins are the children of Na and Lu - the two m
               <p class=" capitalize  flex justify-center">Violetta (Creature)</p>
    
                 <!-- overlay -->
-        <div v-show="activeOverlay === 'violetta'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-justify p-10">
-          <div class="widthmbover padovermbless text-justify w-2/6">
+        <div v-show="activeOverlay === 'violetta'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
+          <div class="widthmbover padovermbless text-left w-2/6">
               <p class="pb-1 text-4xl justify-center flex">Violetta</p>
               <!-- <p class="pb-1">Location: Chest Grove</p> -->
               <div class="logoo  h-3/6 w-[100%]">
@@ -545,7 +556,7 @@ An old Volgi legend says we Nalu twins are the children of Na and Lu - the two m
               <p class="">Making plants bloom </p>
               <p class="">
                     A great ally to plants of the Valley, Violetta is a creature that makes plants bloom. Wherever its tendrils touch, the blooming of the plants is activated, resulting in the most lush environments. Although most plants welcome Violetta’s help, some plants remain hidden when this beautiful creature is in their midst. The ones that remain in hiding are seasonal plants, they know that if they bloom too soon, their saplings won’t thrive due to the wrong conditions. 
-                    Violetta feeds on the nectars from plants that it made blossom, and in return, carries the pollen around to other plants. Star pollen from Two-headed flower is deadly for Violetta. 
+                    Violetta feeds <br/> on the nectars from plants that it made blossom, and in return, carries the pollen around to other plants. Star pollen from Two-headed flower is deadly for Violetta. 
                     </p>
              </div>
 

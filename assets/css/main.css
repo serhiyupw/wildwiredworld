@@ -147,12 +147,20 @@ a:visited {
     left: -10vw;
     top: -2vw;
 }
+
+.middleorbshome{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
     
     @media (max-width: 760px) {
+     
+     
       .thornedsvg {
     position: relative;
     left: -62vw;
-}
+      }
 
       .imgcenterbot{
         width: fit-content;
@@ -275,6 +283,8 @@ a:visited {
 .instrcuct {
     padding-top: 14vh;
 }
+
+
 
 .logombhead{
     position: relative;

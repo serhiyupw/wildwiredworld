@@ -6,217 +6,207 @@
     <main class="h-screen mobilelayout  flex content-container  w-screen text-[#ffffff] bg-[#dc97b4] overflow-hidden  " :style="contentContainerStyle">
       
 
+      <!-- instuctions -->
       <div class="instrcuct w-[50vw] bg-[#38664d] text-[#ffffff] overflow-scroll  ">
        
-        <div class="p-[1rem] text-left ">
-          <h2 class="text-xl  flex items-center  flex-col leading-2  font-semibold ">
-          Instructions
-        </h2>
-        <p class="leading-2 text-sm  pt-5 ">
-            A place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
-            <strong class="font-bold">Long Thorn Valley</strong> are suffering from memory loss caused by a terrible disaster known as 
-            <strong class="font-bold">the Big Change</strong>.
-        </p>
-        <ol class="list-decimal text-sm pb-10 pt-10 custom-ol">
-    <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
-    <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
-    <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
-</ol>
+            <div class="p-[1rem] text-left ">
+              <h2 class="text-xl  flex items-center  flex-col leading-2  font-semibold ">
+                Instructions
+              </h2>
+              <p class="leading-2 text-sm  pt-5 ">
+                  A place that exists in a <strong class="font-bold">parallel universe</strong> at the exact location of Langthorne Park. The flora and fauna of 
+                  <strong class="font-bold">Long Thorn Valley</strong> are suffering from memory loss caused by a terrible disaster known as 
+                  <strong class="font-bold">the Big Change</strong>.
+              </p>
+              <ol class="list-decimal text-sm pb-10 pt-10 custom-ol">
+                  <li>To play the game, look for passwords on the banners located around Langthorne Park.</li>
+                  <li>Select the environment on the map and enter the correlating password from the banner to begin your exploration. For example, to play the Chest Grove environment, click on this area on the map and enter the password: Fire.</li>
+                  <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
+              </ol>
+            </div> 
 
-      </div> 
       </div>
 
-      <div class="w-[50vw] justify-center orb p-[1rem] pt-[2rem] bg-[#dc97b4] text-[#ffffff] overflow-scroll">
-        <!-- <div class="p-[1rem] text-center ">
-        <h2 class="text-xl flex items-center flex-col leading-2  font-semibold ">
-          Meet the Organs, creatures and parasites of Longthorn Valley
-          <p class="text-xs w-2/6 font-normal pt-[.2vh] border-2 border-zinc-50 bg-[#38664d]" >Find out more about the world building?</p>
-        </h2>
-        </div>  -->
-        <div class="p-[1rem] pb-[2rem] text-left ">
-        <h2 class="text-xl text-center flex items-center  flex-col leading-2  font-semibold ">
-          Meet the Organs, Creatures and Parasites of Long Thorn Valley.
-        </h2>
-        <!-- <p class="pt-[.3rem] underline ">Find out more about the world building?</p> -->
-        <NuxtLink class="pt-[.3rem] underline" to="/organs" >
-          <p class="pt-[.3rem] underline text-center ">Find out more about the world building?</p>
-        </NuxtLink> 
-        </div> 
-        <!-- <NuxtLink to="/organs"> -->
-    <div class="gallery-container">
+
+  
+  <!-- parasite -->
+      <div class="w-[50vw] orb bg-[#dc97b4] text-[#ffffff] overflow-scroll">
       
-      <button class="gallery-arrow" @click="prevImage">&#8249;</button>
-      <!-- <img
-        v-if="currentImageIndex === 0"
-        class="gallery-image"
-        src="heart1.png"
-        alt="Image 1"
-      /> -->
-      <div v-if="currentImageIndex === 0">
-        <img
-        class="gallery-image"
-        src="heart1.png"
-        alt="Image 1"
-        />
-        <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize flex justify-center">Arboricor heart</p></NuxtLink>
-      </div>
-      
-      <div v-if="currentImageIndex === 1">
-        <img
-        class="gallery-image"
-        src="kidney.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Renalith kidney</p></NuxtLink>
-      </div>
+        <div class="p-[1rem] text-left">
+            <div class=" pb-[2rem] ">
+              <h2 class="text-xl text-center flex items-center  flex-col leading-2  font-semibold ">
+                Meet the Organs, Creatures and Parasites of Long Thorn Valley.
+              </h2>
+              <NuxtLink class="pt-[.3rem] underline" to="/organs" >
+                <p class="pt-[.3rem] underline text-center ">Find out more about the world building?</p>
+              </NuxtLink> 
+            </div> 
 
-      <div v-if="currentImageIndex === 2">
-        <img
-        class="gallery-image"
-        src="liver2.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Chlora liver</p></NuxtLink>
-      </div>
-      
-      
+            <div class="gallery-container">
+          
+          <button class="gallery-arrow" @click="prevImage">&#8249;</button>
+          
+          <div class="middleorbshome" v-if="currentImageIndex === 0">
+            <img
+            class="gallery-image"
+            src="heart1.png"
+            alt="Image 1"
+            />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize flex justify-center">Arboricor heart</p></NuxtLink>
+          </div>
+          
+          <div class="middleorbshome" v-if="currentImageIndex === 1">
+            <img
+            class="gallery-image"
+            src="kidney.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Renalith kidney</p></NuxtLink>
+          </div>
 
-      <div v-if="currentImageIndex === 3">
-        <img
-        class="gallery-image"
-        src="lung3.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Aerophyta lung</p></NuxtLink>
-      </div>
+          <div class="middleorbshome" v-if="currentImageIndex === 2">
+            <img
+            class="gallery-image"
+            src="liver2.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Chlora liver</p></NuxtLink>
+          </div>
+          
+          
 
-      <div v-if="currentImageIndex === 4">
-        <img
-        class="gallery-image"
-        src="Max.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Max</p></NuxtLink>
-      </div>
-     
-      
-      <div v-if="currentImageIndex === 5">
-        <img
-        class="gallery-image"
-        src="Parasite.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Two Headed Flower</p></NuxtLink>
-      </div>
+          <div class="middleorbshome" v-if="currentImageIndex === 3">
+            <img
+            class="gallery-image"
+            src="lung3.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Aerophyta lung</p></NuxtLink>
+          </div>
 
-      <div v-if="currentImageIndex === 6">
-        <img
-        class="gallery-image"
-        src="spleen2.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Syvan spleen</p></NuxtLink>
-      </div>
-      
-      <div v-if="currentImageIndex === 7">
-        <img
-        class="gallery-image"
-        src="twins2.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Nalu</p></NuxtLink>
-      </div>
-     
-      <div v-if="currentImageIndex === 8">
-        <img
-        class="gallery-image"
-        src="Violetta.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">violetta</p></NuxtLink>
-      </div>
+          <div class="middleorbshome" v-if="currentImageIndex === 4">
+            <img
+            class="gallery-image"
+            src="Max.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Max</p></NuxtLink>
+          </div>
+        
+          
+          <div class="middleorbshome" v-if="currentImageIndex === 5">
+            <img
+            class="gallery-image"
+            src="Parasite.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Two Headed Flower</p></NuxtLink>
+          </div>
 
-      <div v-if="currentImageIndex === 9">
-        <img
-        class="gallery-image"
-        src="siphonophore.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Siphonophore</p></NuxtLink>
-      </div>
-     
+          <div class="middleorbshome" v-if="currentImageIndex === 6">
+            <img
+            class="gallery-image"
+            src="spleen2.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Syvan spleen</p></NuxtLink>
+          </div>
+          
+          <div class="middleorbshome" v-if="currentImageIndex === 7">
+            <img
+            class="gallery-image"
+            src="twins2.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Nalu</p></NuxtLink>
+          </div>
+        
+          <div class="middleorbshome" v-if="currentImageIndex === 8">
+            <img
+            class="gallery-image"
+            src="Violetta.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">violetta</p></NuxtLink>
+          </div>
 
-      <div v-if="currentImageIndex === 10">
-        <img
-        class="gallery-image"
-        src="parasite1.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Cnidaria</p></NuxtLink>
-      </div>
+          <div class="middleorbshome" v-if="currentImageIndex === 9">
+            <img
+            class="gallery-image"
+            src="siphonophore.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Siphonophore</p></NuxtLink>
+          </div>
+        
 
-      <div v-if="currentImageIndex === 11">
-        <img
-        class="gallery-image"
-        src="parasite2.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Barrus</p></NuxtLink>
-      </div>
+          <div class="middleorbshome" v-if="currentImageIndex === 10">
+            <img
+            class="gallery-image"
+            src="parasite1.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Cnidaria</p></NuxtLink>
+          </div>
 
-      <div v-if="currentImageIndex === 12">
-        <img
-        class="gallery-image"
-        src="parasite3.png"
-        alt="Image 2"
-      />
-         <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Leeverd</p></NuxtLink>
-      </div>
+          <div class="middleorbshome" v-if="currentImageIndex === 11">
+            <img
+            class="gallery-image"
+            src="parasite2.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Barrus</p></NuxtLink>
+          </div>
+
+          <div class="middleorbshome" v-if="currentImageIndex === 12">
+            <img
+            class="gallery-image"
+            src="parasite3.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Leeverd</p></NuxtLink>
+          </div>
 
 
 
 
-      <button class="gallery-arrow" @click="nextImage">&#8250;</button>
-    </div>
+          <button class="gallery-arrow" @click="nextImage">&#8250;</button>
+            </div>
+        </div>
 
-      <!-- </NuxtLink> -->
+
   </div>
 
-  <!-- bg-[#52a875] -->
+
+
+  <!-- map svg area -->
       <div
-        class=" w-[50vw] svgarea p-10   bg-[#c8bb57] text-[#ffffff] overflow-hidden  "
+        class=" w-[50vw] svgarea   bg-[#c8bb57] text-[#ffffff] overflow-hidden  "
         ref="background"
       >
+          <div class="mbheight p-[1rem] relative flex flex-col justify-center content-center text-center overflow-scroll">
+            <div class="text-left pb-5 mb-4">
+                  <h2 class="text-xl pl-[1rem] text-center  font-semibold ">
+                      Enter the game
+                  </h2>
+                  <p class=" pt-[.2rem] text-sm text-left ">To enter the game click on the different environments  and find the passwords on banners around the park and be transported to the Parallel world of Langthorne Park.
+                  </p>
+            </div> 
 
-    
 
-<div class="mbheight relative flex flex-col justify-center content-center text-center overflow-scroll">
-  
-  <!-- <div class="square-grid opacity-20 "></div> -->
-      <!-- enter the game flex-col-->
-  <div class="p-[1rem] text-left pb-5 mb-4">
-        <h2 class="text-xl pl-[1rem] text-center  font-semibold ">
-            Enter the game
-        </h2>
-        <p class="p-[1rem] pt-[.2rem] text-xs text-left ">To enter the game click on the different environments  and find the passwords on banners around the park and be transported to the Parallel world of Langthorne Park.
-        </p>
-  </div> 
+              <div class="justify-center content-center flex ">
 
-  <div class="justify-center content-center flex ">
+                <svg class="  svgin h-fit md:w-[30vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
+                      
+                      <defs>
+                        <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+                          <path d="m-142-328h1418v1419h-1418z"/>
+                        </clipPath>
+                      </defs> 
 
-    
-
-    <svg class="  svgin h-fit md:w-[35vw] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
-          
-          <defs>
-            <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
-              <path d="m-142-328h1418v1419h-1418z"/>
-            </clipPath>
-          </defs> 
-
-            <style>tspan{white-space:pre}.a{stroke:#fff;stroke-miterlimit:100;stroke-width:3}.b{font-size: 19px;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}.c{fill:none;stroke:#fff;stroke-miterlimit:100;stroke-width:3.2}.d{font-size: 14px;line-height: 14px;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}.e{font-size: 19px;text-transform: uppercase;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}</style>
-            
-            <g clip-path="url(#cp1)">
+                        <style>tspan{white-space:pre}.a{stroke:#fff;stroke-miterlimit:100;stroke-width:3}.b{font-size: 19px;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}.c{fill:none;stroke:#fff;stroke-miterlimit:100;stroke-width:3.2}.d{font-size: 14px;line-height: 14px;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}.e{font-size: 19px;text-transform: uppercase;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}</style>
+                        
+                        <g clip-path="url(#cp1)">
               
               <!-- world one blooming nevel -->
               <a href="../password" >
@@ -252,111 +242,112 @@
               <path id="myPath" fill-rule="" class="a forest" d="m800.1 251.4c-10.1 14.3-23.2 32.5-38.6 53.7-4.3 1.2-7.2 2-11.5 3.2-8.2-3.4-22.4-10.3-39.1-22.5-12.4-9.1-20.9-21.7-29.9-35.1-10-14.8-21.4-31.6-39.9-45.8-27.3-21-52.2-13.5-83.8-4.1-10.9 3.3-23.3 7-37.1 10-41.9 9.1-58.2 3.8-74.1-8-4.3-3.2-5.3-9.2-2.1-13.5 44.2-60.9 95.3-131.8 101.5-143 11.2-20.2 31.4-5.1 31.4-5.1 0 0 19.4 9.6 31.4 21.5 11.9 12 22.4 7.5 38.1 0.8 15.6-6.8 23.5-9.7 23.5-9.7 4.3-1.7 9.3 1.9 11.1 8.1l49.4 167.4c1.9 6.2 8.5 10.8 14.9 10.3l46.2-3.5c8.2-0.6 13.4 8.6 8.6 15.3zm-186.4-152.8c-6.8-8.5-33.1-15.3-40.8-15.3-7.6 0-34.8 14.5-39.8 21.7-5.1 7.2 7.5 20.4 10.9 25.9 3.4 5.5 16.2 22.5 16.2 22.5 5.1 4.3 5.9 9.5 16.9 9.8 9.8 0.3 9.2-13.6 9.2-20 0-6.4 7-17.8 11.2-21.7 4.3-3.9 9.4-3.8 19.6-4.2 10.2-0.4 3.4-10.2-3.4-18.7z"/>
               </a>
 
-                    <text style="transform:matrix(1,0,0,1,694.586,444.289)" >
-                      <tspan x="21.7" y="16.3" class="d">The Sports</tspan>
-                      <tspan x="52.9" y="40.3" class="d">Zone</tspan>
-                    </text>
+<text style="transform:matrix(1,0,0,1,694.586,444.289)" >
+  <tspan x="21.7" y="16.3" class="d">The Sports</tspan>
+  <tspan x="52.9" y="40.3" class="d">Zone</tspan>
+</text>
 
-                    <text style="transform:matrix(1,0,0,1,486.258,287.412)" >
-                    <tspan x="9.8" y="16.3" class="b">
-                      The Amphitheatre
-                    </tspan>
-                    </text>
+<text style="transform:matrix(1,0,0,1,486.258,287.412)" >
+<tspan x="9.8" y="16.3" class="b">
+  The Amphitheatre
+</tspan>
+</text>
 
-                    <text style="transform:matrix(1,0,0,1,438.9,363.778)" >
-                    <tspan x="19.4" y="16.3" class="b">
-                      The Pavillion
-                    </tspan>
-                    </text>
+<text style="transform:matrix(1,0,0,1,438.9,363.778)" >
+<tspan x="19.4" y="16.3" class="b">
+  The Pavillion
+</tspan>
+</text>
 
-                    <text style="transform:matrix(1,0,0,1,483.817,51.594)" >
-                      <tspan x="45.3" y="16.3" class="b">
-                        Lake
-                      </tspan>
-                    </text>
+<text style="transform:matrix(1,0,0,1,483.817,51.594)" >
+  <tspan x="45.3" y="16.3" class="b">
+    Lake
+  </tspan>
+</text>
 
-                    <text style="transform:matrix(.755,.656,-0.656,.755,446.137,498.133)" >
-                      <tspan x="7.3" y="16.3" class="b">
-                        Entrance
-                      </tspan>
-                    </text>
+<text style="transform:matrix(.755,.656,-0.656,.755,446.137,498.133)" >
+  <tspan x="7.3" y="16.3" class="b">
+    Entrance
+  </tspan>
+</text>
 
-                    <text style="transform:matrix(1,0,0,1,574.601,-0.097)" >
-                      <tspan x="7.3" y="16.3" class="b">
-                        Entrance
-                      </tspan>
-                    </text>
+<text style="transform:matrix(1,0,0,1,574.601,-0.097)" >
+  <tspan x="7.3" y="16.3" class="b">
+    Entrance
+  </tspan>
+</text>
 
-                    <text style="transform:matrix(1,0,0,1,289.774,202.685)" >
-                      <tspan x="7.3" y="16.3" class="b">
-                        Entrance
-                      </tspan>
-                    </text>
+<text style="transform:matrix(1,0,0,1,289.774,202.685)" >
+  <tspan x="7.3" y="16.3" class="b">
+    Entrance
+  </tspan>
+</text>
 
-                    <path fill-rule="evenodd" class="c" d="m507.9 535l-1.4-20.2-20.1 1.5"/>
-                    <path fill-rule="evenodd" class="c" d="m612.6 34.1l14.3 14.2 14.3-14.2"/>
-                    <path fill-rule="evenodd" class="c" d="m327.8 236.1l14.3 14.3 14.3-14.3"/>
-                    <text style="transform:matrix(1,0,0,1,100.785,231.624)" >
-                    <tspan x="46.3" y="17.9" class="e">
-                      PRICKLE 
-                    </tspan>
-                    <tspan x="60" y="46.9" class="e">
-                      BACK
-                    </tspan>
-                    </text>
+<path fill-rule="evenodd" class="c" d="m507.9 535l-1.4-20.2-20.1 1.5"/>
+<path fill-rule="evenodd" class="c" d="m612.6 34.1l14.3 14.2 14.3-14.2"/>
+<path fill-rule="evenodd" class="c" d="m327.8 236.1l14.3 14.3 14.3-14.3"/>
+<text style="transform:matrix(1,0,0,1,100.785,231.624)" >
+<tspan x="46.3" y="17.9" class="e">
+  PRICKLE 
+</tspan>
+<tspan x="60" y="46.9" class="e">
+  BACK
+</tspan>
+</text>
 
-                    <text style="transform:matrix(1,0,0,1,357.495,231.624)" >
-                    <tspan x="54.7" y="17.9" class="e">
-                      CHEST 
-                    </tspan>
-                    <tspan x="51.9" y="46.9" class="e">
-                      GROVE
-                    </tspan>
-                    </text>
+<text style="transform:matrix(1,0,0,1,357.495,231.624)" >
+<tspan x="54.7" y="17.9" class="e">
+  CHEST 
+</tspan>
+<tspan x="51.9" y="46.9" class="e">
+  GROVE
+</tspan>
+</text>
 
-                    <text style="transform:matrix(1,0,0,1,561.156,129.116)" >
-                    <tspan x="53.7" y="17.9" class="e">
-                      LIMBIC 
-                    </tspan>
-                    <tspan x="49.2" y="46.9" class="e">
-                      FOREST
-                    </tspan>
-                    </text>
+<text style="transform:matrix(1,0,0,1,561.156,129.116)" >
+<tspan x="53.7" y="17.9" class="e">
+  LIMBIC 
+</tspan>
+<tspan x="49.2" y="46.9" class="e">
+  FOREST
+</tspan>
+</text>
 
-                    <text style="transform:matrix(1,0,0,1,789.223,251.271)" >
-                    <tspan x="61" y="17.9" class="e">
-                      THORNED 
-                    </tspan>
-                    <tspan x="45.1" y="46.9" class="e">
-                      DIAPHRAGM
-                    </tspan>
-                    </text>
+<text style="transform:matrix(1,0,0,1,789.223,251.271)" >
+<tspan x="61" y="17.9" class="e">
+  THORNED 
+</tspan>
+<tspan x="45.1" y="46.9" class="e">
+  DIAPHRAGM
+</tspan>
+</text>
 
 
-                    <path fill-rule="evenodd" class="a" d="m641.3 278.8h-17.9c0-15.1-12.2-27.3-27.2-27.3-15.1 0-27.3 12.2-27.3 27.3h-17.8c0-24.9 20.2-45.1 45.1-45.1 24.8 0 45.1 20.2 45.1 45.1z"/>
-                    <path fill-rule="evenodd" class="a" d="m617.1 117.3c-10.2 0.4-15.3 0.3-19.6 4.2-4.2 3.9-11.2 15.3-11.2 21.7 0 6.4 0.6 20.3-9.2 20-11-0.3-11.8-5.5-16.9-9.8 0 0-12.8-17-16.2-22.5-3.4-5.5-16-18.7-10.9-25.9 5-7.2 32.2-21.7 39.8-21.7 7.7 0 34 6.8 40.8 15.3 6.8 8.5 13.6 18.3 3.4 18.7z"/>
-                    <path fill-rule="evenodd" class="c" d="m1093.8 690.2l-15.3-13.3-13.2 15.3"/>
-                    <text style="transform:matrix(.998,-0.07,.07,.998,1027.522,707.557)" >
-                      <tspan x="7.3" y="16.3" class="b">
-                          Entrance
-                      </tspan>
-                    </text>
+<path fill-rule="evenodd" class="a" d="m641.3 278.8h-17.9c0-15.1-12.2-27.3-27.2-27.3-15.1 0-27.3 12.2-27.3 27.3h-17.8c0-24.9 20.2-45.1 45.1-45.1 24.8 0 45.1 20.2 45.1 45.1z"/>
+<path fill-rule="evenodd" class="a" d="m617.1 117.3c-10.2 0.4-15.3 0.3-19.6 4.2-4.2 3.9-11.2 15.3-11.2 21.7 0 6.4 0.6 20.3-9.2 20-11-0.3-11.8-5.5-16.9-9.8 0 0-12.8-17-16.2-22.5-3.4-5.5-16-18.7-10.9-25.9 5-7.2 32.2-21.7 39.8-21.7 7.7 0 34 6.8 40.8 15.3 6.8 8.5 13.6 18.3 3.4 18.7z"/>
+<path fill-rule="evenodd" class="c" d="m1093.8 690.2l-15.3-13.3-13.2 15.3"/>
+<text style="transform:matrix(.998,-0.07,.07,.998,1027.522,707.557)" >
+  <tspan x="7.3" y="16.3" class="b">
+      Entrance
+  </tspan>
+</text>
 
-                      <text style="transform:matrix(1,0,0,1,862.192,512.211)" >
-                        <tspan x="29.2" y="17.9" class="e">
-                          BLOOMING 
-                        </tspan>
+<text style="transform:matrix(1,0,0,1,862.192,512.211)" >
+  <tspan x="29.2" y="17.9" class="e">
+    BLOOMING 
+  </tspan>
 
-                        <tspan x="55.8" y="46.9" class="e">
-                          NAVEL
-                        </tspan>
-                      </text>
+  <tspan x="55.8" y="46.9" class="e">
+    NAVEL
+  </tspan>
+</text>
 
 
 </g>
-</svg>
+            
+          </svg>
 
-  </div>
+        </div>
   <!-- cloud-animation -->
   
 
@@ -578,14 +569,17 @@ width: 20vw;
 .instrcuct{
   display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+      padding-top: 5vh;
 }
 
 .svgarea{
-  display: flex;
+   display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
+      padding-top: 5vh;
 }
 /* Initial path style */
 .content-container{
@@ -709,16 +703,22 @@ width: 90vw;
 .instrcuct{
   width: 100vw;
   overflow: visible;
+  padding-top: 14vh !important;
 }
 
 .orb{
   width: 100vw;
   overflow: visible;
+  display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .svgarea{
   width: 100vw;
   overflow: visible;
+  padding-top: 0 !important;
 }
    .svgin{
       width: 86vw;
@@ -847,6 +847,8 @@ padding: 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top: 5vh;
+  /* justify-content: center; */
 }
 
 .svgarea{
