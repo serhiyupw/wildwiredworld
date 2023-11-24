@@ -45,7 +45,7 @@
    
     <div class='md:w-2/3 w-screen  ' >
       
-      <div class="p-[1.25rem]">
+      <div class="p-[1.25rem] ">
       <div class=' flex justify-center pb-3'>
             <img
                       class="  w-4/4 md:w-2/4  p-0 "
@@ -56,13 +56,16 @@
                     />
       </div>
 
-              <Richtext class=''>In a series of artist-led workshops in collaboration with Leytonstone Toy Library and the Youth Club at Worth Unlimited held over the summer of 2023, HERVISIONS together with three digital artists (Kristina Pulejkova, Melissa Schwarz, Chun Sun), invited local residents to imagine the future of Langthorne Park set in a parallel universe and collaboratively create a narrative, landscapes and characters for a site-specific game. 
+      <div class="containercolor">
+              <Richtext >In a series of artist-led workshops in collaboration with Leytonstone Toy Library and the Youth Club at Worth Unlimited held over the summer of 2023, HERVISIONS together with three digital artists (Kristina Pulejkova, Melissa Schwarz, Chun Sun), invited local residents to imagine the future of Langthorne Park set in a parallel universe and collaboratively create a narrative, landscapes and characters for a site-specific game. 
 
 During the workshops, participants collaged words and images of local wildlife into stories and visual narratives with the help of image-generating AI systems such as Midjourney and ChatGPT while deliberating on their unperfectness and speculating on how the park could look in hundreds of years. Drawing inspiration from local plants and their medicinal properties and imagining the land of the park as a living ‘body’ inspired by Taoism (an ancient Chinese tradition of philosophy), the groups began to wonder what superpowers its ‘organs’ could harness.
 
 The results of the workshops have since been re-interpreted by the artists into an interactive site-specific game.
 
             </Richtext>
+            
+          </div>
 
       </div>
 
@@ -71,21 +74,25 @@ The results of the workshops have since been re-interpreted by the artists into 
 
     <div class='md:w-2/3 w-screen ' >
     
-      <div class="p-[1.25rem]">
+      <div class="p-[1.25rem] ">
       <h2 class=" pt-20 pl-0 font-semibold mb-4">Game environment-building workshop with Melissa Schwarz</h2>
 
-        <Richtext class=''>
+      <div class="containercolor">
+        <Richtext >
             Participants were invited to take photographs of their favourite places in Langthorne Park. Together with artist Melissa Schwarz, they discussed why they liked them, what the park meant to them and how they envisioned the park to look in the future - hundreds of years from now. They then uploaded their images to Midjourney, a generative artificial intelligence program. Here, with Melissa’s help, participants crafted text-based prompts to enhance the images and add various future-like elements to them. Melissa used these images to develop the gaming environment and landscapes of Long Thorn Valley.
             </Richtext>
+          </div> 
 </div>
 
 <br/>
 <br/>
 
-<div class="p-[1.25rem]">
-    <Richtext class=''>
+<div class="p-[1.25rem] ">
+  <div class="containercolor">
+    <Richtext >
         See some examples of the photographs participants took and the resulting AI-enhanced images:
     </Richtext>
+  </div> 
     <div class='mobileimgpart md:flex-row flex-col flex justify-center pt-10 pb-5'>
             <img
                       class="  w-4/4 md:w-2/4  p-0 pr-5  "
@@ -170,16 +177,18 @@ The results of the workshops have since been re-interpreted by the artists into 
 
 
 
-    <div class="p-[1.25rem]">
+    <div class="p-[1.25rem] ">
       <h2 class=" pt-20 pl-0 font-semibold mb-4">Game character-building workshop with Chun Sun</h2>
-
-      <Richtext class=''>
+      
+      <div class="containercolor">
+      <Richtext >
         As part of creating the characters that would inhabit Long Thorn Valley, participants randomly picked an organ or organism from a box to collage. They used dried flowers and leaves, local vegetation from the park and digitally printed flora and fauna to create their futuristic organs and organisms. Following this, they were invited to name their creation and assign a superpower to them. The result of which can be seen below on the left, and AI-enhanced images on the right:  
     </Richtext>
+  </div> 
     </div>
     
 
-    <div class="p-[1.25rem]">
+    <div class="p-[1.25rem] ">
     <div class='mobileimgpart md:flex-row flex-col flex justify-center pt-10 pb-5'>
             <img
                       class="  w-4/4 md:w-2/4  p-0 pr-5 "
@@ -265,14 +274,15 @@ The results of the workshops have since been re-interpreted by the artists into 
 </div>
 
 
-<div class="p-[1.25rem]">
+<div class="p-[1.25rem] ">
     <h2 class=" pt-20 pl-0 font-semibold mb-4">Game narrative-building workshop with Kristina Pulejkova</h2>
 
-
-    <Richtext class=''>
+    <div class="containercolor">
+    <Richtext >
         To round off the worldbuilding for the game, participants engaged in a self-guided creative writing activity exploring other elements of Long Thorn Valley using an Exquisite Corpse format to answer questions, fill in the gaps in the story, and pass it around. How would Long Thorn Valley smell? What kind of plants would grow there? What colour would the sky be?
     </Richtext>
-    <!-- <Richtext class=''>
+  </div> 
+    <!-- <Richtext >
         As part of creating the characters that would inhabit Long Thorn Valley, participants randomly picked an organ or organism from a box to collage. They used dried flowers and leaves, local vegetation from the park and digitally printed flora and fauna to create their futuristic organs and organisms. Following this, they were invited to name their creation and assign a superpower to them. The result of which can be seen below on the left, and AI-enhanced images on the right:  
     </Richtext> -->
 
@@ -329,7 +339,7 @@ The results of the workshops have since been re-interpreted by the artists into 
                       /> -->
 
               </div>
-              <p class="p-[1.25rem] ">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
+              <p class="p-[1.25rem]  ">&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p>
 
     <!-- </div> -->
   

@@ -27,7 +27,7 @@
       <div class="z-[2000] flex flex-col justify-center items-center text-4xl font-light textmb capitalize ">
         <h1 class='leading-[1.1] headtextmb tracking-tight text-[white]  w-11/12 items-start flex'>Who you play</h1>
         <h1 class='leading-[1.1] subtextmb tracking-tight w-11/12 text-xl pt-7 items-start flex text-[white]'>
-Y           You are playing the main character called Siph (a siphonophore).</h1>
+          You are playing the main character called Siph (a siphonophore).</h1>
       </div>
 
       <div class="mobileimgpara paddingbmobile flex flex-row justify-center  ">
@@ -68,7 +68,7 @@ Y           You are playing the main character called Siph (a siphonophore).</h1
       </div> -->
 
       <div class="z-[2000] text-left flex flex-col pb-[25vh] pt-[5vh] justify-center items-center text-lg font-light textmb  ">
-        <p class='textmbsizep leading-[1.1] subtextmb tracking-tight w-3/6  items-start flex text-[white]'>Long Thorn Valley is a place that exists in the exact location of Langthorne Park. It is a well-known fact for multidimensional creatures, as Long Thorn resides in a parallel universe, only 5000 to the nth from Earth’s universe in the Mirrored Sequence. 
+        <p class='custom-text-box textmbsizep leading-[1.1] subtextmb tracking-tight w-3/6  items-start flex text-[white]'>Long Thorn Valley is a place that exists in the exact location of Langthorne Park. It is a well-known fact for multidimensional creatures, as Long Thorn resides in a parallel universe, only 5000 to the nth from Earth’s universe in the Mirrored Sequence. 
           <br/><br/>
           Under the double glow of twin moons Na and Lu, on a planet that we will call Other Earth, there is a wild natural habitat called Long Thorn Valley, where creatures and nature thrive in symbiotic relationships. Creatures and plants are connected in the Valley, drawing a great circle where no animal or plant ends or begins. It is one of the last bastions of untouched nature, protected by the watchful eye of the Guardian. Creatures and plants are connected by long, transparent tentacles, stretching above the ground like huge highways for nourishment and information. Bound in hunger and in well-being, in draughts and times of fecundity, the sinuous tendrils breathe life into one big, magnificent organism cradled by the Valley.
         </p>
@@ -87,13 +87,13 @@ Y           You are playing the main character called Siph (a siphonophore).</h1
         <div class="mobileimgpara flex flex-row justify-center h-2/4 text-[white] ">
 
 
-        <div  v-on:click="toggleOverlay('heart')" class="logoo flex flex-col items-center justify-center  h-[35vh] md:w-[35vw] sm:w-[25vw]">
+        <div  v-on:click="toggleOverlay('heart')" class="logoo heartsize flex flex-col items-center justify-center  h-[35vh] md:w-[35vw] sm:w-[25vw]">
             <img
               src="heart1.png"
               alt="Your Logo"
               class="logoo"
-              width="65%"
-              height="65%"
+              width="100%"
+              height="100%"
               />
               <p class=" capitalize flex justify-center">Arboricor heart (Organ)</p>
     
@@ -103,11 +103,11 @@ Y           You are playing the main character called Siph (a siphonophore).</h1
              <div class="widthmbover padovermb text-left w-2/6">
               <p class="pb-1 text-4xl">Arboricor heart</p>
               <p class="pb-1">Location: Chest Grove</p>
-              <div class="logoo  h-3/6 w-[100%]">
+              <div class="  h-3/6 w-[100%]">
                   <img
                       src="heart1.png"
                       alt="Your Logo"
-                      class="logoo md:w-[35vw] sm:w-[25vw]"
+                      class=" md:w-[35vw] sm:w-[25vw]"
                       width="100%"
                       height="100%"
                       />
@@ -153,7 +153,43 @@ Y           You are playing the main character called Siph (a siphonophore).</h1
        </div>
 
   </div>
-  
+
+
+  <div  v-on:click="toggleOverlay('twins')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
+          <img
+              src="twins2.png"
+              alt="Your Logo"
+              class="logoo"
+              width="110%"
+              height="110%"
+              />
+              <p class=" capitalize  flex justify-center">Nalu (Creature)</p>
+    
+    
+                 <!-- overlay -->
+        <div v-show="activeOverlay === 'twins'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
+          <div class="widthmbover padovermbless text-left w-2/6">
+              <p class="pb-1 text-4xl justify-center flex">Nalu (Creature)</p>
+              <!-- <p class="pb-1">Location: Chest Grove</p> -->
+              <div class="  h-3/6 w-[100%]">
+                  <img
+                      src="twins2.png"
+                      alt="Your Logo"
+                      class=" md:w-[35vw] sm:w-[25vw]"
+                      width="100%"
+                      height="100%"
+                      />
+              </div>
+              <p class="">Can teleport to a better place. </p>
+              <p class="">Nalu are winged creatures with one eye and clawed extremities. Nalu are always born as twins and are able to teleport to other places in the Valley. They also live in swarms and share memories with the swarm, making the swarm a collective memory vessel. 
+If twin Nalu get separated, the swarm is not able to teleport until they are reunited. <br/>
+An old Volgi legend says we Nalu twins are the children of Na and Lu - the two moons of Other Earth. Like the two moons, when they meet, they release a great power - teleport to any place we imagine. 
+</p>
+             </div>
+
+             
+       </div>
+            </div>
 
     <div v-on:click="toggleOverlay('kidney')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
           <img
@@ -168,13 +204,13 @@ Y           You are playing the main character called Siph (a siphonophore).</h1
               <!-- overlay -->
             <div v-show="activeOverlay === 'kidney'" class="overlay text-[white] items-center bg-[#35357dec] flex flex-row text-left p-10">
              <div class="widthmbover padovermb text-left w-2/6">
-              <p class="pb-1 text-4xl">Renalith ( Kidney-like creature)</p>
+              <p class="pb-1 text-4xl">Renalith Kidney</p>
               <p class="pb-1">Location: Limbic Forest</p>
-              <div class="logoo  h-3/6 w-[100%]">
+              <div class="  h-3/6 w-[100%]">
                   <img
                       src="kidney.png"
                       alt="Your Logo"
-                      class="logoo md:w-[35vw] sm:w-[25vw]"
+                      class=" md:w-[35vw] sm:w-[25vw]"
                       width="100%"
                       height="100%"
                       />
@@ -218,38 +254,36 @@ Y           You are playing the main character called Siph (a siphonophore).</h1
       </div>
 
 
-    <div v-on:click="toggleOverlay('liver')" class="logoo flex flex-col items-center justify-center  h-[35vh] md:w-[35vw] sm:w-[25vw]">
+      <div v-on:click="toggleOverlay('spleen')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
           <img
-              src="liver2.png"
+              src="spleen2.png"
               alt="Your Logo"
               class="logoo"
-              width="75%"
-              height="75%"
+              width="100%"
+              height="100%"
               />
-          <p class=" capitalize  flex justify-center">Chlora Liver (Organ)</p>
-
-          <!-- overlay -->
-        <div v-show="activeOverlay === 'liver'" class="overlay text-[white] items-center bg-[#52a875ec] flex flex-row text-left p-10">
+              <p class=" capitalize  flex justify-center">Syvan Spleen (Organ)</p>
+              
+              <!-- overlay -->
+          <div v-show="activeOverlay === 'spleen'" class="overlay text-[white] items-center bg-[#a3a60cf0] flex flex-row text-left p-10">
              <div class="widthmbover padovermb text-left w-2/6">
-              <p class="pb-1 text-4xl">Chlora liver</p>
-              <p class="pb-1">Location: Prickle Back</p>
-              <div class="logoo  h-3/6 w-[100%]">
+              <p class="pb-1 text-4xl">Syvan Spleen</p>
+              <p class="pb-1">Location: Blooming Navel</p>
+              <div class="  h-3/6 w-[100%]">
                   <img
-                      src="liver2.png"
+                      src="spleen2.png"
                       alt="Your Logo"
-                      class="logoo md:w-[35vw] sm:w-[25vw]"
+                      class=" md:w-[35vw] sm:w-[25vw]"
                       width="100%"
                       height="100%"
                       />
               </div>
-              <p class="">
-Prickle Back has lots of green hues. Prickle Back’s flora resides on highly toxic soil, which they can endure thanks to the symbiotic relationship with the Chlora Liver. The Clora LIver filters the toxins out of the soil and takes food and energy from the flora in return. Not many creatures can survive in this harsh environment unless they have developed survival mechanisms that can battle the toxic soil.
-</p>
+              <p class="">Deep within the heart of the Blooming Navel, a remarkable sentient organism known as the Sylvan Spleen resides, its existence veiled in the mystique of nature's secrets. Resembling a pulsating, living spleen, this enigmatic entity thrives in perfect harmony with the mangrove flora. Its tendrils delicately weave through the intricate networks of mycelium, fostering an extraordinary web of interconnected life. The Sylvan Spleen, with its tranquil presence, acts as a guardian of balance, filtering the forest's vital energies and recycling them back into the rich, fertile soil. It imparts a subtle wisdom to the ecosystem, sharing the essence of the Valley’s cyclical existence.</p>
              </div>
              <div class="widthmbover p-[6vw] text-xl text-center w-2/6">
-              <p class=" text-4xl pb-1">Prickle Back</p>
-              <!-- <p class="">Water</p> -->
-              <svg class="svgoverlay picklesvg svgin h-fit md:w-[100%] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
+              <p class=" text-4xl pb-1">Blooming Navel</p>
+              <!-- <p class="">Earth</p> -->
+              <svg class="svgoverlay  bloomsvg  svgin h-fit md:w-[100%] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
                       <defs>
                         <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
                           <path d="m-142-328h1418v1419h-1418z"/>
@@ -260,28 +294,33 @@ Prickle Back has lots of green hues. Prickle Back’s flora resides on highly to
                         <g clip-path="url(#cp1)">
 
                             <!-- world two chest-->
-                            <path fill-rule="evenodd" id="pickle" class="a pickle" d="m570.6 552.9c4.2 3.8 10.8 3.2 14.3-1.3 14.4-19 26.2-37.9 30.4-64.5q0.2-1.3 0.4-2.6c0 0 4-20.1 4.3-28.6 0.3-8.9 0-15.8 0-25.8-1-36.4-12.2-69.4-50.2-77.3-12.7-2.6-25.7-4.1-38.2-5.6-19.2-2.3-38.9-4.7-58.4-10.8-34-10.9-103.7-52.2-106.1-51.9-2.8 0.4-163.1-96.9-163.1-96.9-5.5-3.3-14.4-3.2-19.8 0.1 0 0-71.4 44.2-84.1 55.7-23.6 21.4-49.2 42.2-39.5 53.4l18.3 23.1c4.9 4.1 23.5 4.8 55.6 4.8 32.1 0 52.7 5.5 52.7 5.5 6.3 0.7 11.8-3.8 12.2-10l0.5-7.3c0.2-2.1 2-3.9 4.1-3.9 14.1 0 47 12.6 47 12.6 2 0.5 4.4-0.7 5.1-2.7l2-4.9c0.6-1.5 2.3-2.2 3.7-1.5 95.6 46.4 270.2 204.7 308.8 240.4z"/>
+                            <path fill-rule="evenodd"  id="myPath1"  class="a bloom" d="m1134.8 575.9l-22.3 5.6c-5.9 2.4-57.5-26.6-57.5-26.6-5.6-3.1-10.8-10.7-11.5-17.1l-18.9-162.3c-0.6-4.5-4.1-8-8.6-8.5-13.8-1.4-43.8-4.2-73.2-4.2-41.8 0-50.3 19.7-62.1 47q0 0 0 0c-17.6 40.4-27 94.3-70.8 116.2q0 0 0 0c-35 17.5-72.4-2.6-98.3-25.1-18.3-15.8-32.6-57.5-53-60.3-12.1-1.4-18.2 13.5-21.6 23.6-4 11.6-6.8 23-9.9 34.9-6 23.2-19.7 44.7-33.6 63.9-2.9 4-2.3 9.5 1.4 12.8 22.2 19.9 37.9 33 44.4 34.8 30.2 8.2 418.9 34.4 418.9 34.4 1.6 0.1 3.4 1.5 3.9 2.9l4.1 10.9c1.7 4.5 5.3 7.3 8 6.4l3.9-1.4c0.5-0.2 1.4-0.4 1.9-0.4l8.9-0.6c3.2-0.2 5.6-3 5.3-6.2l-0.6-5.8c-0.2-2.2 1-4.9 2.8-6.1 0 0 22.7-11.3 27.4-10.7l6.5 0.8c1.5 0.2 3.2-0.9 3.6-2.4l8.5-49.8c1.8-6.1-1.7-9.2-7.6-6.7z"/>
+                            <path fill-rule="evenodd" id="myPath2"  class="a bloom" d="m1134.8 575.9l-22.3 5.6c-5.9 2.4-57.5-26.6-57.5-26.6-5.6-3.1-10.8-10.7-11.5-17.1l-18.9-162.3c-0.6-4.5-4.1-8-8.6-8.5-13.8-1.4-43.8-4.2-73.2-4.2-41.8 0-50.3 19.7-62.1 47q0 0 0 0c-17.6 40.4-27 94.3-70.8 116.2q0 0 0 0c-35 17.5-72.4-2.6-98.3-25.1-18.3-15.8-32.6-57.5-53-60.3-12.1-1.4-18.2 13.5-21.6 23.6-4 11.6-6.8 23-9.9 34.9-6 23.2-19.7 44.7-33.6 63.9-2.9 4-2.3 9.5 1.4 12.8 22.2 19.9 37.9 33 44.4 34.8 30.2 8.2 418.9 34.4 418.9 34.4 1.6 0.1 3.4 1.5 3.9 2.9l4.1 10.9c1.7 4.5 5.3 7.3 8 6.4l3.9-1.4c0.5-0.2 1.4-0.4 1.9-0.4l8.9-0.6c3.2-0.2 5.6-3 5.3-6.2l-0.6-5.8c-0.2-2.2 1-4.9 2.8-6.1 0 0 22.7-11.3 27.4-10.7l6.5 0.8c1.5 0.2 3.2-0.9 3.6-2.4l8.5-49.8c1.8-6.1-1.7-9.2-7.6-6.7z"/>
+               
                               
-                              
-                            <text style="transform:matrix(1,0,0,1,100.785,231.624)" >
-                            <tspan x="46.3" y="17.9" class="e">
-                              PRICKLE 
-                            </tspan>
-                            <tspan x="60" y="46.9" class="e">
-                              BACK
-                            </tspan>
-                            </text>
+                            <text style="transform:matrix(1,0,0,1,862.192,512.211)" >
+                                <tspan x="29.2" y="17.9" class="e">
+                                  BLOOMING 
+                                </tspan>
+
+                                <tspan x="55.8" y="46.9" class="e">
+                                  NAVEL
+                                </tspan>
+                              </text>
                         </g>
               </svg>
              </div>
              <div class="widthmbover text-left w-2/6">
-              <p class="pb-1">Prickle Back</p>
-              <p class="">On a distant alien planet with two moons, an extraordinary symbiosis unfolds between the flora and a unique sentient organism known as the "Chlora Liver." Resembling a living liver, this organism harmoniously coexists with the alien plants, its iridescent, fluid-filled sacs interwoven among the roots and stems of the vibrant foliage. The Chlora Liver acts as a natural regulator, purifying the environment of the Valley by detoxifying harmful substances from the soil and converting them into vital nutrients for the flora. Its luminescent hues pulse with an ethereal glow, orchestrating a silent symphony of life within the ecosystem. In this foreign landscape, the Chlora Liver embodies the intricate balance that exists between the inhabitants and their surroundings, a testament to the wonder and interdependence that thrives in the Valley.
+              <p class="pb-1">Blooming Navel</p>
+              <p class="pb-1">(Mangroves)</p>
+              <p class="">A lush ochre, orange habitat made of short, mushroom-like flora. Plants at the Blooming Navel are every orange hue and are quite meaty in texture. The Navel is the habitat of the Spleen.
 
               </p>
              </div>
-       </div>
+        </div>
+
     </div>
+
 
 
     <div v-on:click="toggleOverlay('lung')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
@@ -299,11 +338,11 @@ Prickle Back has lots of green hues. Prickle Back’s flora resides on highly to
              <div class="widthmbover padovermb text-left w-2/6">
               <p class="pb-1 text-4xl">Aerophyta Lung</p>
               <p class="pb-1">Location: Thorned Diaphragm</p>
-              <div class="logoo  h-3/6 w-[100%]">
+              <div class="  h-3/6 w-[100%]">
                   <img
                       src="lung3.png"
                       alt="Your Logo"
-                      class="logoo md:w-[35vw] sm:w-[25vw]"
+                      class=" md:w-[35vw] sm:w-[25vw]"
                       width="100%"
                       height="100%"
                       />
@@ -353,7 +392,7 @@ Prickle Back has lots of green hues. Prickle Back’s flora resides on highly to
 </div>
 
 <!-- parasites 2 -->
-<div class="mobileimgpara paddingbmobilelg flex flex-row justify-center h-2/4 text-[white] ">
+<div class="mobileimgpara  flex flex-row justify-center h-2/4 text-[white] ">
 <div v-on:click="toggleOverlay('max')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
           <img
               src="Max.png"
@@ -369,11 +408,11 @@ Prickle Back has lots of green hues. Prickle Back’s flora resides on highly to
              <div class="widthmbover padovermbless text-left w-2/6">
               <p class="pb-1 text-4xl  flex">Max (Creature)</p>
               <!-- <p class="pb-1">Location: Chest Grove</p> -->
-              <div class="logoo  h-3/6 w-[100%]">
+              <div class="  h-3/6 w-[100%]">
                   <img
                       src="Max.png"
                       alt="Your Logo"
-                      class="logoo md:w-[35vw] sm:w-[25vw]"
+                      class=" md:w-[35vw] sm:w-[25vw]"
                       width="100%"
                       height="100%"
                       />
@@ -388,6 +427,73 @@ Max can glow in the night and steal pollen stars created by the Two-headed flowe
               </div>
     
             </div>
+
+
+
+            <div v-on:click="toggleOverlay('liver')" class="logoo flex flex-col items-center justify-center  h-[35vh] md:w-[35vw] sm:w-[25vw]">
+          <img
+              src="liver2.png"
+              alt="Your Logo"
+              class="logoo"
+              width="75%"
+              height="75%"
+              />
+          <p class=" capitalize  flex justify-center">Chlora Liver (Organ)</p>
+
+          <!-- overlay -->
+        <div v-show="activeOverlay === 'liver'" class="overlay text-[white] items-center bg-[#52a875ec] flex flex-row text-left p-10">
+             <div class="widthmbover padovermb text-left w-2/6">
+              <p class="pb-1 text-4xl">Chlora liver</p>
+              <p class="pb-1">Location: Prickle Back</p>
+              <div class="  h-3/6 w-[100%]">
+                  <img
+                      src="liver2.png"
+                      alt="Your Logo"
+                      class=" md:w-[35vw] sm:w-[25vw]"
+                      width="100%"
+                      height="100%"
+                      />
+              </div>
+              <p class="">
+Prickle Back has lots of green hues. Prickle Back’s flora resides on highly toxic soil, which they can endure thanks to the symbiotic relationship with the Chlora Liver. The Clora LIver filters the toxins out of the soil and takes food and energy from the flora in return. Not many creatures can survive in this harsh environment unless they have developed survival mechanisms that can battle the toxic soil.
+</p>
+             </div>
+             <div class="widthmbover p-[6vw] text-xl text-center w-2/6">
+              <p class=" text-4xl pb-1">Prickle Back</p>
+              <!-- <p class="">Water</p> -->
+              <svg class="svgoverlay picklesvg svgin h-fit md:w-[100%] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
+                      <defs>
+                        <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+                          <path d="m-142-328h1418v1419h-1418z"/>
+                        </clipPath>
+                      </defs> 
+
+                        <style>tspan{white-space:pre}.a{stroke:#fff;stroke-miterlimit:100;stroke-width:3}.b{font-size: 19px;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}.c{fill:none;stroke:#fff;stroke-miterlimit:100;stroke-width:3.2}.d{font-size: 14px;line-height: 14px;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}.e{font-size: 19px;text-transform: uppercase;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}</style>
+                        <g clip-path="url(#cp1)">
+
+                            <!-- world two chest-->
+                            <path fill-rule="evenodd" id="pickle" class="a pickle" d="m570.6 552.9c4.2 3.8 10.8 3.2 14.3-1.3 14.4-19 26.2-37.9 30.4-64.5q0.2-1.3 0.4-2.6c0 0 4-20.1 4.3-28.6 0.3-8.9 0-15.8 0-25.8-1-36.4-12.2-69.4-50.2-77.3-12.7-2.6-25.7-4.1-38.2-5.6-19.2-2.3-38.9-4.7-58.4-10.8-34-10.9-103.7-52.2-106.1-51.9-2.8 0.4-163.1-96.9-163.1-96.9-5.5-3.3-14.4-3.2-19.8 0.1 0 0-71.4 44.2-84.1 55.7-23.6 21.4-49.2 42.2-39.5 53.4l18.3 23.1c4.9 4.1 23.5 4.8 55.6 4.8 32.1 0 52.7 5.5 52.7 5.5 6.3 0.7 11.8-3.8 12.2-10l0.5-7.3c0.2-2.1 2-3.9 4.1-3.9 14.1 0 47 12.6 47 12.6 2 0.5 4.4-0.7 5.1-2.7l2-4.9c0.6-1.5 2.3-2.2 3.7-1.5 95.6 46.4 270.2 204.7 308.8 240.4z"/>
+                              
+                              
+                            <text style="transform:matrix(1,0,0,1,100.785,231.624)" >
+                            <tspan x="46.3" y="17.9" class="e">
+                              PRICKLE 
+                            </tspan>
+                            <tspan x="60" y="46.9" class="e">
+                              BACK
+                            </tspan>
+                            </text>
+                        </g>
+              </svg>
+             </div>
+             <div class="widthmbover text-left w-2/6">
+              <p class="pb-1">Prickle Back</p>
+              <p class="">On a distant alien planet with two moons, an extraordinary symbiosis unfolds between the flora and a unique sentient organism known as the "Chlora Liver." Resembling a living liver, this organism harmoniously coexists with the alien plants, its iridescent, fluid-filled sacs interwoven among the roots and stems of the vibrant foliage. The Chlora Liver acts as a natural regulator, purifying the environment of the Valley by detoxifying harmful substances from the soil and converting them into vital nutrients for the flora. Its luminescent hues pulse with an ethereal glow, orchestrating a silent symphony of life within the ecosystem. In this foreign landscape, the Chlora Liver embodies the intricate balance that exists between the inhabitants and their surroundings, a testament to the wonder and interdependence that thrives in the Valley.
+
+              </p>
+             </div>
+       </div>
+    </div>
 
 
     <div v-on:click="toggleOverlay('parasite')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
@@ -405,15 +511,17 @@ Max can glow in the night and steal pollen stars created by the Two-headed flowe
           <div class="widthmbover padovermblessh text-left w-[60]">
               <p class="pb-1 text-4xl justify-center flex">The Two-headed Flower (Parasite) </p>
               <!-- <p class="pb-1">Location: Chest Grove</p> -->
+              <div class="flex justify-center">
               <div class="logoo flex justify-center  h-3/6 w-[100%]">
                   <img
                       src="Parasite.png"
                       alt="Your Logo"
-                      class="logoo md:w-[35vw] sm:w-[25vw]"
+                      class=" md:w-[35vw] sm:w-[25vw]"
                       width="100%"
                       height="100%"
                       />
               </div>
+            </div>
               <p class="">Two-Headed Flowers live in swarms. They share memories with the swarm, creating a collective being. Part creature, part plant, the Two-Headed Flower is a parasite which has the power to live forever. The flower has translucent tendrils that carry an enzyme that can make a creature live forever. It dwells in the Valley, latched onto trees and plants alike, taking food and drawing energy from them. In return, Two-Headed Flower bestows them with a lengthy life, sharing its enzyme making plants and trees resilient to the harsh climate. When frost is biting, the plants would freeze, preserving their life under the ice and when it’s dry they will dry up and live in animated suspension until the next rain. It also produces glowing, star-shaped pollen which is often stolen by the creatures Max.
 
               </p>
@@ -425,108 +533,7 @@ Max can glow in the night and steal pollen stars created by the Two-headed flowe
             </div>
 
 
-    <div v-on:click="toggleOverlay('spleen')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
-          <img
-              src="spleen2.png"
-              alt="Your Logo"
-              class="logoo"
-              width="100%"
-              height="100%"
-              />
-              <p class=" capitalize  flex justify-center">Syvan Spleen (Organ)</p>
-              
-              <!-- overlay -->
-          <div v-show="activeOverlay === 'spleen'" class="overlay text-[white] items-center bg-[#dfe169f0] flex flex-row text-left p-10">
-             <div class="widthmbover padovermb text-left w-2/6">
-              <p class="pb-1 text-4xl">Syvan Spleen</p>
-              <p class="pb-1">Location: Blooming Navel</p>
-              <div class="logoo  h-3/6 w-[100%]">
-                  <img
-                      src="spleen2.png"
-                      alt="Your Logo"
-                      class="logoo md:w-[35vw] sm:w-[25vw]"
-                      width="100%"
-                      height="100%"
-                      />
-              </div>
-              <p class="">Deep within the heart of the Blooming Navel, a remarkable sentient organism known as the Sylvan Spleen resides, its existence veiled in the mystique of nature's secrets. Resembling a pulsating, living spleen, this enigmatic entity thrives in perfect harmony with the mangrove flora. Its tendrils delicately weave through the intricate networks of mycelium, fostering an extraordinary web of interconnected life. The Sylvan Spleen, with its tranquil presence, acts as a guardian of balance, filtering the forest's vital energies and recycling them back into the rich, fertile soil. It imparts a subtle wisdom to the ecosystem, sharing the essence of the Valley’s cyclical existence.</p>
-             </div>
-             <div class="widthmbover p-[6vw] text-xl text-center w-2/6">
-              <p class=" text-4xl pb-1">Blooming Navel</p>
-              <!-- <p class="">Earth</p> -->
-              <svg class="svgoverlay  bloomsvg  svgin h-fit md:w-[100%] w-screen  flex flex-row justify-center items-center" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 724" width="1145" height="724">
-                      <defs>
-                        <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
-                          <path d="m-142-328h1418v1419h-1418z"/>
-                        </clipPath>
-                      </defs> 
-
-                        <style>tspan{white-space:pre}.a{stroke:#fff;stroke-miterlimit:100;stroke-width:3}.b{font-size: 19px;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}.c{fill:none;stroke:#fff;stroke-miterlimit:100;stroke-width:3.2}.d{font-size: 14px;line-height: 14px;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}.e{font-size: 19px;text-transform: uppercase;fill: #ffffff;font-weight: 100;font-family: "Poppins-Medium", "Poppins"}</style>
-                        <g clip-path="url(#cp1)">
-
-                            <!-- world two chest-->
-                            <path fill-rule="evenodd"  id="myPath1"  class="a bloom" d="m1134.8 575.9l-22.3 5.6c-5.9 2.4-57.5-26.6-57.5-26.6-5.6-3.1-10.8-10.7-11.5-17.1l-18.9-162.3c-0.6-4.5-4.1-8-8.6-8.5-13.8-1.4-43.8-4.2-73.2-4.2-41.8 0-50.3 19.7-62.1 47q0 0 0 0c-17.6 40.4-27 94.3-70.8 116.2q0 0 0 0c-35 17.5-72.4-2.6-98.3-25.1-18.3-15.8-32.6-57.5-53-60.3-12.1-1.4-18.2 13.5-21.6 23.6-4 11.6-6.8 23-9.9 34.9-6 23.2-19.7 44.7-33.6 63.9-2.9 4-2.3 9.5 1.4 12.8 22.2 19.9 37.9 33 44.4 34.8 30.2 8.2 418.9 34.4 418.9 34.4 1.6 0.1 3.4 1.5 3.9 2.9l4.1 10.9c1.7 4.5 5.3 7.3 8 6.4l3.9-1.4c0.5-0.2 1.4-0.4 1.9-0.4l8.9-0.6c3.2-0.2 5.6-3 5.3-6.2l-0.6-5.8c-0.2-2.2 1-4.9 2.8-6.1 0 0 22.7-11.3 27.4-10.7l6.5 0.8c1.5 0.2 3.2-0.9 3.6-2.4l8.5-49.8c1.8-6.1-1.7-9.2-7.6-6.7z"/>
-                            <path fill-rule="evenodd" id="myPath2"  class="a bloom" d="m1134.8 575.9l-22.3 5.6c-5.9 2.4-57.5-26.6-57.5-26.6-5.6-3.1-10.8-10.7-11.5-17.1l-18.9-162.3c-0.6-4.5-4.1-8-8.6-8.5-13.8-1.4-43.8-4.2-73.2-4.2-41.8 0-50.3 19.7-62.1 47q0 0 0 0c-17.6 40.4-27 94.3-70.8 116.2q0 0 0 0c-35 17.5-72.4-2.6-98.3-25.1-18.3-15.8-32.6-57.5-53-60.3-12.1-1.4-18.2 13.5-21.6 23.6-4 11.6-6.8 23-9.9 34.9-6 23.2-19.7 44.7-33.6 63.9-2.9 4-2.3 9.5 1.4 12.8 22.2 19.9 37.9 33 44.4 34.8 30.2 8.2 418.9 34.4 418.9 34.4 1.6 0.1 3.4 1.5 3.9 2.9l4.1 10.9c1.7 4.5 5.3 7.3 8 6.4l3.9-1.4c0.5-0.2 1.4-0.4 1.9-0.4l8.9-0.6c3.2-0.2 5.6-3 5.3-6.2l-0.6-5.8c-0.2-2.2 1-4.9 2.8-6.1 0 0 22.7-11.3 27.4-10.7l6.5 0.8c1.5 0.2 3.2-0.9 3.6-2.4l8.5-49.8c1.8-6.1-1.7-9.2-7.6-6.7z"/>
-               
-                              
-                            <text style="transform:matrix(1,0,0,1,862.192,512.211)" >
-                                <tspan x="29.2" y="17.9" class="e">
-                                  BLOOMING 
-                                </tspan>
-
-                                <tspan x="55.8" y="46.9" class="e">
-                                  NAVEL
-                                </tspan>
-                              </text>
-                        </g>
-              </svg>
-             </div>
-             <div class="widthmbover text-left w-2/6">
-              <p class="pb-1">Blooming Navel</p>
-              <p class="pb-1">(Mangroves)</p>
-              <p class="">A lush ocre, orange habitat made of short, mushroom-like flora. Plants at the Blooming Navel are every orange hue and are quite meaty in texture. The Navel is the habitat of the Spleen.
-              </p>
-             </div>
-        </div>
-
-    </div>
-
-
-    <div  v-on:click="toggleOverlay('twins')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
-          <img
-              src="twins2.png"
-              alt="Your Logo"
-              class="logoo"
-              width="110%"
-              height="110%"
-              />
-              <p class=" capitalize  flex justify-center">Nalu (Creature)</p>
     
-    
-                 <!-- overlay -->
-        <div v-show="activeOverlay === 'twins'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
-          <div class="widthmbover padovermbless text-left w-2/6">
-              <p class="pb-1 text-4xl justify-center flex">Nalu (Non racial twins) swarm</p>
-              <!-- <p class="pb-1">Location: Chest Grove</p> -->
-              <div class="logoo  h-3/6 w-[100%]">
-                  <img
-                      src="twins2.png"
-                      alt="Your Logo"
-                      class="logoo md:w-[35vw] sm:w-[25vw]"
-                      width="100%"
-                      height="100%"
-                      />
-              </div>
-              <p class="">Can teleport to a better place. </p>
-              <p class="">Nalu are winged creatures with one eye and clawed extremities. Nalu are always born as twins and are able to teleport to other places in the Valley. They also live in swarms and share memories with the swarm, making the swarm a collective memory vessel. 
-If twin Nalu get separated, the swarm is not able to teleport until they are reunited. <br/>
-An old Volgi legend says we Nalu twins are the children of Na and Lu - the two moons of Other Earth. Like the two moons, when they meet, they release a great power - teleport to any place we imagine. 
-</p>
-             </div>
-
-             
-       </div>
-            </div>
 
 
     <div  v-on:click="toggleOverlay('violetta')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
@@ -542,22 +549,21 @@ An old Volgi legend says we Nalu twins are the children of Na and Lu - the two m
                 <!-- overlay -->
         <div v-show="activeOverlay === 'violetta'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
           <div class="widthmbover padovermbless text-left w-2/6">
-              <p class="pb-1 text-4xl justify-center flex">Violetta</p>
+              <p class="pb-1 text-4xl justify-center flex">Violetta (Creature)</p>
               <!-- <p class="pb-1">Location: Chest Grove</p> -->
-              <div class="logoo  h-3/6 w-[100%]">
+              <div class="  h-3/6 w-[100%]">
                   <img
                       src="Violetta.png"
                       alt="Your Logo"
-                      class="logoo md:w-[35vw] sm:w-[25vw]"
+                      class=" md:w-[35vw] sm:w-[25vw]"
                       width="100%"
                       height="100%"
                       />
               </div>
-              <p class="">Making plants bloom </p>
+              <!-- <p class="">Making plants bloom </p> -->
               <p class="">
-                    A great ally to plants of the Valley, Violetta is a creature that makes plants bloom. Wherever its tendrils touch, the blooming of the plants is activated, resulting in the most lush environments. Although most plants welcome Violetta’s help, some plants remain hidden when this beautiful creature is in their midst. The ones that remain in hiding are seasonal plants, they know that if they bloom too soon, their saplings won’t thrive due to the wrong conditions. 
-                    Violetta feeds <br/> on the nectars from plants that it made blossom, and in return, carries the pollen around to other plants. Star pollen from Two-headed flower is deadly for Violetta. 
-                    </p>
+                A great ally to plants of the Valley, Violetta is a creature that makes plants bloom. Wherever its tendrils touch, the blooming of the plants is activated, resulting in the most lush environments. Although most plants welcome Violetta’s help, some plants remain hidden when this beautiful creature is in their midst. The ones that remain in hiding are seasonal plants, they know that if they bloom too soon, their saplings won’t thrive due to the wrong conditions. Violetta feeds on the nectars from plants that it made blossom and in return, carries the pollen around to other plants. Star pollen from the Two-Headed Flower is deadly for Violetta.
+              </p>
              </div>
 
              
@@ -568,10 +574,119 @@ An old Volgi legend says we Nalu twins are the children of Na and Lu - the two m
     </div>
 
 
+    <div class="mobileimgpara paddingbmobilelg flex flex-row justify-center h-2/4 text-[white] ">
+
+            <div  v-on:click="toggleOverlay('fernbell')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
+          <img
+              src="parasite3.png"
+              alt="Your Logo"
+              class="logoo"
+              width="110%"
+              height="110%"
+              />
+              <p class=" capitalize  flex justify-center">Fernbell (Parasite)</p>
+   
+                <!-- overlay -->
+        <div v-show="activeOverlay === 'fernbell'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
+          <div class="widthmbover padovermbless text-left w-2/6">
+              <p class="pb-1 text-4xl justify-center flex">Fernbell (Parasite)</p>
+              <!-- <p class="pb-1">Location: Chest Grove</p> -->
+              <div class="  h-3/6 w-[100%]">
+                  <img
+                      src="parasite3.png"
+                      alt="Your Logo"
+                      class=" md:w-[35vw] sm:w-[25vw]"
+                      width="100%"
+                      height="100%"
+                      />
+              </div>
+              <!-- <p class="">Making plants bloom </p> -->
+              <p class=""> 
+              Fernbell is a parasite living in a swarm, attracted to water environments. Lives in symbiosis with flora from the Limbic Forest. It lives beneath the Renalith (Kidney) and breaks down the crystals the Renlith makes into memories. These are rich fertilizers for the soil of Limbic Forest.
+              </p>
+             </div>
+
+             
+       </div>
+   
+            </div>
+
+            <div  v-on:click="toggleOverlay('leeverd')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
+          <img
+              src="parasite1.png"
+              alt="Your Logo"
+              class="logoo"
+              width="110%"
+              height="110%"
+              />
+              <p class=" capitalize  flex justify-center">Leeverd (Parasite)</p>
+   
+                <!-- overlay -->
+        <div v-show="activeOverlay === 'leeverd'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
+          <div class="widthmbover padovermbless text-left w-2/6">
+              <p class="pb-1 text-4xl justify-center flex">Leeverd (Parasite)</p>
+              <!-- <p class="pb-1">Location: Chest Grove</p> -->
+              <div class="  h-3/6 w-[100%]">
+                  <img
+                      src="parasite1.png"
+                      alt="Your Logo"
+                      class=" md:w-[35vw] sm:w-[25vw]"
+                      width="100%"
+                      height="100%"
+                      />
+              </div>
+              <!-- <p class="">Making plants bloom </p> -->
+              <p class="">
+                Leeverd dwells in the Prickle Back, responding to the earth element. It lives in harmony with the green flora of Prickle Back, hiding in the wet undergrowth. It is often found attached to seasonal plants, as it suppresses the instant blooming effect that Violetta can have on them. This way, the plants are protected from an early bloom and in return, the plants give Leeverd the Earth energy it needs to be able to photosynthesize and get its nourishment from the sun.
+              </p>
+             </div>
+
+             
+       </div>
+   
+            </div>
+
+            <div  v-on:click="toggleOverlay('barrus')" class="logoo flex flex-col  h-[35vh] md:w-[35vw] sm:w-[25vw]">
+          <img
+              src="parasite2.png"
+              alt="Your Logo"
+              class="logoo"
+              width="110%"
+              height="110%"
+              />
+              <p class=" capitalize  flex justify-center">Barrus (Parasite)</p>
+   
+                <!-- overlay -->
+        <div v-show="activeOverlay === 'barrus'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
+          <div class="widthmbover padovermbless text-left w-2/6">
+              <p class="pb-1 text-4xl justify-center flex">Barrus (Parasite)</p>
+              <!-- <p class="pb-1">Location: Chest Grove</p> -->
+              <div class="  h-3/6 w-[100%]">
+                  <img
+                      src="parasite2.png"
+                      alt="Your Logo"
+                      class=" md:w-[35vw] sm:w-[25vw]"
+                      width="100%"
+                      height="100%"
+                      />
+              </div>
+              <!-- <p class="">Making plants bloom </p> -->
+              <p class="">
+              Lives in both Blooming Navel and Prickle Back. Although its element is earth, it can be found roaming Prickle Back due to its ability to withstand and purify toxins. It is attracted to Leeverd, but Leeverd is not interested.
+              </p>
+             </div>
+
+             
+       </div>
+   
+            </div>
+    </div>
+
          <!-- parasites 3 sec -->
-    <div class="mobileimgpara  paddingbmobilelg flex flex-col items-center justify-between text-left h-screen  text-[white] ">
+    <!-- <div class="mobileimgpara  paddingbmobilelg flex flex-col items-center justify-between text-left h-screen  text-[white] ">
         
         <div class="w-[55vw] withmbbot ">
+
             <div class="logoo mobileimgpara p-10 flex justify-center h-fit pb-10 ">
                  
                       <div class="flex flex-col  w-[40vw] withmbbot"> 
@@ -589,24 +704,10 @@ An old Volgi legend says we Nalu twins are the children of Na and Lu - the two m
                       />
                     </div>
             </div>
-            <div class="logoo mobileimgpara p-10 flex justify-center h-fit pb-10 ">
-                 
-                      <div class="flex flex-col w-[40vw] withmbbot"> 
-                        <p class=" capitalize text-xl pb-10  flex text-left">Leeverd (Parasite)</p>
-                        <p class=" text-[1vw] withmbbot textmbsmp flex justify-center ">Leeverd dwells in the Prickle Back, responding to the earth element. It lives in harmony with the green flora of Prickle Back, hiding in the wet undergrowth. It is often found attached to seasonal plants, as it suppresses the instant blooming effect that Violetta can have on them. This way, the plants are protected from an early bloom and in return, the plants give Leeverd the Earth energy it needs to be able to photosynthesize and get its nourishment from the sun.
-                        </p>
-                      </div>
 
-                      <div class="logoo imgcenterbot  h-fit w-5/6">
-                       <img
-                      src="parasite1.png"
-                      alt="Your Logo"
-                      class="logoo"
-                      width="100%"
-                      height="100%"
-                      />
-                      </div>
-            </div>
+
+
+
             <div class="logoo mobileimgpara p-10 flex justify-center h-fit pb-10">
                  
                       <div class="flex flex-col w-[40vw] withmbbot"> 
@@ -628,7 +729,9 @@ An old Volgi legend says we Nalu twins are the children of Na and Lu - the two m
             </div>
         </div>
 
-      </div>
+      </div> -->
+    
+    
     </div>
 
 
@@ -750,7 +853,7 @@ An old Volgi legend says we Nalu twins are the children of Na and Lu - the two m
   }
 
   .headtextmb{
-    font-size: 2.75rem;
+    font-size: 1.9rem;
     display: flex;
     justify-content: center;
   }

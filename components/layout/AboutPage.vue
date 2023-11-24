@@ -184,8 +184,8 @@
 </div>
             </div>
             
-            <button class="w-[25vw] pl-2 uppercase pointer-events-auto flex items-end mobilemenupad z-[10]" @click="toggleBlueBox('about' && 'backstory' && 'collaborators')">
-  <span class="fill-[white] text-[white]" v-if="!showXIcon">Menu</span>
+            <button class="w-[25vw] pl-2  uppercase pointer-events-auto flex items-end mobilemenupad z-[10]" @click="toggleBlueBox('about' && 'backstory' && 'collaborators')">
+  <span class="fill-[white] text-[white] menubtn" v-if="!showXIcon">Menu</span>
   <!-- <i v-if="!showXIcon" class="fas fa-bars"></i> -->
   <span class="text-3xl text-[white]" v-else>&times;</span>
 </button>

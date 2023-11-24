@@ -55,6 +55,21 @@ iframe{
     min-height: 100vh !important;
 } */
 
+.logoo {
+  cursor: pointer;
+  width: 20vw;
+  height: auto;
+  align-items: center;
+}
+
+.logoo {
+  display: flex;
+  justify-content: center;
+}
+
+.heartsize{
+  width: 24vw !important;
+}
 
 
 a {
@@ -158,8 +173,73 @@ a:visited {
     flex-direction: column;
     align-items: center;
 }
+
+.custom-text-box {
+  background-color: #3498db; 
+  border: 2px solid #2980b9; 
+  padding: 20px; 
+  border-radius: 8px; 
+}
+
+.aboutbtn{
+  background-color: #edf3ff;
+  color: black !important;
+  border: 2px solid #2980b9; 
+  padding: 20px; 
+  border-radius: 8px; 
+}
+
+.menubtn{
+  border: 2px solid #2980b9; 
+  padding: 20px; 
+  border-radius: 8px; 
+  width: auto;
+    color: white;
+    background-color: #2980b9;
+    padding: 0px 15px 0px 15px;
+    border: 2px solid white;
+    border-radius: 45px;
+    line-height: 50px;
+    margin: 0px 5px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.collaborator-card{
+  background-color: #3498db; 
+  border: 2px solid #2980b9; 
+  padding: 20px; 
+  border-radius: 8px; 
+  color: white !important;
+}
+
+.containercolor{
+  background-color: #3498db; 
+  border: 2px solid #2980b9; 
+  padding: 20px; 
+  border-radius: 8px; 
+  color: white !important;
+}
+
+.textlook{
+  width: 60vw;
+}
     
     @media (max-width: 760px) {
+      .heartsize{
+        /* display: flex; */
+        width: 70vw !important;
+      }
+
+      .mobileimgpara{
+        align-items: center !important;
+      }
+
+      .logoo {
+        cursor: pointer;
+        width: auto;
+        height: auto;
+      }
      
       #sticky-popup p {
         font-size: 2.5vw;
@@ -309,7 +389,7 @@ a:visited {
 .logombheadimg{
   position: absolute;
     top: 8vh;
-    left: 41vw;
+    left: 33vw;
     width: 46vw;
 }
 

@@ -61,7 +61,7 @@
             /> -->
            
             <a target="_blank" href="https://kristinapulejkova.com/"><h3 class="text-xl font-semibold mt-2">Kristina Pulejkova</h3></a>
-            <p class="text-[#38664d]">(Game Narrative, Map, Mosaic Monuments)</p>
+            <p class="text-[#35357d]">(Game Narrative, Map, Mosaic Monuments)</p>
             <p>is a London-based visual artist whose interdisciplinary practice is informed by science and technology. Kristina’s work explores how the use of technology might lead to greater forms of sustainability in human-nature relationships. Working across moving image, sound and installation, she aims to build subjective narratives based on scientific data and principles. In her work, she tends to imagine voices from creatures, objects and even atoms to inhabit non-human perspectives. Through the use of immersive technology, her works often deal with environmental issues, telling personal stories that place audiences at the centre of the scene, allowing for a protagonist’s perspective and a different way of seeing.
             </p>
           </div>
@@ -76,7 +76,7 @@
               class="w-full h-auto rounded-lg"
             /> -->
             <a target="_blank" href="https://melissaschwarz.com/"><h3 class="text-xl font-semibold mt-2">Melissa Schwarz</h3></a>
-            <p class="text-[#38664d]"> (Game Environment, Portal)</p>
+            <p class="text-[#35357d]"> (Game Environment, Portal)</p>
             <p> is a German interdisciplinary artist, designer and researcher based in London. Her research and practice is mainly concerned with topics around ecology, environments and speculative futures. As such, she examines socio-political narratives, nature concepts and multiverse theories. She creates work which uses different media for her poetic storytelling, from more traditional mediums to 3D. Melissa is an Associate Lecturer at The University of the Arts London and Goldsmith’s, University of London.</p>
           </div>
         </div>
@@ -90,7 +90,7 @@
               class="w-full h-auto rounded-lg"
             /> -->
             <a target="_blank" href="https://www.instagram.com/sundachun/"><h3 class="text-xl font-semibold mt-2">Chun Sun</h3></a>
-            <p class="text-[#38664d]">(Game Characters: Arboricor - Heart, Sylvan - Spleen, Aerophyta - Lung, Renalith - Kidney, Chlora - Liver, Violetta, Max, Nalu, Two-headed Flower)</p>
+            <p class="text-[#35357d]">(Game Characters: Arboricor - Heart, Sylvan - Spleen, Aerophyta - Lung, Renalith - Kidney, Chlora - Liver, Violetta, Max, Nalu, Two-headed Flower)</p>
             <p> is a multi-disciplinary artist from China. Her work incorporates various media such as digital art, installation, painting, and film, and her recent work revolves around Taoist theory and science fiction storytelling. Recent projects include collaborations and exhibitions with The Power Station of Art (PSA), Shanghai Himalayas Museum, CICA Museum, Genoa Biennial, Aranya Theatre Festival, SXSW, William Morris Gallery, Onkaos and HERVISIONS.
             </p>
           </div>
@@ -106,7 +106,7 @@
               class="w-full h-auto rounded-lg"
             /> -->
             <a target="_blank" href="https://shonee.space/"><h3 class="text-xl font-semibold mt-2">Bianca Shonee Arroyo-Kreimes</h3></a>
-            <p class="text-[#38664d]">(Game Characters: Siphnonophore, Fernbell, Leeverd, Barrus, Cnidaria)</p>
+            <p class="text-[#35357d]">(Game Characters: Siphnonophore, Fernbell, Leeverd, Barrus, Cnidaria)</p>
             <p>is a Montreal-based Costa Rican-Canadian digital media artist. Growing up on the edge of a rainforest in Costa Rica nourishes her creative practice as her work strives to resurrect the meaning of nature’s place in her own life now as both an urbanite and multidisciplinary artist. Within the virtual worlds she creates, 3D embodiments of organisms
               borrow shapes, colours, and stories from plants and animals within our own world, while
               remaining singular. This conscious decision is intended to inspire a newly discovered
@@ -126,7 +126,7 @@
               class="w-full h-auto rounded-lg"
             /> -->
             <a target="_blank" href="https://www.instagram.com/eternal.enginee/"><h3 class="text-xl font-semibold mt-2">Eternal Engine</h3></a>
-            <p class="text-[#38664d]"> (Game Developer and Visual Artist)</p>
+            <p class="text-[#35357d]"> (Game Developer and Visual Artist)</p>
             <p>are an artistic queer duo of Jagoda Wójtowicz (she/her) and Martix Navrot (he/him). Their experimental research combines audio-visual praxis and prototypes of virtuality which explore the performativity of virtual spaces and intermedium anomalies (3D, AI, VR, XR). Eternal Engine use speculation and queer methodologies in their artistic praixs, to investigate the Future/s of technology and quantum reality. To achieve this they push the boundaries of the Real and the Virtual with seemingly unnoticeable steps – by a millimeter, by an atom, by a pixel.
             </p>
           </div>
@@ -141,7 +141,7 @@
               class="w-full h-auto rounded-lg"
             /> -->
             <a target="_blank" href="https://alessiaarcuri.com/"><h3 class="text-xl font-semibold mt-2">Alessia Arcuri</h3></a>
-            <p class="text-[#38664d]">(Graphic Design)</p>
+            <p class="text-[#35357d]">(Graphic Design)</p>
             <p> is an independent designer working in the fields of arts, culture and education. Within the cultural sector, she develops projects and resources that facilitate and inform visitor's experience and recent clients include: Tate, Natural History Museum, the British Museum and Mozilla. She is also a lecturer at Kingston School of Art, Department of Graphic Design; a member of Evening Class, a collective exploring forms of self- organised learning at their intersection with design practice and labour; and, alongside John Philip Sage, she developed and run the workshop series DRAMA.
               </p>
           </div>
@@ -156,7 +156,7 @@
               class="w-full h-auto rounded-lg"
             /> -->
             <a target="_blank" href="https://www.neriankey.me/"><h3 class="text-xl font-semibold mt-2">Nerian Keywan</h3></a>
-            <p class="text-[#38664d]">(Animation and Motion Design)</p>
+            <p class="text-[#35357d]">(Animation and Motion Design)</p>
             <p>is a Palestinian visual artist currently based in London. She comes from a background in Visual communication, Philosophy, and History of Art. In June 2023, she obtained her master's degree in Animation from the Royal College of Art (RCA). She has over 5 years of experience in illustration, animation both in 2D and 3D, as well as graphic design. In addition to her independent practice, she works as a Unity resident tutor at Kingston University.
             </p>
           </div>
@@ -174,7 +174,7 @@
               class="w-full h-auto rounded-lg"
             /> -->
             <a target="_blank" href="https://www.instagram.com/hervisions_/"><h3 class="text-xl font-semibold mt-2">Zaiba Jabbar</h3></a>
-            <p class="text-[#38664d]">(Founder of HERVISIONS, Creative director, Curator and Creative Producer)</p>
+            <p class="text-[#35357d]">(Founder of HERVISIONS, Creative director, Curator and Creative Producer)</p>
             <p> is an award-winning director, moving image artist, commissioner, independent curator and Founder of HERVISIONS. She’s interested in the democratisation and accessibility by how we experience art outside the white cube. Her curatorial project HERVISIONS is an investigation into how people in the margins are using technology to create art outside of traditional formats, making space for themselves through the experience of expanded moving image. She is a leader in augmented reality and digital art exhibitions online and offline working with partners and institutes that include Tate Modern, LUX, i-D, Google Arts and Culture, IAMSOUND, The London College of Fashion, Loom Festival, Spectacles, arebyte, Furtherfield and The Photographers Gallery. Zaiba was curator in residence at LUX in (2018) and a board member of Abandon Normal Devices.</p>
           </div>
         </div>
@@ -189,7 +189,7 @@
               class="w-full h-auto rounded-lg"
             /> -->
             <a target="_blank" href="https://tanyaboyarkina.com/"><h3 class="text-xl font-semibold mt-2">Tanya Boyarkina</h3></a>
-            <p class="text-[#38664d]">(Curator and Creative Producer)</p>
+            <p class="text-[#35357d]">(Curator and Creative Producer)</p>
             <p>is a London-based curator and creative/digital producer aiming to demystify complex technological processes through playful, collaborative and participative formats. She has been working with museums, galleries, independent art institutions (including Tate, Furtherfield and Mediale) and diverse artists for over a decade, curating and producing online and real-life events which connect audiences of all ages and abilities with evolving digital cultures. Tanya is a co-Founder of Compiler.zone, a platform for digital art, curation, and critical technical practice addressing contemporary socio-political challenges.
             </p>
           </div>
@@ -207,7 +207,7 @@
               class="w-full h-auto rounded-lg"
             /> -->
             <a target="_blank" href="https://wmgallery.org.uk/whats-on/radical-landscapes-events-and-activities-programme/"><h3 class="text-xl font-semibold mt-2">Christine Lai</h3></a>
-            <p class="text-[#38664d]">(Public Programme Curator at the William Morris Gallery)</p>
+            <p class="text-[#35357d]">(Public Programme Curator at the William Morris Gallery)</p>
             <p>(Public Programme Curator at the William Morris Gallery) is a British-born Chinese cultural producer/curator. Her role at the William Morris Gallery is founded upon making the museum a useful resource for Waltham Forest residents and translating Morris’ core values around access to creative arts, environmentalism and socialist ideologies into an ambitious and relevant public programme. Christine has previously worked at a wide range of cultural institutions including Serpentine, Tate, National Galleries of Scotland, Kakilang (formerly Chinese Arts Now). She is also 1/7 of the collective Baesianz, a London-based collective and platform dedicated to celebrating artists of Asian heritage.
             </p>
           </div>
@@ -219,7 +219,7 @@
         <div class="collaborator-card p-4 border border-[#455baf] rounded-lg">
           <a target="_blank" href="https://instagram.com/ndelap?igshid=OGQ5ZDc2ODk2ZA==">
             <h3 class="text-xl font-semibold mt-2">Nicholas Delap</h3></a>
-          <p class="text-[#38664d]">(Game Developer and Visual Artist)</p>
+          <p class="text-[#35357d]">(Game Developer and Visual Artist)</p>
           <p>is a digital artist, posthumanism or post-humanism who explores wilderness, post humanism and re-wilding as themes within his artworks, creating immersive and other worldly virtual environments, sculptures and video installations. His work seeks to undermine the traditional boundaries between the Human, The Natural and the Technological.
           </p>
         </div>

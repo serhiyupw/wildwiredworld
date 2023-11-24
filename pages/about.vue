@@ -27,10 +27,13 @@
                 <section class="relative z-[1] flex h-screen text-left  justify-start teams-section flex-wrap content-center  text-[#273c30] overflow-scroll">
     
     <div class=" text-left pb-10 pt-[15rem] ">
-                  <div class="container mx-auto centerdiv text-left  ">
-      <h2 class="text-3xl font-semibold text-center mb-4">About</h2>
-    <div class='md:w-2/3 w-screen p-[1.25rem]'>
-      <p>
+      <div class="container   mb-4 centerdiv">
+        <h2 class="text-3xl font-semibold text-center mb-4">About</h2>
+      </div>
+                  <div class=" mx-auto centerdiv text-left  ">
+      <!-- <h2 class="text-3xl font-semibold text-center mb-4">About</h2> -->
+    <div class='md:w-2/3 w-screen p-[1.25rem] '>
+      <p class="containercolor">
             Inspired by William Morris’s proto-ecotopian fiction News from Nowhere, HERVISIONS digital art studio presents an exciting speculative public artwork and mobile-friendly game in response to the <a href="https://wmgallery.org.uk/event/radical-landscapes/" target="_blank">Radical Landscapes</a> exhibition at the William Morris Gallery, exploring the natural environment and landscapes of Langthorne Park, Leytonstone. Produced in collaboration with Leytonstone Toy Library, ​​the Youth Club at Worth Unlimited and local communities.
 
 This project aims to explore digital rewilding – connecting the hyperlocal ecology of Langthorne Park to the wider global Climate Emergency and exploring how boundaries between humans, nature and technology are dissolving. The work draws on themes of identity, social mobility, collective storytelling, and our relationship to place.
@@ -54,11 +57,11 @@ Please help us secure funding from Arts Council England by completing an evaluat
 
 
 
-    <div class="container mx-auto centerdiv text-left ">
+    <div class=" mx-auto centerdiv text-left ">
       <h2 class="text-2xl pt-10  text-center  mb-4 p-1">The Game</h2>
         <div class='centerdiv text-left'>
-      <div class='md:w-2/3 w-screen p-[1.25rem]'>
-        <p>
+      <div class='md:w-2/3 w-screen p-[1.25rem] '>
+        <p class="containercolor">
             This is a mobile-friendly site-specific game with five environments.
 
 You are invited to visit Long Thorn Valley, a place that exists in a parallel universe at the exact location of Langthorne Park. It is the year 2435, on a planet that we will call Other Earth, where plants, creatures and parasites thrive in symbiotic relationships. The most precious possessions of these beings are their memories. Memories are the core of their being. They are the life force that keeps them alive. 
@@ -68,7 +71,7 @@ But a terrible disaster caused them to lose their memories, throwing all inhabit
 You are the Guardian called Siph - a colony of tiny organisms working as a single being who used to live in the deep ocean. A passionate collector of memories, YOU have the power to help the Valley’s creatures. 
  </p>
 
- <p>Collect and retrieve their memories and restore life to Other Earth!</p>
+ <p class="containercolor">Collect and retrieve their memories and restore life to Other Earth!</p>
 </div>
 
 
@@ -88,7 +91,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
             <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
         </ol> -->
 
-        <div class="image-container z-[2]  md:w-1/4 w-3/4 centerdiv text-left">
+        <div class="image- z-[2]  md:w-1/4 w-3/4 centerdiv text-left">
                   
                   <!-- <img
                           class=" w-4/4 p-3"
@@ -114,7 +117,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
 
 
   <!-- <footer>
-                <div class="image-container z-[2]">
+                <div class="image- z-[2]">
                   
                     <img
                             class=" w-4/4 p-0"
@@ -220,15 +223,15 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
               text-align: center; /* Center align the content */
           }
   
-          /* Style for the image container */
-          .image-container {
+          /* Style for the image  */
+          .image- {
               display: flex;
               justify-content: space-around;
               margin-top: 20px;
           }
   
           /* Style for each image */
-          .image-container img {
+          .image- img {
               /* width: 20vw;  */
               height: auto; /* Maintain aspect ratio */
               margin: 10px; /* Margin between images */
@@ -246,7 +249,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
     align-items: center;
   }
   
-  .svg-container{
+  .svg-{
   padding-top: 13.5rem !important;
   /* z-index: 0 !important; */
   }

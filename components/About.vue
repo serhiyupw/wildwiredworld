@@ -33,8 +33,12 @@
                 <section class="relative z-[1] flex h-screen  justify-start teams-section flex-wrap content-center  text-white overflow-scroll">
     
     <div class="  p-10 ">
-                  <div class="container mx-auto text-left  centerdiv  ">
-      <h2 class="text-xl font-semibold mb-4">About</h2>
+      <!-- containercolor -->
+      <div class="container  mb-4 centerdiv">
+        <h2 class="text-xl font-semibold   ">About</h2>
+      </div>
+
+                  <div class="container containercolor  mx-auto text-left  centerdiv  ">
     <div class=' text-base  p-1 '>
         <p>
             Inspired by William Morris’s proto-ecotopian fiction News from Nowhere, HERVISIONS digital art studio presents an exciting speculative public artwork and mobile-friendly game in response to the <a href="https://wmgallery.org.uk/event/radical-landscapes/" target="_blank">Radical Landscapes</a> exhibition at the William Morris Gallery, exploring the natural environment and landscapes of Langthorne Park, Leytonstone. Produced in collaboration with Leytonstone Toy Library, ​​the Youth Club at Worth Unlimited and local communities.
@@ -58,9 +62,9 @@ Please help us secure funding from Arts Council England by completing an evaluat
 
 
 
-
-    <div class="container mx-auto text-left  ">
-      <h2 class="text-base pt-10 mb-4 p-1">The Game</h2>
+<div class="pt-10">
+  <div class="container containercolor    mx-auto text-left  ">
+      <h2 class="text-base mb-4 p-1">The Game</h2>
         <div class='centerdiv'>
       <div class=' text-base p-1 '>
         <p>
@@ -91,7 +95,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
             <li>Find all five passwords around the park and play all five game environments to help fantastical creatures and piece the story together.</li>
         </ol> -->
 <!-- 
-        <div class="image-container z-[2]  md:w-1/4 w-3/4 centerdiv">
+        <div class="image-container containercolor  z-[2]  md:w-1/4 w-3/4 centerdiv">
                   
                   <img
                           class=" w-4/4 p-3"
@@ -105,6 +109,8 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
               <!-- <p>&copy; 2023 Wild Wired! Rewilding Encounters of Langthorne Park. All rights reserved.</p> -->
     </div>
     </div>
+</div>
+    
   </div>
 
 
@@ -117,7 +123,7 @@ You are the Guardian called Siph - a colony of tiny organisms working as a singl
 
 
   <!-- <footer>
-                <div class="image-container z-[2]">
+                <div class="image-container containercolor  z-[2]">
                   
                     <img
                             class=" w-4/4 p-0"
@@ -222,15 +228,15 @@ text-transform: none;
               text-align: center; /* Center align the content */
           }
   
-          /* Style for the image container */
-          .image-container {
+          /* Style for the image container containercolor  */
+          .image-container containercolor  {
               display: flex;
               justify-content: space-around;
               margin-top: 20px;
           }
   
           /* Style for each image */
-          .image-container img {
+          .image-container containercolor  img {
               /* width: 20vw;  */
               height: auto; /* Maintain aspect ratio */
               margin: 10px; /* Margin between images */
@@ -248,7 +254,7 @@ text-transform: none;
     align-items: center;
   }
   
-  .svg-container{
+  .svg-container containercolor {
   padding-top: 13.5rem !important;
   /* z-index: 0 !important; */
   }
