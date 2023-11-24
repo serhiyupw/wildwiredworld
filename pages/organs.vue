@@ -364,7 +364,7 @@
             <!-- overlay -->
               <div v-show="activeOverlay === 'max'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
              <div class="widthmbover padovermbless text-left w-2/6">
-              <p class="pb-1 text-4xl justify-center flex">Max  “Creature”</p>
+              <p class="pb-1 text-4xl  flex">Max  “Creature”</p>
               <!-- <p class="pb-1">Location: Chest Grove</p> -->
               <div class="logoo  h-3/6 w-[100%]">
                   <img
