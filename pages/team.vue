@@ -46,7 +46,7 @@
 
 
   <!-- Teams/Collaborators Section -->
-  <section class=" pt-[12rem] pb-10 relative z-[100]   overflow-scroll h-screen text-[#273c30]">
+  <section class=" pt-[15rem] pb-10 relative z-[100]   overflow-scroll h-screen text-[#273c30]">
                 <!-- <section class="pt-[40rem]  overflow-scroll  relative z-[1000000] flex h-screen justify-start teams-section flex-wrap content-center py-10 text-white"> -->
     <div class="container mx-auto p-[1.25rem] pt-0 pb-0 text-left">
       <h2 class="text-3xl font-semibold mb-4 text-center">Collaborators</h2>
@@ -62,7 +62,7 @@
            
             <a target="_blank" href="https://kristinapulejkova.com/"><h3 class="text-xl font-semibold mt-2">Kristina Pulejkova</h3></a>
             <p class="text-[#38664d]">(Game Narrative, Map, Mosaic Monuments)</p>
-            <p>Kristina Pulejkova (Game Narrative, Map, Mosaic Monuments) is a London-based visual artist whose interdisciplinary practice is informed by science and technology. Kristina’s work explores how the use of technology might lead to greater forms of sustainability in human-nature relationships. Working across moving image, sound and installation, she aims to build subjective narratives based on scientific data and principles. In her work, she tends to imagine voices from creatures, objects and even atoms to inhabit non-human perspectives. Through the use of immersive technology, her works often deal with environmental issues, telling personal stories that place audiences at the centre of the scene, allowing for a protagonist’s perspective and a different way of seeing.
+            <p>is a London-based visual artist whose interdisciplinary practice is informed by science and technology. Kristina’s work explores how the use of technology might lead to greater forms of sustainability in human-nature relationships. Working across moving image, sound and installation, she aims to build subjective narratives based on scientific data and principles. In her work, she tends to imagine voices from creatures, objects and even atoms to inhabit non-human perspectives. Through the use of immersive technology, her works often deal with environmental issues, telling personal stories that place audiences at the centre of the scene, allowing for a protagonist’s perspective and a different way of seeing.
             </p>
           </div>
         </div>

@@ -28,159 +28,9 @@
       </div>
 
 
-  
-  <!-- parasite -->
-      <div class="w-[50vw] orb bg-[#dc97b4] text-[#ffffff] overflow-scroll">
-      
-        <div class="p-[1rem] text-left">
-            <div class=" pb-[2rem] ">
-              <h2 class="text-xl text-center flex items-center  flex-col leading-2  font-semibold ">
-                Meet the Organs, Creatures and Parasites of Long Thorn Valley.
-              </h2>
-              <NuxtLink class="pt-[.3rem] underline" to="/organs" >
-                <p class="pt-[.3rem] underline text-center ">Find out more about the world building?</p>
-              </NuxtLink> 
-            </div> 
 
-            <div class="gallery-container">
-          
-          <button class="gallery-arrow" @click="prevImage">&#8249;</button>
-          
-          <div class="middleorbshome" v-if="currentImageIndex === 0">
-            <img
-            class="gallery-image"
-            src="heart1.png"
-            alt="Image 1"
-            />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize flex justify-center">Arboricor heart</p></NuxtLink>
-          </div>
-          
-          <div class="middleorbshome" v-if="currentImageIndex === 1">
-            <img
-            class="gallery-image"
-            src="kidney.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Renalith kidney</p></NuxtLink>
-          </div>
-
-          <div class="middleorbshome" v-if="currentImageIndex === 2">
-            <img
-            class="gallery-image"
-            src="liver2.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Chlora liver</p></NuxtLink>
-          </div>
-          
-          
-
-          <div class="middleorbshome" v-if="currentImageIndex === 3">
-            <img
-            class="gallery-image"
-            src="lung3.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Aerophyta lung</p></NuxtLink>
-          </div>
-
-          <div class="middleorbshome" v-if="currentImageIndex === 4">
-            <img
-            class="gallery-image"
-            src="Max.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Max</p></NuxtLink>
-          </div>
-        
-          
-          <div class="middleorbshome" v-if="currentImageIndex === 5">
-            <img
-            class="gallery-image"
-            src="Parasite.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Two Headed Flower</p></NuxtLink>
-          </div>
-
-          <div class="middleorbshome" v-if="currentImageIndex === 6">
-            <img
-            class="gallery-image"
-            src="spleen2.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Syvan spleen</p></NuxtLink>
-          </div>
-          
-          <div class="middleorbshome" v-if="currentImageIndex === 7">
-            <img
-            class="gallery-image"
-            src="twins2.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Nalu</p></NuxtLink>
-          </div>
-        
-          <div class="middleorbshome" v-if="currentImageIndex === 8">
-            <img
-            class="gallery-image"
-            src="Violetta.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">violetta</p></NuxtLink>
-          </div>
-
-          <div class="middleorbshome" v-if="currentImageIndex === 9">
-            <img
-            class="gallery-image"
-            src="siphonophore.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Siphonophore</p></NuxtLink>
-          </div>
-        
-
-          <div class="middleorbshome" v-if="currentImageIndex === 10">
-            <img
-            class="gallery-image"
-            src="parasite1.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Cnidaria</p></NuxtLink>
-          </div>
-
-          <div class="middleorbshome" v-if="currentImageIndex === 11">
-            <img
-            class="gallery-image"
-            src="parasite2.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Barrus</p></NuxtLink>
-          </div>
-
-          <div class="middleorbshome" v-if="currentImageIndex === 12">
-            <img
-            class="gallery-image"
-            src="parasite3.png"
-            alt="Image 2"
-          />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Leeverd</p></NuxtLink>
-          </div>
-
-
-
-
-          <button class="gallery-arrow" @click="nextImage">&#8250;</button>
-            </div>
-        </div>
-
-
-  </div>
-
-
-
-  <!-- map svg area -->
-      <div
+        <!-- map svg area -->
+        <div
         class=" w-[50vw] svgarea   bg-[#c8bb57] text-[#ffffff] overflow-hidden  "
         ref="background"
       >
@@ -189,8 +39,8 @@
                   <h2 class="text-xl pl-[1rem] text-center  font-semibold ">
                       Enter the game
                   </h2>
-                  <p class=" pt-[.2rem] text-sm text-left ">To enter the game click on the different environments  and find the passwords on banners around the park and be transported to the Parallel world of Langthorne Park.
-                  </p>
+                  <!-- <p class=" pt-[.2rem] text-sm text-left ">To enter the game click on the different environments  and find the passwords on banners around the park and be transported to the Parallel world of Langthorne Park.
+                  </p> -->
             </div> 
 
 
@@ -356,6 +206,159 @@
 
 </div>
       </div>
+
+  
+  <!-- parasite -->
+      <div class="w-[50vw] orb bg-[#dc97b4] text-[#ffffff] overflow-scroll">
+      
+        <div class="p-[1rem] text-left">
+            <div class=" pb-[2rem] ">
+              <h2 class="text-xl text-center flex items-center  flex-col leading-2  font-semibold ">
+                Meet the Organs, Creatures and Parasites of Long Thorn Valley.
+              </h2>
+              <NuxtLink class="pt-[.3rem] underline" to="/organs" >
+                <p class="pt-[.3rem] underline text-center ">Click here to learn more about the game.</p>
+              </NuxtLink> 
+            </div> 
+
+            <div class="gallery-container">
+          
+          <button class="gallery-arrow" @click="prevImage">&#8249;</button>
+          
+          <div class="middleorbshome" v-if="currentImageIndex === 0">
+            <img
+            class="gallery-image"
+            src="heart1.png"
+            alt="Image 1"
+            />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize flex justify-center">Arboricor heart</p></NuxtLink>
+          </div>
+          
+          <div class="middleorbshome" v-if="currentImageIndex === 1">
+            <img
+            class="gallery-image"
+            src="kidney.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Renalith kidney</p></NuxtLink>
+          </div>
+
+          <div class="middleorbshome" v-if="currentImageIndex === 2">
+            <img
+            class="gallery-image"
+            src="liver2.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Chlora liver</p></NuxtLink>
+          </div>
+          
+          
+
+          <div class="middleorbshome" v-if="currentImageIndex === 3">
+            <img
+            class="gallery-image"
+            src="lung3.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Aerophyta lung</p></NuxtLink>
+          </div>
+
+          <div class="middleorbshome" v-if="currentImageIndex === 4">
+            <img
+            class="gallery-image"
+            src="Max.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Max</p></NuxtLink>
+          </div>
+        
+          
+          <div class="middleorbshome" v-if="currentImageIndex === 5">
+            <img
+            class="gallery-image"
+            src="Parasite.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Two Headed Flower</p></NuxtLink>
+          </div>
+
+          <div class="middleorbshome" v-if="currentImageIndex === 6">
+            <img
+            class="gallery-image"
+            src="spleen2.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Syvan spleen</p></NuxtLink>
+          </div>
+          
+          <div class="middleorbshome" v-if="currentImageIndex === 7">
+            <img
+            class="gallery-image"
+            src="twins2.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Nalu</p></NuxtLink>
+          </div>
+        
+          <div class="middleorbshome" v-if="currentImageIndex === 8">
+            <img
+            class="gallery-image"
+            src="Violetta.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">violetta</p></NuxtLink>
+          </div>
+
+          <div class="middleorbshome" v-if="currentImageIndex === 9">
+            <img
+            class="gallery-image"
+            src="siphonophore.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Siphonophore</p></NuxtLink>
+          </div>
+        
+
+          <div class="middleorbshome" v-if="currentImageIndex === 10">
+            <img
+            class="gallery-image"
+            src="parasite1.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Cnidaria</p></NuxtLink>
+          </div>
+
+          <div class="middleorbshome" v-if="currentImageIndex === 11">
+            <img
+            class="gallery-image"
+            src="parasite2.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Barrus</p></NuxtLink>
+          </div>
+
+          <div class="middleorbshome" v-if="currentImageIndex === 12">
+            <img
+            class="gallery-image"
+            src="parasite3.png"
+            alt="Image 2"
+          />
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Leeverd</p></NuxtLink>
+          </div>
+
+
+
+
+          <button class="gallery-arrow" @click="nextImage">&#8250;</button>
+            </div>
+        </div>
+
+
+  </div>
+
+
+
+
 
       
       <nuxt />
@@ -713,6 +716,7 @@ width: 90vw;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+      padding-bottom: 20vh;
 }
 
 .svgarea{

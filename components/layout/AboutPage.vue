@@ -198,7 +198,7 @@
       <!-- in box -->
       <div class="blue-box z-[100002]" :class="{ active: isBlueBoxActive }">
     <div>
-      <div v-if="isBlueBoxActive" @click="toggleBlueBox" class="mobilemenumain bg-white">
+      <div v-if="isBlueBoxActive"  class="mobilemenumain bg-white">
         <ul class="list-none p-4 menumobilelist text-[#38664d]">
           <li >
             <!-- <NuxtLink :to="blueBoxContent.link">{{ blueBoxContent.label }}</NuxtLink> -->
@@ -254,10 +254,10 @@
         </ul>
       </div>
 
-      <div v-if="isBlueBoxActive" @click="toggleBlueBox" class="mobilemenuere">
+      <div v-if="isBlueBoxActive" class="mobilemenuere">
        
 
-        <p class="absolute z-[10000000] p-10 text-[#273c30] w-[7vw]" @click="toggleBlueBox">
+        <p class="absolute z-[10000000] p-10 text-[#273c30] w-[7vw] cursor-pointer" @click="toggleBlueBox">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"

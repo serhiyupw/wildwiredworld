@@ -89,7 +89,7 @@ a:visited {
   right: 20px;
   padding: 10px;
   z-index: 10000000;
-  width: 25vw;
+  width: 15vw;
   text-align: center;
   background: #65a644; /* Change the background color to a green color */
   border-radius: 15px; /* Increase the border-radius for a more organic shape */
@@ -98,8 +98,13 @@ a:visited {
 }
 
 #sticky-popup p {
+  font-size: .8vw;
   padding: 10px; /* Add some padding to the paragraph */
   color: #fff; /* Change text color to white */
+}
+
+#close-sticky-popup{
+  font-size: .8vw;
 }
 
 #close-sticky-popup {
@@ -156,7 +161,16 @@ a:visited {
     
     @media (max-width: 760px) {
      
-     
+      #sticky-popup p {
+        font-size: 2.5vw;
+        padding: 10px;
+        color: #fff;
+    }
+
+    #close-sticky-popup{
+      font-size: 2.5vw;
+    }
+
       .thornedsvg {
     position: relative;
     left: -62vw;
@@ -202,19 +216,19 @@ a:visited {
       #sticky-popup {
   position: fixed;
   bottom: 0%; /* Center at the bottom */
-  transform: translateY(50%);
-  left: 50%;
-  transform: translateX(-50%);
+  /* transform: translateY(50%); */
+  left: 0%;
+  /* transform: translateX(-50%); */
   padding: 10px;
   z-index: 10000000;
-  width: 80vw;
+  width: 50vw;
   text-align: center;
   background: #65a644;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 #sticky-popup {
-    width: 90vw;
+    /* width: 90vw; */
   }
 
   .textmbsizep{

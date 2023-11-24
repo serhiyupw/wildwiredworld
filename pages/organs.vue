@@ -8,13 +8,13 @@
     
     <div class='flex absolute z-[100000] w-screen justify-end p-5'>
           <a class="overlay-button" href="home">
-              <div class="aboutbtn z-[2000]">Esc</div>
+              <div class="aboutbtn z-[2000]">Back</div>
           </a>
     </div>
 
     <div class='flex flex-col justify-center h-screen w-screen  text-center'>
       <div class="headtextmb z-[2000] flex flex-col justify-center items-center text-6xl textmb capitalize font-light">
-        <h1 class='mbwidth leading-[1.1] tracking-tight w-4/6 text-[white]'>Meet the Organs, creatures and parasites of Longthorn Valley</h1>
+        <h1 class='mbwidth leading-[1.1] tracking-tight w-4/6 text-[white]'>Meet the Organs, Creatures and Parasites of Long Thorn Valley</h1>
         <!-- <span class="text-base pt-10 text-[#b5b5b5]">scroll down<span class="arrow">&#9660;</span></span> -->
         <span class="text-base pt-10 text-[white]"><span class="arrow">&#9660;</span></span>
       </div>
@@ -26,7 +26,8 @@
 
       <div class="z-[2000] flex flex-col justify-center items-center text-4xl font-light textmb capitalize ">
         <h1 class='leading-[1.1] headtextmb tracking-tight text-[white]  w-11/12 items-start flex'>Who you play</h1>
-        <h1 class='leading-[1.1] subtextmb tracking-tight w-11/12 text-xl pt-7 items-start flex text-[white]'>A Siphonophores / Siph</h1>
+        <h1 class='leading-[1.1] subtextmb tracking-tight w-11/12 text-xl pt-7 items-start flex text-[white]'>
+Y           You are playing the main character called Siph (a siphonophore).</h1>
       </div>
 
       <div class="mobileimgpara paddingbmobile flex flex-row justify-center  ">
@@ -66,7 +67,7 @@
         </p>
       </div> -->
 
-      <div class="z-[2000] flex flex-col pb-[25vh] pt-[5vh] justify-center items-center text-lg font-light textmb  ">
+      <div class="z-[2000] text-left flex flex-col pb-[25vh] pt-[5vh] justify-center items-center text-lg font-light textmb  ">
         <p class='textmbsizep leading-[1.1] subtextmb tracking-tight w-3/6  items-start flex text-[white]'>Long Thorn Valley is a place that exists in the exact location of Langthorne Park. It is a well-known fact for multidimensional creatures, as Long Thorn resides in a parallel universe, only 5000 to the nth from Earth’s universe in the Mirrored Sequence. 
           <br/><br/>
           Under the double glow of twin moons Na and Lu, on a planet that we will call Other Earth, there is a wild natural habitat called Long Thorn Valley, where creatures and nature thrive in symbiotic relationships. Creatures and plants are connected in the Valley, drawing a great circle where no animal or plant ends or begins. It is one of the last bastions of untouched nature, protected by the watchful eye of the Guardian. Creatures and plants are connected by long, transparent tentacles, stretching above the ground like huge highways for nourishment and information. Bound in hunger and in well-being, in draughts and times of fecundity, the sinuous tendrils breathe life into one big, magnificent organism cradled by the Valley.
@@ -77,8 +78,8 @@
 
 
       <div class="  flex flex-col justify-center  items-center text-4xl font-light capitalize ">
-        <h1 class='leading-[1.1] headtextmb tracking-tight text-[white]'>Organs, creatures and parasites of Longthorn Valley</h1>
-        <h1 class='subtextmb leading-[1.1] tracking-tight text-xl pb-16 pt-7 text-[white]'>Click on an Organ, creatures or parasites for more info</h1>
+        <h1 class='leading-[1.1] headtextmb tracking-tight text-[white]'>Click on an Organ, Creature or Parasite to learn more about them.</h1>
+        <!-- <h1 class='subtextmb leading-[1.1] tracking-tight text-xl pb-16 pt-7 text-[white]'>Click on an Organ, creatures or parasites for more info</h1> -->
       </div>
      
     <div class="min-h-fit">
@@ -225,7 +226,7 @@
               width="75%"
               height="75%"
               />
-          <p class=" capitalize  flex justify-center">Chlora liver (Organ)</p>
+          <p class=" capitalize  flex justify-center">Chlora Liver (Organ)</p>
 
           <!-- overlay -->
         <div v-show="activeOverlay === 'liver'" class="overlay text-[white] items-center bg-[#52a875ec] flex flex-row text-left p-10">
@@ -241,7 +242,9 @@
                       height="100%"
                       />
               </div>
-              <p class="">Prickle Back has lots of green hues. Home to the Liver, Prickle Back’s flora resides on a highly toxic soil, which they can endure thanks to the symbiotic relationship with the “Chlora LIver”. The Clora LIver filters the toxins out of the soil and takes food and energy from the flora in return. Not many creatures can survive in this harsh environment, unless they have developed survival mechanisms that can battle the toxic soil.</p>
+              <p class="">
+Prickle Back has lots of green hues. Prickle Back’s flora resides on highly toxic soil, which they can endure thanks to the symbiotic relationship with the Chlora Liver. The Clora LIver filters the toxins out of the soil and takes food and energy from the flora in return. Not many creatures can survive in this harsh environment unless they have developed survival mechanisms that can battle the toxic soil.
+</p>
              </div>
              <div class="widthmbover p-[6vw] text-xl text-center w-2/6">
               <p class=" text-4xl pb-1">Prickle Back</p>
@@ -289,13 +292,13 @@
               width="100%"
               height="100%"
               />
-              <p class=" capitalize  flex justify-center">Aerophyta lung (Organ)</p>
+              <p class=" capitalize  flex justify-center">Aerophyta Lung (Organ)</p>
 
 <!-- overlay -->
         <div v-show="activeOverlay === 'lung'" class="overlay text-[white] items-center bg-[#707070d8] flex flex-row text-left p-10">
              <div class="widthmbover padovermb text-left w-2/6">
-              <p class="pb-1 text-4xl">Aerophyta lung</p>
-              <p class="pb-1">Location: Thorned Diafragm</p>
+              <p class="pb-1 text-4xl">Aerophyta Lung</p>
+              <p class="pb-1">Location: Thorned Diaphragm</p>
               <div class="logoo  h-3/6 w-[100%]">
                   <img
                       src="lung3.png"
@@ -336,7 +339,7 @@
               </svg>
              </div>
              <div class="widthmbover text-left w-2/6">
-              <p class="pb-1">Thorned Diafragm</p>
+              <p class="pb-1">Thorned Diaphragm</p>
               <p class="pb-1">Thorned Diaphragm is the home of the Aerophyta - a lung-like creature. A dark, cosy place, filled with thick groves and soft mossy undergrowth. The flora of this place has a metallic sheen, due to its abundance in the element Metal.
               
               </p>
@@ -364,7 +367,7 @@
             <!-- overlay -->
               <div v-show="activeOverlay === 'max'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
              <div class="widthmbover padovermbless text-left w-2/6">
-              <p class="pb-1 text-4xl  flex">Max  “Creature”</p>
+              <p class="pb-1 text-4xl  flex">Max (Creature)</p>
               <!-- <p class="pb-1">Location: Chest Grove</p> -->
               <div class="logoo  h-3/6 w-[100%]">
                   <img
@@ -395,7 +398,7 @@ Max can glow in the night and steal pollen stars created by the Two-headed flowe
               width="100%"
               height="100%"
               />
-              <p class=" capitalize  flex justify-center">Two Headed Flower (Parasite)</p>
+              <p class=" capitalize  flex justify-center">Two-Headed Flower (Parasite)</p>
     
                 <!-- overlay -->
         <div v-show="activeOverlay === 'parasite'" class="overlay text-[white] items-center bg-[#9474c3d8] flex flex-row text-left p-10">
@@ -411,12 +414,9 @@ Max can glow in the night and steal pollen stars created by the Two-headed flowe
                       height="100%"
                       />
               </div>
-              <p class="">Two-headed flower lives in swarms, they share memories with the swarm, creating a collective being. Lives in the Thorned Diaphragm, responds to element Metal. 
-                <br/>
-Part creature part plant, the Two-headed flower is a parasite which has the power to live forever. The flower has translucent tendrils that carry an enzyme that can make a creature live forever. It dwells in the Valley, latched onto trees and plants alike, taking food and drawing energy from them. In return, Two-headed flower bestows them with a lengthy life, sharing its enzyme making plants and trees resilient to the harsh climate. When frost is biting, the plants would freeze, preserving their life under the ice and when it’s dry they will dry up and live in animated suspension until the next rain. It also produces glowing, star-shaped pollen which is often stolen by the creatures Max. 
-<br/>
-The Volgi have hunted for this elusive parasite, wanting to conquer death, acquiring the last coveted item on their technology-induced world - eternal life. However, the Volgi didn’t know that the eternal life is only a half-life, as any Volgi taking the pollen will instantly shrivel and dry up, becoming a husk of their selves. The Volgi that tried the enzyme have met their peril by crumbling under the harsh sun of Other Earth
-</p>
+              <p class="">Two-Headed Flowers live in swarms. They share memories with the swarm, creating a collective being. Part creature, part plant, the Two-Headed Flower is a parasite which has the power to live forever. The flower has translucent tendrils that carry an enzyme that can make a creature live forever. It dwells in the Valley, latched onto trees and plants alike, taking food and drawing energy from them. In return, Two-Headed Flower bestows them with a lengthy life, sharing its enzyme making plants and trees resilient to the harsh climate. When frost is biting, the plants would freeze, preserving their life under the ice and when it’s dry they will dry up and live in animated suspension until the next rain. It also produces glowing, star-shaped pollen which is often stolen by the creatures Max.
+
+              </p>
              </div>
 
             
@@ -433,12 +433,12 @@ The Volgi have hunted for this elusive parasite, wanting to conquer death, acqui
               width="100%"
               height="100%"
               />
-              <p class=" capitalize  flex justify-center">Syvan spleen (Organ)</p>
+              <p class=" capitalize  flex justify-center">Syvan Spleen (Organ)</p>
               
               <!-- overlay -->
           <div v-show="activeOverlay === 'spleen'" class="overlay text-[white] items-center bg-[#dfe169f0] flex flex-row text-left p-10">
              <div class="widthmbover padovermb text-left w-2/6">
-              <p class="pb-1 text-4xl">Syvan spleen</p>
+              <p class="pb-1 text-4xl">Syvan Spleen</p>
               <p class="pb-1">Location: Blooming Navel</p>
               <div class="logoo  h-3/6 w-[100%]">
                   <img
@@ -736,6 +736,10 @@ An old Volgi legend says we Nalu twins are the children of Na and Lu - the two m
     display: flex;
     flex-direction: column;
 }
+.overlay p {
+  font-size: unset !important;
+  line-height: unset !important;
+}
 
 .widthmbover{
   width: 90vw;
@@ -781,6 +785,7 @@ An old Volgi legend says we Nalu twins are the children of Na and Lu - the two m
     left: 0;
     right: 0;
     bottom: 0;
+    overflow-x: scroll;
     /* background-color: rgba(255, 255, 255, 0.7); */
     display: flex;
     align-items: center;
@@ -788,7 +793,11 @@ An old Volgi legend says we Nalu twins are the children of Na and Lu - the two m
     text-align: center;
     opacity: 0; /* Initially hidden */
     transition: opacity 0.3s ease;
-    z-index: 1000000;
+    z-index: 10000000000;
+}
+
+.overlay p {
+  font-size: 1.3vw ;
 }
 
 .logoo:hover .overlay {
