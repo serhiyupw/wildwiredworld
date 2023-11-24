@@ -167,6 +167,17 @@
                 >
             </NuxtLink>
   
+            <div   class="logombhead">
+              <img
+                  src="siphonophore.png"
+                  alt="Your Logo"
+                  class="logombheadimg"
+                  width="100%"
+                  height="100%"
+                  />
+            </div>
+
+
             <div class=" textlook z-[100] text-[white]  text-left ">
   <p class="textlook  text-[4vw] text-[#38664d]">Rewilding Encounters of     <span class="textlook  text-[white]">Langthorne Park</span> </p>
     <!-- <h1 class="textlook  text-xs  w-[10vw]  ">Long Thorn Valley</h1> -->

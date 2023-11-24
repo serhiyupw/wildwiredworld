@@ -217,7 +217,7 @@
             <!-- Collaborator 3 -->
      <div class="col-span-1">
         <div class="collaborator-card p-4 border border-[#455baf] rounded-lg">
-          <a target="_blank" href="">
+          <a target="_blank" href="https://instagram.com/ndelap?igshid=OGQ5ZDc2ODk2ZA==">
             <h3 class="text-xl font-semibold mt-2">Nicholas Delap</h3></a>
           <p class="text-[#38664d]">(Game Developer and Visual Artist)</p>
           <p>is a digital artist, posthumanism or post-humanism who explores wilderness, post humanism and re-wilding as themes within his artworks, creating immersive and other worldly virtual environments, sculptures and video installations. His work seeks to undermine the traditional boundaries between the Human, The Natural and the Technological.

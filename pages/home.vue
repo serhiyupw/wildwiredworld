@@ -130,7 +130,7 @@
       <div v-if="currentImageIndex === 8">
         <img
         class="gallery-image"
-        src="violetta.png"
+        src="Violetta.png"
         alt="Image 2"
       />
          <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">violetta</p></NuxtLink>
@@ -252,105 +252,105 @@
               <path id="myPath" fill-rule="" class="a forest" d="m800.1 251.4c-10.1 14.3-23.2 32.5-38.6 53.7-4.3 1.2-7.2 2-11.5 3.2-8.2-3.4-22.4-10.3-39.1-22.5-12.4-9.1-20.9-21.7-29.9-35.1-10-14.8-21.4-31.6-39.9-45.8-27.3-21-52.2-13.5-83.8-4.1-10.9 3.3-23.3 7-37.1 10-41.9 9.1-58.2 3.8-74.1-8-4.3-3.2-5.3-9.2-2.1-13.5 44.2-60.9 95.3-131.8 101.5-143 11.2-20.2 31.4-5.1 31.4-5.1 0 0 19.4 9.6 31.4 21.5 11.9 12 22.4 7.5 38.1 0.8 15.6-6.8 23.5-9.7 23.5-9.7 4.3-1.7 9.3 1.9 11.1 8.1l49.4 167.4c1.9 6.2 8.5 10.8 14.9 10.3l46.2-3.5c8.2-0.6 13.4 8.6 8.6 15.3zm-186.4-152.8c-6.8-8.5-33.1-15.3-40.8-15.3-7.6 0-34.8 14.5-39.8 21.7-5.1 7.2 7.5 20.4 10.9 25.9 3.4 5.5 16.2 22.5 16.2 22.5 5.1 4.3 5.9 9.5 16.9 9.8 9.8 0.3 9.2-13.6 9.2-20 0-6.4 7-17.8 11.2-21.7 4.3-3.9 9.4-3.8 19.6-4.2 10.2-0.4 3.4-10.2-3.4-18.7z"/>
               </a>
 
-<text style="transform:matrix(1,0,0,1,694.586,444.289)" >
-  <tspan x="21.7" y="16.3" class="d">The Sports</tspan>
-  <tspan x="52.9" y="40.3" class="d">Zone</tspan>
-</text>
+                    <text style="transform:matrix(1,0,0,1,694.586,444.289)" >
+                      <tspan x="21.7" y="16.3" class="d">The Sports</tspan>
+                      <tspan x="52.9" y="40.3" class="d">Zone</tspan>
+                    </text>
 
-<text style="transform:matrix(1,0,0,1,486.258,287.412)" >
-<tspan x="9.8" y="16.3" class="b">
-  The Amphitheatre
-</tspan>
-</text>
+                    <text style="transform:matrix(1,0,0,1,486.258,287.412)" >
+                    <tspan x="9.8" y="16.3" class="b">
+                      The Amphitheatre
+                    </tspan>
+                    </text>
 
-<text style="transform:matrix(1,0,0,1,438.9,363.778)" >
-<tspan x="19.4" y="16.3" class="b">
-  The Pavillion
-</tspan>
-</text>
+                    <text style="transform:matrix(1,0,0,1,438.9,363.778)" >
+                    <tspan x="19.4" y="16.3" class="b">
+                      The Pavillion
+                    </tspan>
+                    </text>
 
-<text style="transform:matrix(1,0,0,1,483.817,51.594)" >
-  <tspan x="45.3" y="16.3" class="b">
-    Lake
-  </tspan>
-</text>
+                    <text style="transform:matrix(1,0,0,1,483.817,51.594)" >
+                      <tspan x="45.3" y="16.3" class="b">
+                        Lake
+                      </tspan>
+                    </text>
 
-<text style="transform:matrix(.755,.656,-0.656,.755,446.137,498.133)" >
-  <tspan x="7.3" y="16.3" class="b">
-    Entrance
-  </tspan>
-</text>
+                    <text style="transform:matrix(.755,.656,-0.656,.755,446.137,498.133)" >
+                      <tspan x="7.3" y="16.3" class="b">
+                        Entrance
+                      </tspan>
+                    </text>
 
-<text style="transform:matrix(1,0,0,1,574.601,-0.097)" >
-  <tspan x="7.3" y="16.3" class="b">
-    Entrance
-  </tspan>
-</text>
+                    <text style="transform:matrix(1,0,0,1,574.601,-0.097)" >
+                      <tspan x="7.3" y="16.3" class="b">
+                        Entrance
+                      </tspan>
+                    </text>
 
-<text style="transform:matrix(1,0,0,1,289.774,202.685)" >
-  <tspan x="7.3" y="16.3" class="b">
-    Entrance
-  </tspan>
-</text>
+                    <text style="transform:matrix(1,0,0,1,289.774,202.685)" >
+                      <tspan x="7.3" y="16.3" class="b">
+                        Entrance
+                      </tspan>
+                    </text>
 
-<path fill-rule="evenodd" class="c" d="m507.9 535l-1.4-20.2-20.1 1.5"/>
-<path fill-rule="evenodd" class="c" d="m612.6 34.1l14.3 14.2 14.3-14.2"/>
-<path fill-rule="evenodd" class="c" d="m327.8 236.1l14.3 14.3 14.3-14.3"/>
-<text style="transform:matrix(1,0,0,1,100.785,231.624)" >
-<tspan x="46.3" y="17.9" class="e">
-  PRICKLE 
-</tspan>
-<tspan x="60" y="46.9" class="e">
-  BACK
-</tspan>
-</text>
+                    <path fill-rule="evenodd" class="c" d="m507.9 535l-1.4-20.2-20.1 1.5"/>
+                    <path fill-rule="evenodd" class="c" d="m612.6 34.1l14.3 14.2 14.3-14.2"/>
+                    <path fill-rule="evenodd" class="c" d="m327.8 236.1l14.3 14.3 14.3-14.3"/>
+                    <text style="transform:matrix(1,0,0,1,100.785,231.624)" >
+                    <tspan x="46.3" y="17.9" class="e">
+                      PRICKLE 
+                    </tspan>
+                    <tspan x="60" y="46.9" class="e">
+                      BACK
+                    </tspan>
+                    </text>
 
-<text style="transform:matrix(1,0,0,1,357.495,231.624)" >
-<tspan x="54.7" y="17.9" class="e">
-  CHEST 
-</tspan>
-<tspan x="51.9" y="46.9" class="e">
-  GROVE
-</tspan>
-</text>
+                    <text style="transform:matrix(1,0,0,1,357.495,231.624)" >
+                    <tspan x="54.7" y="17.9" class="e">
+                      CHEST 
+                    </tspan>
+                    <tspan x="51.9" y="46.9" class="e">
+                      GROVE
+                    </tspan>
+                    </text>
 
-<text style="transform:matrix(1,0,0,1,561.156,129.116)" >
-<tspan x="53.7" y="17.9" class="e">
-  LIMBIC 
-</tspan>
-<tspan x="49.2" y="46.9" class="e">
-  FOREST
-</tspan>
-</text>
+                    <text style="transform:matrix(1,0,0,1,561.156,129.116)" >
+                    <tspan x="53.7" y="17.9" class="e">
+                      LIMBIC 
+                    </tspan>
+                    <tspan x="49.2" y="46.9" class="e">
+                      FOREST
+                    </tspan>
+                    </text>
 
-<text style="transform:matrix(1,0,0,1,789.223,251.271)" >
-<tspan x="61" y="17.9" class="e">
-  THORNED 
-</tspan>
-<tspan x="45.1" y="46.9" class="e">
-  DIAPHRAGM
-</tspan>
-</text>
+                    <text style="transform:matrix(1,0,0,1,789.223,251.271)" >
+                    <tspan x="61" y="17.9" class="e">
+                      THORNED 
+                    </tspan>
+                    <tspan x="45.1" y="46.9" class="e">
+                      DIAPHRAGM
+                    </tspan>
+                    </text>
 
 
-<path fill-rule="evenodd" class="a" d="m641.3 278.8h-17.9c0-15.1-12.2-27.3-27.2-27.3-15.1 0-27.3 12.2-27.3 27.3h-17.8c0-24.9 20.2-45.1 45.1-45.1 24.8 0 45.1 20.2 45.1 45.1z"/>
-<path fill-rule="evenodd" class="a" d="m617.1 117.3c-10.2 0.4-15.3 0.3-19.6 4.2-4.2 3.9-11.2 15.3-11.2 21.7 0 6.4 0.6 20.3-9.2 20-11-0.3-11.8-5.5-16.9-9.8 0 0-12.8-17-16.2-22.5-3.4-5.5-16-18.7-10.9-25.9 5-7.2 32.2-21.7 39.8-21.7 7.7 0 34 6.8 40.8 15.3 6.8 8.5 13.6 18.3 3.4 18.7z"/>
-<path fill-rule="evenodd" class="c" d="m1093.8 690.2l-15.3-13.3-13.2 15.3"/>
-<text style="transform:matrix(.998,-0.07,.07,.998,1027.522,707.557)" >
-  <tspan x="7.3" y="16.3" class="b">
-      Entrance
-  </tspan>
-</text>
+                    <path fill-rule="evenodd" class="a" d="m641.3 278.8h-17.9c0-15.1-12.2-27.3-27.2-27.3-15.1 0-27.3 12.2-27.3 27.3h-17.8c0-24.9 20.2-45.1 45.1-45.1 24.8 0 45.1 20.2 45.1 45.1z"/>
+                    <path fill-rule="evenodd" class="a" d="m617.1 117.3c-10.2 0.4-15.3 0.3-19.6 4.2-4.2 3.9-11.2 15.3-11.2 21.7 0 6.4 0.6 20.3-9.2 20-11-0.3-11.8-5.5-16.9-9.8 0 0-12.8-17-16.2-22.5-3.4-5.5-16-18.7-10.9-25.9 5-7.2 32.2-21.7 39.8-21.7 7.7 0 34 6.8 40.8 15.3 6.8 8.5 13.6 18.3 3.4 18.7z"/>
+                    <path fill-rule="evenodd" class="c" d="m1093.8 690.2l-15.3-13.3-13.2 15.3"/>
+                    <text style="transform:matrix(.998,-0.07,.07,.998,1027.522,707.557)" >
+                      <tspan x="7.3" y="16.3" class="b">
+                          Entrance
+                      </tspan>
+                    </text>
 
-<text style="transform:matrix(1,0,0,1,862.192,512.211)" >
-  <tspan x="29.2" y="17.9" class="e">
-    BLOOMING 
-  </tspan>
+                      <text style="transform:matrix(1,0,0,1,862.192,512.211)" >
+                        <tspan x="29.2" y="17.9" class="e">
+                          BLOOMING 
+                        </tspan>
 
-  <tspan x="55.8" y="46.9" class="e">
-    NAVEL
-  </tspan>
-</text>
+                        <tspan x="55.8" y="46.9" class="e">
+                          NAVEL
+                        </tspan>
+                      </text>
 
 
 </g>
