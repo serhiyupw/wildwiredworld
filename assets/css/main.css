@@ -222,7 +222,7 @@ a:visited {
 }
 
 .textlook{
-  width: 60vw;
+  /* width: 60vw; */
 }
     
     @media (max-width: 760px) {
