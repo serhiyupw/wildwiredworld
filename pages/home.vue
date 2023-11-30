@@ -544,7 +544,8 @@ export default {
 
 <style scoped>
 .gallery-image{
-width: 20vw;
+/* width: 20vw; */
+height: 30vh;
 }
 .gallery-container {
   position: relative;
@@ -653,7 +654,8 @@ padding-bottom:2vh;
 @media (max-width: 760px) {
 
 .gallery-image {
-    width: 65vw;
+    /* width: 65vw; */
+    height: 29vh;
 }
 
   .content-container{

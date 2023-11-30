@@ -38,7 +38,7 @@
                   />
             </NuxtLink>
   
-            <div   class="logoo fixed h-[35vh] md:w-[35vw] sm:w-[25vw]">
+            <div   class="logoo absolute h-[35vh] md:w-[35vw] sm:w-[25vw]">
               <img
                   src="siphonophore.png"
                   alt="Your Logo"
@@ -779,6 +779,7 @@ default:
           /* width: 98vw !important; */
           width: 100vw ;
       justify-content: space-between;
+      overflow: hidden;
   
     }
   
