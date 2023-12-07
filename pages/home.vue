@@ -325,7 +325,7 @@
             src="parasite1.png"
             alt="Image 2"
           />
-            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Cnidaria</p></NuxtLink>
+            <NuxtLink class="pt-[.3rem] underline" to="/organs" ><p class=" capitalize  flex justify-center">Leeverd</p></NuxtLink> 
           </div>
 
           <div class="middleorbshome" v-if="currentImageIndex === 11">
@@ -364,7 +364,7 @@
       <nuxt />
     </main>
     
-
+    <MyPopup v-if="showPopup" @close="closePopup" />
   </div>
 </template>
 
@@ -372,105 +372,54 @@
 
 // import { checkAuthentication } from '~/auth.js';
 import AboutPage from '~/components/layout/AboutPage.vue';
-
+import MyPopup from '~/components/MyPopup.vue';
 
 
 export default {
   name: "IndexPage",
   components: {
     AboutPage,
+    MyPopup,
   },
 
   mounted() {
-    if(localStorage.getItem('authenticated'))
-    {
-      const path1 = document.getElementById('myPath1');
-      const path2 = document.getElementById('myPath2');
-      if (path1 && path2) {
-          path1.setAttribute('class', 'a bloom authenticated-color');
-          path2.setAttribute('class', 'a bloom authenticated-color');
+  // Function to check localStorage and update class
+  const checkAndUpdate = (itemKey, elementId, className) => {
+    if (localStorage.getItem(itemKey)) {
+      const element = document.getElementById(elementId);
+      if (element) {
+        element.setAttribute('class', className);
       }
-    } else{
-      const path1 = document.getElementById('myPath1');
-      const path2 = document.getElementById('myPath2');
-      path1.setAttribute('class', 'a bloom');
-      path2.setAttribute('class', 'a bloom');
+      return true; // Item is authenticated
+    }
+    return false; // Item is not authenticated
+  };
+
+  // Check each item and update class
+  const isAuthenticated1 = checkAndUpdate('authenticated', 'myPath1', 'a bloom authenticated-color');
+  const isAuthenticated2 = checkAndUpdate('authenticated', 'myPath2', 'a bloom authenticated-color');
+  const isAuthenticated3 = checkAndUpdate('authenticated2', 'myPath3', 'a chest authenticated-color');
+  const isAuthenticated4 = checkAndUpdate('authenticated3', 'myPath4', 'a thorned authenticated-color');
+  const isAuthenticated5 = checkAndUpdate('authenticatedforest', 'myPath', 'a forest authenticated-color');
+  const isAuthenticated6 = checkAndUpdate('authenticatedpickle', 'pickle', 'a pickle authenticated-color');
+
+  // Check if all items are authenticated and show pop-up
+    if (isAuthenticated1 && isAuthenticated2 && isAuthenticated3 && isAuthenticated4 && isAuthenticated5 && isAuthenticated6) {
+      this.showPopup = true;
+      console.log('Well done! All items are authenticated.');
     }
 
-    if(localStorage.getItem('authenticated2'))
-    {
-      const path3 = document.getElementById('myPath3');
 
-      if (path3) {
-        path3.setAttribute('class', 'a chest authenticated-color');
-      }
-    } else{
-      const path3 = document.getElementById('myPath3');
-      path3.setAttribute('class', 'a chest');
-    }
+  // Add event listeners
+  window.addEventListener('scroll', this.updateTitlePosition);
+  window.addEventListener('resize', this.updateTitleWidth);
 
-    if(localStorage.getItem('authenticated3'))
-    {
-      const path4 = document.getElementById('myPath4');
-
-      if (path4) {
-        path4.setAttribute('class', 'a thorned authenticated-color');
-      }
-    } else{
-      const path4 = document.getElementById('myPath4');
-      path4.setAttribute('class', 'a thorned');
-    }
-
-    if(localStorage.getItem('authenticatedforest'))
-    {
-      const path = document.getElementById('myPath');
-
-      if (path) {
-        path.setAttribute('class', 'a forest authenticated-color');
-      }
-    } else{
-      const path = document.getElementById('myPath');
-      path.setAttribute('class', 'a forest');
-    }
-
-    if(localStorage.getItem('authenticatedpickle'))
-    {
-      const pickle = document.getElementById('pickle');
-
-      if (pickle) {
-        pickle.setAttribute('class', 'a pickle authenticated-color');
-      }
-    } else{
-      const pickle = document.getElementById('pickle');
-      pickle.setAttribute('class', 'a pickle');
-    }
-   
-
-
-
-
-
-
-    // this.background = this.$refs.background;
-    // this.gradient = this.$el.querySelector(".interactive-gradient");
-
-    // Add mousemove event listener
-    // this.background.addEventListener("mousemove", this.updateGradient);
-
-      // Add event listeners
-    window.addEventListener("scroll", this.updateTitlePosition);
-    window.addEventListener("resize", this.updateTitleWidth);
-
-    // Initial calculations (optional)
-    this.updateTitlePosition();
-    this.updateTitleWidth();
-
-        // Get the path element by its ID
-        const path = document.getElementById('myPath');
-       
-      //  sticker
-  
+  // Initial calculations (optional)
+  this.updateTitlePosition();
+  this.updateTitleWidth();
 },
+
+
 
   
   beforeDestroy() {
@@ -488,11 +437,16 @@ export default {
       titleWidth: "100%", // Initial width
       contentContainerStyle: {},
       currentImageIndex: 0,
-      totalImages: 12,
+      totalImages: 13,
+      showPopup: false,
       // rotation: '',
     };
   },
   methods: {
+    closePopup() {
+      this.showPopup = false;
+    },
+
      updateTitlePosition() {
     // Calculate new top position based on scroll position
     this.titleTop = window.scrollY + "px";
@@ -930,6 +884,7 @@ display: none;
 
 .bloom:hover {
   opacity: 0.7;
+  transition: opacity 3s ease;
 }
 
 .chest{
